@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Angular 2 QuickStart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" >
+
+    <!-- 1. Load libraries -->
+    <!-- IE required polyfills, in this exact order -->
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+    <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="node_modules/angular2/bundles/http.dev.js"></script>
+    <script src="node_modules/angular2/bundles/router.dev.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script>
+        System.config({
+            packages: {
+                app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+//        System.import('app/01-Hello/main');
+//        System.import('app/02-Global/main');
+//      System.import('app/03-Injector/main');
+//       System.import('app/04-Resolvers/main');
+//         System.import('app/05-DynamicComponent/main');
+//        System.import('app/06-InfinityLoop/main');
+        System.import('app/07-DynamicRouting/main');
+    </script>
+</head>
+
+<!-- 3. Display the application -->
+<body>
+<div class="container">
+    <a href="http://ng-course.org" target="_blank">
+        <img src="images/ng-course.png" width="500">
+    </a>
+    <my-app>Loading...</my-app>
+</div>
+</body>
+</html>

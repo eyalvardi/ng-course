@@ -1,0 +1,5 @@
+[
+  { "path":"/home"  , "name":"Home"  , "component": "Home" , "file": "app/07-DynamicRouting/Home/Home"},
+  { "path":"/users" , "name":"Users" , "component": "Users", "file": "app/07-DynamicRouting/Users/Users"},
+  { "path":"/user"  , "name":"User"  , "component": "User" , "file": "app/07-DynamicRouting/Users/User/User"}
+]
