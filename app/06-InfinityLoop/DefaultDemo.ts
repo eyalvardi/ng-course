@@ -1,9 +1,9 @@
 /**
- * Created by Eyal on 4/12/2016.
+ * Created by Eyal Vardi on 5/03/2016.
  */
-import {ChangeDetectorRef, Component, ElementRef, Renderer, NgZone,DebugElement} from "angular2/core";
+import {ChangeDetectorRef, Component, ElementRef, Renderer, NgZone,DebugElement} from "@angular/core";
 import {BaseDemo} from "./BaseDemo";
-import {Global} from "../ngEx/Global";
+import {Global} from "ngEx/Global";
 
 @Global()
 @Component({

@@ -55,9 +55,10 @@ System.register(["angular2/core", "angular2/router", 'rxjs/Rx', "./Users/User/Us
                     }),
                     DynamicRouteConfigurator_1.DynamicRouteConfig('app/07-DynamicRouting/router-config.json'),
                     router_1.RouteConfig([]), 
-                    __metadata('design:paramtypes', [DynamicRouteConfigurator_1.DynamicRouteConfigurator])
+                    __metadata('design:paramtypes', [(typeof (_a = typeof DynamicRouteConfigurator_1.DynamicRouteConfigurator !== 'undefined' && DynamicRouteConfigurator_1.DynamicRouteConfigurator) === 'function' && _a) || Object])
                 ], App);
                 return App;
+                var _a;
             }());
             exports_1("App", App);
         }

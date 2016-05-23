@@ -7,7 +7,7 @@ System.register([], function(exports_1, context_1) {
         execute: function() {
             exports_1("ngServices", ngServices = {
                 injector: null,
-                getService: function (token) {
+                get: function (token) {
                     return this.injector.get(token);
                 }
             });

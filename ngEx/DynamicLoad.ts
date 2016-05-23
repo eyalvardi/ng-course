@@ -1,18 +1,20 @@
 /**
  * Created by Eyal on 4/12/2016.
  */
-import {Component} from "angular2/core";
+import {Component} from "@angular/core";
 import {stringify} from "querystring";
 
-export function compileToComponent(template, inputs=[],directives=[]) {
+export function compileToComponent(template, inputs=[],directives=[],selector? = 'fake') {
     @Component({
-        selector: 'fake',
+        selector,
         inputs,
         template ,
         directives
     })
     class ContainerComponent {
+
         data:any;
+
         ngOnInit(){
             console.log(JSON.stringify(this.data));
         }

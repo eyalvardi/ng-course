@@ -1,47 +1,53 @@
 /**
- * Created by Eyal on 4/12/2016.
+ * Created by Eyal on 5/03/2016.
  */
-import {Component, Input} from "angular2/core";
-import {Global} from "../../ngEx/Global";
+import {Component, Input} from "@angular/core";
+import {Global} from "ngEx";
 import {UserContainer} from "./UserContainer/UserContainer";
+
+declare var __moduleName:string;
 
 @Global()
 @Component({
-    selector:'mr-user',
-    moduleId : __moduleName,
-    templateUrl:'mruser.html',
-    styleUrls:['user.css']
+    selector   :'mr-user',
+    moduleId   : __moduleName,
+    template: `+++{{data|json}}+++`,
+    //templateUrl:'mruser.html',
+    styleUrls  :['user.css']
 })
 export class MrUser{
     counter:number = 0;
-    
     // Not work...
-    @Input()data:any;
+    //@Input()
+    data:any;
 
     constructor(private parent:UserContainer){
-        //this.data = parent._user;
+        setTimeout(()=>{
+            this.data = parent._user;
+            console.log(this.data);
+        },5000);
     }
-    /*ngOnInit(){
-        setInterval(()=>{
-            this.counter++;
-        },500)
-    }*/
 }
 
 @Global()
 @Component({
-    selector:'miss-user',
-    moduleId : __moduleName,
-    templateUrl:'missuser.html',
-    styleUrls:['user.css']
+    selector   :'miss-user',
+    moduleId   : __moduleName,
+    template: `+++ {{data|json}} +++`,
+    //templateUrl:'missuser.html',
+    styleUrls  :['user.css']
 })
 export class MissUser{
 
     // Not work...
-    @Input()data:any;
+    //@Input()
+    data:any;
 
     constructor(private parent:UserContainer){
-        this.data = parent._user;
+        setTimeout(()=>{
+            this.data = parent._user;
+            console.log(this.data);
+        },5000);
     }
 }
 

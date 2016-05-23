@@ -1,11 +1,11 @@
 /**
- * Created by Eyal on 4/12/2016.
+ * Created by Eyal Vardi on 5/03/2016.
  */
-import {Injectable} from "angular2/core";
-import {Http} from "angular2/http";
+import {Injectable} from "@angular/core";
+import {Http}       from "@angular/http";
+import {Global}     from "ngEx/Global";
+import {ngServices} from "ngEx";
 import 'rxjs/Rx';
-import {Global} from "../../ngEx/Global";
-import {ngServices} from "../../ngEx/NgServices";
 
 // Private Static fields:
 var http:Http;
@@ -18,7 +18,7 @@ export class UserProxy{
 
     load(num=3){
         if(!http){
-            http = ngServices.getService(Http);
+            http = ngServices.get(Http);
         }
        
         // Promise
@@ -44,3 +44,5 @@ export class UserProxy{
          */
     }
 }
+
+export var sUserProxy = new UserProxy();

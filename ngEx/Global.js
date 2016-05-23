@@ -1,7 +1,7 @@
-System.register(['angular2/platform/browser', 'angular2/src/facade/lang', "angular2/core", "angular2/src/core/reflection/reflection_capabilities", 'angular2/src/platform/browser_common', "./NgServices"], function(exports_1, context_1) {
+System.register(['@angular/platform-browser-dynamic', "@angular/core", "./NgServices"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var browser_1, lang_1, core_1, reflection_capabilities_1, browser_common_1, NgServices_1;
+    var platform_browser_dynamic_1, core_1, NgServices_1;
     var files, providers, isDebug;
     function addPipe(pipe, metadata) {
         providers.push(core_1.provide(core_1.PLATFORM_PIPES, {
@@ -64,60 +64,19 @@ System.register(['angular2/platform/browser', 'angular2/src/facade/lang', "angul
     exports_1("Global", Global);
     function myBootstrap(type, prvs) {
         if (prvs === void 0) { prvs = []; }
-        return browser_1.bootstrap(type, providers.concat(prvs))
+        return platform_browser_dynamic_1.bootstrap(type, providers.concat(prvs))
             .then(function (cmpRef) {
             NgServices_1.ngServices.injector = cmpRef.injector._view.parentInjector;
         });
     }
     exports_1("myBootstrap", myBootstrap);
-    function myBootstrap2(type, prvs) {
-        if (prvs === void 0) { prvs = []; }
-        var promises = [];
-        files.forEach(function (file) {
-            promises.push(System.import(file));
-        });
-        return Promise.all(promises)
-            .then(function () {
-            return browser_1.bootstrap(type, providers.concat(prvs));
-        })
-            .then(function (cmpRef) {
-            NgServices_1.ngServices.injector = cmpRef.injector.parent;
-        });
-    }
-    exports_1("myBootstrap2", myBootstrap2);
-    function bootstrap(appComponentUrl, customProviders) {
-        //var appComponentType;
-        core_1.reflector.reflectionCapabilities = new reflection_capabilities_1.ReflectionCapabilities();
-        var appProviders = lang_1.isPresent(customProviders) ?
-            [browser_1.BROWSER_APP_PROVIDERS, customProviders] :
-            browser_1.BROWSER_APP_PROVIDERS;
-        var application = core_1.platform(browser_common_1.BROWSER_PROVIDERS).application(appProviders);
-        NgServices_1.ngServices.injector = application.injector;
-        return System.import(appComponentUrl)
-            .then(function (m) { return m['App']; })
-            .then(function (appComponentType) {
-            return application
-                .bootstrap(appComponentType, providers);
-        });
-        //return app.bootstrap(appComponentType);
-    }
-    exports_1("bootstrap", bootstrap);
     return {
         setters:[
-            function (browser_1_1) {
-                browser_1 = browser_1_1;
-            },
-            function (lang_1_1) {
-                lang_1 = lang_1_1;
+            function (platform_browser_dynamic_1_1) {
+                platform_browser_dynamic_1 = platform_browser_dynamic_1_1;
             },
             function (core_1_1) {
                 core_1 = core_1_1;
-            },
-            function (reflection_capabilities_1_1) {
-                reflection_capabilities_1 = reflection_capabilities_1_1;
-            },
-            function (browser_common_1_1) {
-                browser_common_1 = browser_common_1_1;
             },
             function (NgServices_1_1) {
                 NgServices_1 = NgServices_1_1;
@@ -129,4 +88,41 @@ System.register(['angular2/platform/browser', 'angular2/src/facade/lang', "angul
         }
     }
 });
+/*
+export function myBootstrap2(type,prvs:any[] = []){
+    var promises = [];
+    files.forEach((file)=>{
+        promises.push(System.import(file));
+    });
+    return Promise.all(promises)
+        .then(()=>{
+            return bp(type,providers.concat(prvs))
+        })
+        .then((cmpRef)=>{
+            ngServices.injector = cmpRef.injector.parent;
+        });
+}
+*/
+/*
+export function bootstrap(appComponentUrl: string,customProviders?: Array<any>): Promise<ComponentRef> {
+    //var appComponentType;
+    reflector.reflectionCapabilities = new ReflectionCapabilities();
+    let appProviders =
+        isPresent(customProviders) ?
+            [BROWSER_APP_PROVIDERS, customProviders] :
+            BROWSER_APP_PROVIDERS;
+    
+    var application = platform(BROWSER_PROVIDERS).application(appProviders);
+
+    ngServices.injector = application.injector;
+
+    return System.import(appComponentUrl)
+                .then(m=> m['App'] )
+                .then((appComponentType)=>
+                    application
+                        .bootstrap(appComponentType,providers));
+
+    //return app.bootstrap(appComponentType);
+}
+*/
 //# sourceMappingURL=Global.js.map

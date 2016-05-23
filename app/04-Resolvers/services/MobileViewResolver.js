@@ -1,4 +1,4 @@
-System.register(["angular2/core", "angular2/src/core/reflection/reflector_reader"], function(exports_1, context_1) {
+System.register(["@angular/core", "@angular/compiler"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __extends = (this && this.__extends) || function (d, b) {
@@ -15,15 +15,15 @@ System.register(["angular2/core", "angular2/src/core/reflection/reflector_reader
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, reflector_reader_1;
+    var core_1, compiler_1;
     var MobileViewResolver;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (reflector_reader_1_1) {
-                reflector_reader_1 = reflector_reader_1_1;
+            function (compiler_1_1) {
+                compiler_1 = compiler_1_1;
             }],
         execute: function() {
             MobileViewResolver = (function (_super) {
@@ -45,10 +45,10 @@ System.register(["angular2/core", "angular2/src/core/reflection/reflector_reader
                 };
                 MobileViewResolver = __decorate([
                     core_1.Injectable(), 
-                    __metadata('design:paramtypes', [reflector_reader_1.ReflectorReader])
+                    __metadata('design:paramtypes', [core_1.Reflector])
                 ], MobileViewResolver);
                 return MobileViewResolver;
-            }(core_1.ViewResolver));
+            }(compiler_1.ViewResolver));
             exports_1("MobileViewResolver", MobileViewResolver);
         }
     }

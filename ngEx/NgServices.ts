@@ -1,6 +1,6 @@
 export var ngServices = {
   injector : null,
-  getService(token){
+  get(token){
       return this.injector.get(token);
   }  
 };

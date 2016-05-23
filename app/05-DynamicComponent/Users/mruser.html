@@ -3,10 +3,13 @@
         <div class="media">
             <a class="pull-left" href="#">
                 <img class="media-object dp img-circle"
-                     [src]="data?.picture?.thumbnail" style="width: 100px;height:100px;">
+                     [src]="data.picture.thumbnail" style="width: 100px;height:100px;">
             </a>
             <div class="media-body">
-                <h4 class="media-heading">{{data?.name?.title}} {{data?.name?.first}} {{data?.name?.last}} <small> {{data?.location?.state}}</small></h4>
+                <h4 class="media-heading">
+                    {{data.name.title}} {{data.name.first}} {{data.name.last}}
+                    <small> {{data.location.state}}</small>
+                </h4>
                 <h5>Phone: {{data?.phone}}, Mobile: {{data?.cell}}</h5>
                 <hr style="margin:8px auto">
 

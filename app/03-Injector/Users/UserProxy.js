@@ -1,4 +1,4 @@
-System.register(["angular2/core", "angular2/http", 'rxjs/Rx', "../../ngEx/Global", "../../ngEx/NgServices"], function(exports_1, context_1) {
+System.register(["@angular/core", "@angular/http", "ngEx/Global", "ngEx", 'rxjs/Rx'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,8 +10,8 @@ System.register(["angular2/core", "angular2/http", 'rxjs/Rx', "../../ngEx/Global
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, http_1, Global_1, NgServices_1;
-    var http, UserProxy;
+    var core_1, http_1, Global_1, ngEx_1;
+    var http, UserProxy, sUserProxy;
     return {
         setters:[
             function (core_1_1) {
@@ -20,13 +20,13 @@ System.register(["angular2/core", "angular2/http", 'rxjs/Rx', "../../ngEx/Global
             function (http_1_1) {
                 http_1 = http_1_1;
             },
-            function (_1) {},
             function (Global_1_1) {
                 Global_1 = Global_1_1;
             },
-            function (NgServices_1_1) {
-                NgServices_1 = NgServices_1_1;
-            }],
+            function (ngEx_1_1) {
+                ngEx_1 = ngEx_1_1;
+            },
+            function (_1) {}],
         execute: function() {
             // Private Static fields:
             UserProxy = (function () {
@@ -36,7 +36,7 @@ System.register(["angular2/core", "angular2/http", 'rxjs/Rx', "../../ngEx/Global
                 UserProxy.prototype.load = function (num) {
                     if (num === void 0) { num = 3; }
                     if (!http) {
-                        http = NgServices_1.ngServices.getService(http_1.Http);
+                        http = ngEx_1.ngServices.get(http_1.Http);
                     }
                     // Promise
                     return http
@@ -68,6 +68,7 @@ System.register(["angular2/core", "angular2/http", 'rxjs/Rx', "../../ngEx/Global
                 return UserProxy;
             }());
             exports_1("UserProxy", UserProxy);
+            exports_1("sUserProxy", sUserProxy = new UserProxy());
         }
     }
 });

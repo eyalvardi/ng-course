@@ -1,4 +1,4 @@
-System.register(['angular2/http', '../ngEx/Global', './App'], function(exports_1, context_1) {
+System.register(['@angular/http', 'ngEx/Global', './App'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var http_1, Global_1, App_1;

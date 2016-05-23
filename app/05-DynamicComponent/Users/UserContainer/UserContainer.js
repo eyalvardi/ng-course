@@ -1,4 +1,4 @@
-System.register(["angular2/core", "../../../ngEx/Global", '../../../ngEx/DynamicLoad'], function(exports_1, context_1) {
+System.register(["@angular/core", "ngEx/Global", 'ngEx/DynamicLoad'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -24,25 +24,30 @@ System.register(["angular2/core", "../../../ngEx/Global", '../../../ngEx/Dynamic
                 DynamicLoad_1 = DynamicLoad_1_1;
             }],
         execute: function() {
-            //import mr from '../mruser.html!text';
-            //import miss from '../missuser.html!text';
             UserContainer = (function () {
-                function UserContainer(loader, elementRef) {
+                function UserContainer(loader, cmpResolver, elementRef, injector) {
                     this.loader = loader;
+                    this.cmpResolver = cmpResolver;
                     this.elementRef = elementRef;
+                    this.injector = injector;
                 }
                 Object.defineProperty(UserContainer.prototype, "user", {
                     set: function (value) {
                         this._user = value;
                         this.createComponent(value.name.title == 'miss' ?
-                            "<miss-user [user]=data></miss-user>" :
-                            "<mr-user [user]=data></mr-user>");
+                            "<miss-user [user]=\"data\"></miss-user>" :
+                            "<mr-user   [user]=\"data\"></mr-user>");
                     },
                     enumerable: true,
                     configurable: true
                 });
                 UserContainer.prototype.createComponent = function (html) {
-                    this.loader.loadIntoLocation(DynamicLoad_1.compileToComponent(html, ['data:user']), this.elementRef, 'container');
+                    var _this = this;
+                    var cmpType = DynamicLoad_1.compileToComponent(html, ['data:user']);
+                    this.cmpResolver.resolveComponent(cmpType)
+                        .then(function (cmpFactory) {
+                        cmpFactory.create(_this.injector, [], cmpFactory.selector).changeDetectorRef.reattach();
+                    });
                 };
                 __decorate([
                     core_1.Input('source'), 
@@ -53,9 +58,9 @@ System.register(["angular2/core", "../../../ngEx/Global", '../../../ngEx/Dynamic
                     Global_1.Global(),
                     core_1.Component({
                         selector: 'user-container',
-                        template: "\n    <div  #container></div>\n"
+                        template: "\n    <h3><ng-content></ng-content></h3>\n    <fake></fake>\n    <div  id=\"container\"></div>\n"
                     }), 
-                    __metadata('design:paramtypes', [core_1.DynamicComponentLoader, core_1.ElementRef])
+                    __metadata('design:paramtypes', [core_1.ViewContainerRef, core_1.ComponentResolver, core_1.ElementRef, core_1.Injector])
                 ], UserContainer);
                 return UserContainer;
             }());

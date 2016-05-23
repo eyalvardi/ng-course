@@ -1,9 +1,10 @@
 /**
  * Created by Eyal on 4/12/2016.
  */
-import {ChangeDetectorRef, ChangeDetectionStrategy, Component, NgZone, Renderer, ElementRef} from "angular2/core";
+import {ChangeDetectorRef, ChangeDetectionStrategy,
+    Component, NgZone, Renderer, ElementRef} from "@angular/core";
 import {BaseDemo} from "./BaseDemo";
-import {Global} from "../ngEx/Global";
+import {Global} from "ngEx/Global";
 
 @Global()
 @Component({

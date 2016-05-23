@@ -1,4 +1,4 @@
-System.register(["angular2/core", "./Users/Users"], function(exports_1, context_1) {
+System.register(["@angular/core", "./Users/Users"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,16 +10,17 @@ System.register(["angular2/core", "./Users/Users"], function(exports_1, context_
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1;
+    var core_1, Users_1;
     var App;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (_1) {}],
+            function (Users_1_1) {
+                Users_1 = Users_1_1;
+            }],
         execute: function() {
-            //import "./Users/User/User";
             App = (function () {
                 function App(elm) {
                     this.elm = elm;
@@ -27,7 +28,7 @@ System.register(["angular2/core", "./Users/Users"], function(exports_1, context_
                 App = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        //directives:[Users],
+                        directives: [Users_1.Users],
                         template: "\n    <h1>Hello World</h1>\n    <users></users>\n"
                     }), 
                     __metadata('design:paramtypes', [core_1.ElementRef])

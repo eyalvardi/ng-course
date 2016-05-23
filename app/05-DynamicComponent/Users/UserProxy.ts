@@ -1,11 +1,10 @@
 /**
- * Created by Eyal on 4/12/2016.
+ * Created by Eyal Vardi on 5/03/2016.
  */
-import {Injectable} from "angular2/core";
-import {Http} from "angular2/http";
+import {Injectable} from "@angular/core";
+import {Http} from "@angular/http";
 import 'rxjs/Rx';
-import {Global} from "../../ngEx/Global";
-import {ngServices} from "../../ngEx/NgServices";
+import {Global,ngServices} from "ngEx";
 
 // Private Static fields:
 var http:Http;

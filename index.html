@@ -1,50 +1,89 @@
 <html>
 <head>
-    <title>Angular 2 QuickStart</title>
+    <title>ng-course.org</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" >
-
+    <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <style>
+        body {
+            padding-top: 50px;
+        }
+        .starter-template {
+            padding: 40px 15px;
+            text-align: center;
+        }
+    </style>
     <!-- 1. Load libraries -->
-    <!-- IE required polyfills, in this exact order -->
+    <!-- Polyfill(s) for older browsers -->
     <script src="node_modules/es6-shim/es6-shim.min.js"></script>
-    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
-    <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
 
-    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <script src="node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
-    <script src="node_modules/angular2/bundles/http.dev.js"></script>
-    <script src="node_modules/angular2/bundles/router.dev.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+
 
     <!-- 2. Configure SystemJS -->
     <script>
-        System.config({
-            packages: {
-                app: {
-                    format: 'register',
-                    defaultExtension: 'js'
-                }
-            }
-        });
-//        System.import('app/01-Hello/main');
-//        System.import('app/02-Global/main');
-//      System.import('app/03-Injector/main');
-//       System.import('app/04-Resolvers/main');
-//         System.import('app/05-DynamicComponent/main');
-//        System.import('app/06-InfinityLoop/main');
-        System.import('app/07-DynamicRouting/main');
+        //System.import('app').catch(function(err){ console.error(err);  });
+        function loadDemo(path){
+            System.import(path);
+        }
     </script>
+    <script src="ngEx/Debug/FormDebuger.js"></script>
+    <script src="ngEx/Debug/FormDebuger.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script src="ngEx/DynamicLoad.js"></script>
 </head>
 
 <!-- 3. Display the application -->
 <body>
 <div class="container">
-    <a href="http://ng-course.org" target="_blank">
-        <img src="images/ng-course.png" width="500">
-    </a>
-    <my-app>Loading...</my-app>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#navbar"
+                        aria-expanded="false"
+                        aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">ng-course.org</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#"onclick="loadDemo('app/01-Hello/main');">Hello</a></li>
+                    <li><a href="#"onclick="loadDemo('app/02-Global/main');">Global</a></li>
+                    <li><a href="#"onclick="loadDemo('app/03-Injector/main');">Injector</a></li>
+                    <li><a href="#"onclick="loadDemo('app/04-Resolvers/main');">Resolvers</a></li>
+                    <li><a href="#"onclick="loadDemo('app/05-DynamicComponent/main');">Dynamic Component</a></li>
+                    <li><a href="#"onclick="loadDemo('app/06-InfinityLoop/main');">Infinity Loop</a></li>
+                    <li><a href="#"onclick="loadDemo('app/07-DynamicRouting/main');">Dynamic Routing</a></li>
+                    <li><a href="#"onclick="loadDemo('app/08-Routing/main');">Routing</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div class="container">
+        <div class="starter-template">
+            <a href="http://ng-course.org" target="_blank">
+                <img src="images/ng-course.png" width="500">
+            </a>
+            <br>
+            <my-app>Loading...</my-app>
+        </div>
+    </div>
+
 </div>
 </body>
 </html>

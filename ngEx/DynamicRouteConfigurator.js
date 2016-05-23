@@ -1,4 +1,4 @@
-System.register(["angular2/core", 'angular2/src/core/util/decorators', "angular2/router", "../ngEx/Global", "angular2/http"], function(exports_1, context_1) {
+System.register(["@angular/core", '@angular/src/core/util/decorators', "@angular/router", "./Global", "@angular/http"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -122,9 +122,10 @@ System.register(["angular2/core", 'angular2/src/core/util/decorators', "angular2
                 DynamicRouteConfigurator = __decorate([
                     Global_1.Global(),
                     core_1.Injectable(), 
-                    __metadata('design:paramtypes', [router_1.RouteRegistry, http_1.Http])
+                    __metadata('design:paramtypes', [(typeof (_a = typeof router_1.RouteRegistry !== 'undefined' && router_1.RouteRegistry) === 'function' && _a) || Object, http_1.Http])
                 ], DynamicRouteConfigurator);
                 return DynamicRouteConfigurator;
+                var _a;
             }());
             exports_1("DynamicRouteConfigurator", DynamicRouteConfigurator);
             //////////////////////////////////////////
@@ -141,4 +142,5 @@ System.register(["angular2/core", 'angular2/src/core/util/decorators', "angular2
         }
     }
 });
+// TODO: Write DynamicRouteConfigResolver for dynamic URL. 
 //# sourceMappingURL=DynamicRouteConfigurator.js.map

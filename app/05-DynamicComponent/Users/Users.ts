@@ -1,10 +1,10 @@
 /**
- * Created by Eyal on 4/12/2016.
+ * Created by Eyal Vardi on 5/03/2016.
  */
-import {Component} from "angular2/core";
+import {Component} from "@angular/core";
 import {UserProxy} from "./UserProxy";
-import {Global} from "../../ngEx/Global";
-//import {User} from "./User/User";
+import {Global} from "ngEx/Global";
+
 
 @Global()
 @Component({
@@ -17,7 +17,7 @@ import {Global} from "../../ngEx/Global";
     <hr>
 
     <user-container *ngFor="let user of users" [source]="user">
-            {{user.name | json}}
+            {{user.name.first}}
     </user-container>
 `
 })

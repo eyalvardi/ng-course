@@ -1,4 +1,4 @@
-import {Component} from "angular2/core";
+import {Component} from "@angular/core";
 import {Global} from "./Global";
 
 declare var windows:{__Metadata__:any};

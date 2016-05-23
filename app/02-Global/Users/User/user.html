@@ -1,7 +1,7 @@
 <div class="row">
-
-
-    <div class="col-lg-5">
+    <button (click)="isEdit = !isEdit">{{isEdit? 'Done' : 'Edit'}}</button>
+    <!-- View -->
+    <div *ngIf="!isEdit" class="col-lg-5">
         <div class="media">
             <a class="pull-left" href="#">
                 <img class="media-object dp img-circle"
@@ -20,7 +20,17 @@
         </div>
 
     </div>
+    <!-- Edit -->
 
-
+    <div *ngIf="isEdit">
+        <form [ngFormModel]="myForm" (submit)="update()">
+            First Name: <input type="text"
+                               ngControl="fName"
+                               required
+                               #fn="ngForm"> {{fn.valid}}<br>
+            Last Name : <input type="text" ngControl="lName" ><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 
 </div>

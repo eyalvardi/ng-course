@@ -1,4 +1,7 @@
 {
+  "angularCompilerOptions": {
+    "genDir": "dist"
+  },
   "compilerOptions": {
     "target": "es5",
     "module": "system",
@@ -10,8 +13,6 @@
     "noImplicitAny": false
   },
   "exclude": [
-    "node_modules",
-    "typings/main",
-    "typings/main.d.ts"
+    "node_modules"
   ]
 }

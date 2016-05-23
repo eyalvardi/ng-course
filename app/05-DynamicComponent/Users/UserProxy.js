@@ -1,4 +1,4 @@
-System.register(["angular2/core", "angular2/http", 'rxjs/Rx', "../../ngEx/Global", "../../ngEx/NgServices"], function(exports_1, context_1) {
+System.register(["@angular/core", "@angular/http", 'rxjs/Rx', "ngEx"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(["angular2/core", "angular2/http", 'rxjs/Rx', "../../ngEx/Global
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, http_1, Global_1, NgServices_1;
+    var core_1, http_1, ngEx_1;
     var http, UserProxy;
     return {
         setters:[
@@ -21,11 +21,8 @@ System.register(["angular2/core", "angular2/http", 'rxjs/Rx', "../../ngEx/Global
                 http_1 = http_1_1;
             },
             function (_1) {},
-            function (Global_1_1) {
-                Global_1 = Global_1_1;
-            },
-            function (NgServices_1_1) {
-                NgServices_1 = NgServices_1_1;
+            function (ngEx_1_1) {
+                ngEx_1 = ngEx_1_1;
             }],
         execute: function() {
             // Private Static fields:
@@ -35,7 +32,7 @@ System.register(["angular2/core", "angular2/http", 'rxjs/Rx', "../../ngEx/Global
                 UserProxy.prototype.load = function (num) {
                     if (num === void 0) { num = 3; }
                     if (!http) {
-                        http = NgServices_1.ngServices.getService(http_1.Http);
+                        http = ngEx_1.ngServices.getService(http_1.Http);
                     }
                     // Promise
                     return http
@@ -60,7 +57,7 @@ System.register(["angular2/core", "angular2/http", 'rxjs/Rx', "../../ngEx/Global
                      */
                 };
                 UserProxy = __decorate([
-                    Global_1.Global(),
+                    ngEx_1.Global(),
                     core_1.Injectable(), 
                     __metadata('design:paramtypes', [])
                 ], UserProxy);

@@ -1,4 +1,4 @@
-System.register(["angular2/core", "./UserProxy", "../../ngEx/Global"], function(exports_1, context_1) {
+System.register(["@angular/core", "./UserProxy", "ngEx"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(["angular2/core", "./UserProxy", "../../ngEx/Global"], function(
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, UserProxy_1, Global_1;
+    var core_1, UserProxy_1, ngEx_1;
     var Users;
     return {
         setters:[
@@ -20,11 +20,10 @@ System.register(["angular2/core", "./UserProxy", "../../ngEx/Global"], function(
             function (UserProxy_1_1) {
                 UserProxy_1 = UserProxy_1_1;
             },
-            function (Global_1_1) {
-                Global_1 = Global_1_1;
+            function (ngEx_1_1) {
+                ngEx_1 = ngEx_1_1;
             }],
         execute: function() {
-            //import {User} from "./User/User";
             Users = (function () {
                 function Users(proxy) {
                     this.proxy = proxy;
@@ -38,7 +37,7 @@ System.register(["angular2/core", "./UserProxy", "../../ngEx/Global"], function(
                     });
                 };
                 Users = __decorate([
-                    Global_1.Global(),
+                    ngEx_1.Global(),
                     core_1.Component({
                         selector: 'users',
                         //providers:[UserProxy],

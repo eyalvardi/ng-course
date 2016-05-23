@@ -1,38 +1,44 @@
 /**
- * Created by Eyal on 4/12/2016.
+ * Created by Eyal Vardi on 5/03/2016.
  */
-import {Component, Input, DynamicComponentLoader, ElementRef} from "angular2/core";
-import {Global} from "../../../ngEx/Global";
-import {compileToComponent} from '../../../ngEx/DynamicLoad';
-//import mr from '../mruser.html!text';
-//import miss from '../missuser.html!text';
+import {Component, Input, ElementRef, Injector,
+    ViewContainerRef,ComponentResolver} from "@angular/core";
+
+import {Global} from "ngEx/Global";
+import {compileToComponent} from 'ngEx/DynamicLoad';
 
 @Global()
 @Component({
     selector : 'user-container',
     template:`
-    <div  #container></div>
+    <h3><ng-content></ng-content></h3>
+    <fake></fake>
+    <div  id="container"></div>
 `
 })
 export class UserContainer{
     _user:any;
-
     constructor(
-        private loader: DynamicComponentLoader,
-        private elementRef: ElementRef ){}
+        private loader: ViewContainerRef ,
+        private cmpResolver :ComponentResolver,
+        private elementRef: ElementRef,
+        private injector: Injector
+    ){}
 
     @Input('source')
     set user(value){
         this._user = value;
         this.createComponent(value.name.title == 'miss'?
-            `<miss-user [user]=data></miss-user>`:
-            `<mr-user [user]=data></mr-user>`);
+            `<miss-user [user]="data"></miss-user>`:
+            `<mr-user   [user]="data"></mr-user>`);
     }
 
     createComponent(html){
-        this.loader.loadIntoLocation(
-            compileToComponent(html,['data:user']),
-            this.elementRef, 'container' );
+        var cmpType = compileToComponent(html,['data:user']);
+        this.cmpResolver.resolveComponent(cmpType)
+            .then((cmpFactory)=>{
+                cmpFactory.create(this.injector, [], cmpFactory.selector).changeDetectorRef.reattach();
+            });
     }
 
 }

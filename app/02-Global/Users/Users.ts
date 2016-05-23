@@ -1,30 +1,29 @@
 /**
- * Created by Eyal on 4/12/2016.
+ * Created by Eyal Vardi.
  */
-import {Component} from "angular2/core";
-import {Global} from "../../ngEx/Global";
-import {getComponentMetadata, ngExComponent} from '../../ngEx/metadataUtils';
+import {Component} from "@angular/core";
+import {getComponentMetadata, ngExComponent, Global} from 'ngEx';
 import {UserProxy} from "./UserProxy";
-import {User} from "./User/User";
-
+import "./User/User";
 declare var __moduleName:string;
 
-@Component({
+/*@Component({
     selector:'users',
     providers:[UserProxy],
     directives: [User],
 })
-class BaseUser{}
+class BaseUser{}*/
 
-@Global(__moduleName)
-@ngExComponent({
+//@ngExComponent
+@Global()
+@Component({
     selector:'users',
     template: `
     Number : <input type="number" #i value="5">
     <button (click)="load(i.value)">Load</button>
     <hr>
-    <user-profile *ngFor="let user of users" [source]="user">
-            {{user.name | json}}
+    <user-profile
+        *ngFor="let user of users" [source]="user">
     </user-profile>
 `
 })

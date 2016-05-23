@@ -1,4 +1,4 @@
-System.register(["angular2/core", "./UserProxy", "../../ngEx/Global"], function(exports_1, context_1) {
+System.register(["@angular/core", "./UserProxy", "ngEx/Global"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -24,7 +24,6 @@ System.register(["angular2/core", "./UserProxy", "../../ngEx/Global"], function(
                 Global_1 = Global_1_1;
             }],
         execute: function() {
-            //import {User} from "./User/User";
             Users = (function () {
                 function Users(proxy) {
                     this.proxy = proxy;
@@ -43,7 +42,7 @@ System.register(["angular2/core", "./UserProxy", "../../ngEx/Global"], function(
                         selector: 'users',
                         //providers:[UserProxy],
                         //directives: [User],
-                        template: "\n    Number : <input type=\"number\" #i value=\"5\">\n    <button (click)=\"load(i.value)\">Load</button>\n    <hr>\n\n    <user-container *ngFor=\"let user of users\" [source]=\"user\">\n            {{user.name | json}}\n    </user-container>\n"
+                        template: "\n    Number : <input type=\"number\" #i value=\"5\">\n    <button (click)=\"load(i.value)\">Load</button>\n    <hr>\n\n    <user-container *ngFor=\"let user of users\" [source]=\"user\">\n            {{user.name.first}}\n    </user-container>\n"
                     }), 
                     __metadata('design:paramtypes', [UserProxy_1.UserProxy])
                 ], Users);

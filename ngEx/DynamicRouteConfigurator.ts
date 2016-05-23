@@ -1,8 +1,8 @@
-import {Injectable, Type} from "angular2/core";
-import {makeDecorator} from 'angular2/src/core/util/decorators';
-import {RouteRegistry, RouteConfig} from "angular2/router";
-import {Global} from "../ngEx/Global";
-import {Http} from "angular2/http";
+import {Injectable, Type} from "@angular/core";
+import {makeDecorator} from '@angular/src/core/util/decorators';
+import {RouteRegistry, RouteConfig} from "@angular/router";
+import {Global} from "./Global";
+import {Http} from "@angular/http";
 
 
 interface DynamicRouteConfig{
@@ -115,3 +115,5 @@ function readDynamicRouteConfigMetadata(component){
                 .filter(item => item.constructor.name === 'DynamicRouteConfigMetadata')
                 .pop();
 }
+
+// TODO: Write DynamicRouteConfigResolver for dynamic URL.

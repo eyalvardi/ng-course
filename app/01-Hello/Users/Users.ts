@@ -1,10 +1,6 @@
-/**
- * Created by Eyal on 4/12/2016.
- */
-import {Component} from "angular2/core";
+import {Component} from "@angular/core";
 import {UserProxy} from "./UserProxy";
 import {User} from "./User/User";
-import {DebugContext} from "angular2/src/core/change_detection/interfaces";
 
 @Component({
     selector:'users',

@@ -1,4 +1,4 @@
-System.register(["angular2/core", "./UserProxy", "../../ngEx/Global"], function(exports_1, context_1) {
+System.register(["@angular/core", "./UserProxy", "ngEx/Global"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -24,7 +24,6 @@ System.register(["angular2/core", "./UserProxy", "../../ngEx/Global"], function(
                 Global_1 = Global_1_1;
             }],
         execute: function() {
-            //import {User} from "./User/User";
             Users = (function () {
                 function Users(proxy) {
                     this.proxy = proxy;

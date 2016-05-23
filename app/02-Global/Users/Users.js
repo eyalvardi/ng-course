@@ -1,4 +1,4 @@
-System.register(["angular2/core", "../../ngEx/Global", '../../ngEx/metadataUtils', "./UserProxy", "./User/User"], function(exports_1, context_1) {
+System.register(["@angular/core", 'ngEx', "./UserProxy", "./User/User"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,39 +10,28 @@ System.register(["angular2/core", "../../ngEx/Global", '../../ngEx/metadataUtils
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, Global_1, metadataUtils_1, UserProxy_1, User_1;
-    var BaseUser, Users;
+    var core_1, ngEx_1, UserProxy_1;
+    var Users;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (Global_1_1) {
-                Global_1 = Global_1_1;
-            },
-            function (metadataUtils_1_1) {
-                metadataUtils_1 = metadataUtils_1_1;
+            function (ngEx_1_1) {
+                ngEx_1 = ngEx_1_1;
             },
             function (UserProxy_1_1) {
                 UserProxy_1 = UserProxy_1_1;
             },
-            function (User_1_1) {
-                User_1 = User_1_1;
-            }],
+            function (_1) {}],
         execute: function() {
-            BaseUser = (function () {
-                function BaseUser() {
-                }
-                BaseUser = __decorate([
-                    core_1.Component({
-                        selector: 'users',
-                        providers: [UserProxy_1.UserProxy],
-                        directives: [User_1.User],
-                    }), 
-                    __metadata('design:paramtypes', [])
-                ], BaseUser);
-                return BaseUser;
-            }());
+            /*@Component({
+                selector:'users',
+                providers:[UserProxy],
+                directives: [User],
+            })
+            class BaseUser{}*/
+            //@ngExComponent
             Users = (function () {
                 function Users(proxy) {
                     this.proxy = proxy;
@@ -56,10 +45,10 @@ System.register(["angular2/core", "../../ngEx/Global", '../../ngEx/metadataUtils
                     });
                 };
                 Users = __decorate([
-                    Global_1.Global(__moduleName),
-                    metadataUtils_1.ngExComponent({
+                    ngEx_1.Global(),
+                    core_1.Component({
                         selector: 'users',
-                        template: "\n    Number : <input type=\"number\" #i value=\"5\">\n    <button (click)=\"load(i.value)\">Load</button>\n    <hr>\n    <user-profile *ngFor=\"let user of users\" [source]=\"user\">\n            {{user.name | json}}\n    </user-profile>\n"
+                        template: "\n    Number : <input type=\"number\" #i value=\"5\">\n    <button (click)=\"load(i.value)\">Load</button>\n    <hr>\n    <user-profile\n        *ngFor=\"let user of users\" [source]=\"user\">\n    </user-profile>\n"
                     }), 
                     __metadata('design:paramtypes', [UserProxy_1.UserProxy])
                 ], Users);

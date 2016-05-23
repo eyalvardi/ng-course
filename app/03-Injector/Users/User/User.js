@@ -1,4 +1,4 @@
-System.register(["angular2/core", "../../../ngEx/Global"], function(exports_1, context_1) {
+System.register(["@angular/core", "ngEx"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,15 +10,15 @@ System.register(["angular2/core", "../../../ngEx/Global"], function(exports_1, c
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, Global_1;
+    var core_1, ngEx_1;
     var User;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (Global_1_1) {
-                Global_1 = Global_1_1;
+            function (ngEx_1_1) {
+                ngEx_1 = ngEx_1_1;
             }],
         execute: function() {
             User = (function () {
@@ -29,7 +29,7 @@ System.register(["angular2/core", "../../../ngEx/Global"], function(exports_1, c
                     __metadata('design:type', Object)
                 ], User.prototype, "user", void 0);
                 User = __decorate([
-                    Global_1.Global(),
+                    ngEx_1.Global(),
                     core_1.Component({
                         selector: 'user-profile',
                         moduleId: __moduleName,

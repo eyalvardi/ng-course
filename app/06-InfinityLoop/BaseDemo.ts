@@ -1,7 +1,4 @@
-import {Input, ChangeDetectorRef, ElementRef, Renderer, NgZone} from "angular2/core";
-/**
- * Created by Eyal on 4/12/2016.
- */
+import {Input, ChangeDetectorRef, ElementRef, Renderer, NgZone} from "@angular/core";
 
 export class BaseDemo{
 

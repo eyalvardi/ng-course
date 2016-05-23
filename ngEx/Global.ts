@@ -1,17 +1,17 @@
-import {bootstrap as bp , BROWSER_APP_PROVIDERS}    from 'angular2/platform/browser';
-import {Type, isPresent} from 'angular2/src/facade/lang';
+import {bootstrap as bp}    from '@angular/platform-browser-dynamic';
 import {
+    Type,
     provide,
     PLATFORM_DIRECTIVES,
-    PLATFORM_PIPES, ComponentRef, reflector, platform
-} from "angular2/core";
-import {ReflectionCapabilities} from "angular2/src/core/reflection/reflection_capabilities";
-import {BROWSER_PROVIDERS} from 'angular2/src/platform/browser_common';
+    PLATFORM_PIPES, ComponentRef, reflector
+} from "@angular/core";
+import {BROWSER_PROVIDERS} from '@angular/platform-browser';
+
 import {ngServices} from "./NgServices";
 
-export var files = []; 
-export var providers:any[] = [];
-var isDebug:boolean = false;
+export var files            = []; 
+export var providers:any[]  = [];
+var isDebug:boolean         = false;
 
 function addPipe(pipe,metadata){
     providers.push(provide(PLATFORM_PIPES, {
@@ -84,7 +84,7 @@ export function myBootstrap(type,prvs:any[] = []){
                 ngServices.injector = cmpRef.injector._view.parentInjector;
             });
 }
-
+/*
 export function myBootstrap2(type,prvs:any[] = []){
     var promises = [];
     files.forEach((file)=>{
@@ -98,7 +98,9 @@ export function myBootstrap2(type,prvs:any[] = []){
             ngServices.injector = cmpRef.injector.parent;
         });
 }
+*/
 
+/*
 export function bootstrap(appComponentUrl: string,customProviders?: Array<any>): Promise<ComponentRef> {
     //var appComponentType;
     reflector.reflectionCapabilities = new ReflectionCapabilities();
@@ -119,3 +121,4 @@ export function bootstrap(appComponentUrl: string,customProviders?: Array<any>):
 
     //return app.bootstrap(appComponentType);
 }
+*/

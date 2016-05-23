@@ -1,10 +1,10 @@
 /**
- * Created by Eyal on 4/12/2016.
+ * Created by Eyal Vardi.
  */
-import {Injectable} from "angular2/core";
-import {Http} from "angular2/http";
+import {Injectable} from "@angular/core";
+import {Http} from "@angular/http";
 import 'rxjs/Rx';
-import {Global} from "../../ngEx/Global";
+import {Global} from "ngEx";
 
 @Global()
 @Injectable()

@@ -1,7 +1,7 @@
 /**
- * Created by Eyal on 4/12/2016.
+ * Created by Eyal Vardi on 5/03/2016.
  */
-import {Component} from "angular2/core";
+import {Component} from "@angular/core";
 import "./Users/Users";
 import "./Users/User/User";
 

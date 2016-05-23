@@ -1,9 +1,8 @@
 /**
- * Created by Eyal on 4/12/2016.
+ * Created by Eyal Vardi on 5/03/2016.
  */
-//import {bootstrap} from 'angular2/platform/browser';
-import {HTTP_PROVIDERS} from 'angular2/http';
-import {myBootstrap} from '../ngEx/Global';
-import {App} from './App';
+import {HTTP_PROVIDERS} from '@angular/http';
+import {myBootstrap}    from 'ngEx';
+import {App}            from './App';
 
 myBootstrap(App,[HTTP_PROVIDERS]);
