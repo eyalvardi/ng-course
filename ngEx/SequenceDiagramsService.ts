@@ -4,7 +4,6 @@
 import {Component, Input, ElementRef, NgZone} from "@angular/core";
 
 export const logs:string[] = [];
-
 var lastComponent:string;
 var lastEvent:string;
 var isClean:boolean = false;
