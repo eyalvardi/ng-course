@@ -1,101 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ebfa7d9-6d8f-47f0-b386-3cf5ab62bd21" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/02-Global/Users/User/validations.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngEx/index.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/systemjs.config.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/UserProxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/UserProxy.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/UserProxy.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/04-Resolvers/services/MyAppViewManager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/04-Resolvers/services/MyAppViewManager.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/04-Resolvers/services/MyAppViewManager.ts" afterPath="" />
+    <list default="true" id="9ebfa7d9-6d8f-47f0-b386-3cf5ab62bd21" name="Default" comment="rc1 v2">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/do-check.cmp.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/timer.cmp.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/temp.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngEx/SequenceDiagramsService.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/App.js" afterPath="$PROJECT_DIR$/app/01-Hello/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/App.js.map" afterPath="$PROJECT_DIR$/app/01-Hello/App.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/App.ts" afterPath="$PROJECT_DIR$/app/01-Hello/App.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/User/User.js" afterPath="$PROJECT_DIR$/app/01-Hello/Users/User/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/User/User.js.map" afterPath="$PROJECT_DIR$/app/01-Hello/Users/User/User.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/User/User.ts" afterPath="$PROJECT_DIR$/app/01-Hello/Users/User/User.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/UserProxy.js" afterPath="$PROJECT_DIR$/app/01-Hello/Users/UserProxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/UserProxy.js.map" afterPath="$PROJECT_DIR$/app/01-Hello/Users/UserProxy.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/UserProxy.ts" afterPath="$PROJECT_DIR$/app/01-Hello/Users/UserProxy.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/Users.js" afterPath="$PROJECT_DIR$/app/01-Hello/Users/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/Users.js.map" afterPath="$PROJECT_DIR$/app/01-Hello/Users/Users.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/Users.ts" afterPath="$PROJECT_DIR$/app/01-Hello/Users/Users.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/main.js" afterPath="$PROJECT_DIR$/app/01-Hello/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/main.js.map" afterPath="$PROJECT_DIR$/app/01-Hello/main.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/main.ts" afterPath="$PROJECT_DIR$/app/01-Hello/main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/App.js" afterPath="$PROJECT_DIR$/app/02-Global/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/App.js.map" afterPath="$PROJECT_DIR$/app/02-Global/App.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/App.ts" afterPath="$PROJECT_DIR$/app/02-Global/App.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/User/User.js" afterPath="$PROJECT_DIR$/app/02-Global/Users/User/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/User/User.js.map" afterPath="$PROJECT_DIR$/app/02-Global/Users/User/User.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/User/User.ts" afterPath="$PROJECT_DIR$/app/02-Global/Users/User/User.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/User/user.html" afterPath="$PROJECT_DIR$/app/02-Global/Users/User/user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/UserProxy.js" afterPath="$PROJECT_DIR$/app/02-Global/Users/UserProxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/UserProxy.js.map" afterPath="$PROJECT_DIR$/app/02-Global/Users/UserProxy.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/UserProxy.ts" afterPath="$PROJECT_DIR$/app/02-Global/Users/UserProxy.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/Users.js" afterPath="$PROJECT_DIR$/app/02-Global/Users/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/Users.js.map" afterPath="$PROJECT_DIR$/app/02-Global/Users/Users.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/Users.ts" afterPath="$PROJECT_DIR$/app/02-Global/Users/Users.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/main.js" afterPath="$PROJECT_DIR$/app/02-Global/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/main.js.map" afterPath="$PROJECT_DIR$/app/02-Global/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/main.ts" afterPath="$PROJECT_DIR$/app/02-Global/main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/App.js" afterPath="$PROJECT_DIR$/app/03-Injector/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/App.ts" afterPath="$PROJECT_DIR$/app/03-Injector/App.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/User/User.js" afterPath="$PROJECT_DIR$/app/03-Injector/Users/User/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/User/User.js.map" afterPath="$PROJECT_DIR$/app/03-Injector/Users/User/User.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/User/User.ts" afterPath="$PROJECT_DIR$/app/03-Injector/Users/User/User.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/UserProxy.js" afterPath="$PROJECT_DIR$/app/03-Injector/Users/UserProxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/UserProxy.js.map" afterPath="$PROJECT_DIR$/app/03-Injector/Users/UserProxy.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/UserProxy.ts" afterPath="$PROJECT_DIR$/app/03-Injector/Users/UserProxy.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/Users.js" afterPath="$PROJECT_DIR$/app/03-Injector/Users/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/Users.js.map" afterPath="$PROJECT_DIR$/app/03-Injector/Users/Users.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/Users.ts" afterPath="$PROJECT_DIR$/app/03-Injector/Users/Users.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/main.js" afterPath="$PROJECT_DIR$/app/03-Injector/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/main.js.map" afterPath="$PROJECT_DIR$/app/03-Injector/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/main.ts" afterPath="$PROJECT_DIR$/app/03-Injector/main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/App.js" afterPath="$PROJECT_DIR$/app/04-Resolvers/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/App.ts" afterPath="$PROJECT_DIR$/app/04-Resolvers/App.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/User/User.js" afterPath="$PROJECT_DIR$/app/04-Resolvers/Users/User/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/User/User.ts" afterPath="$PROJECT_DIR$/app/04-Resolvers/Users/User/User.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/Users.js" afterPath="$PROJECT_DIR$/app/04-Resolvers/Users/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/Users.js.map" afterPath="$PROJECT_DIR$/app/04-Resolvers/Users/Users.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/Users.ts" afterPath="$PROJECT_DIR$/app/04-Resolvers/Users/Users.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/main.js" afterPath="$PROJECT_DIR$/app/04-Resolvers/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/main.js.map" afterPath="$PROJECT_DIR$/app/04-Resolvers/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/main.ts" afterPath="$PROJECT_DIR$/app/04-Resolvers/main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.js" afterPath="$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.js.map" afterPath="$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.ts" afterPath="$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/App.js" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/App.js.map" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/App.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/App.ts" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/App.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/User.js" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/User.js.map" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/User.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/User.ts" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/User.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserContainer/UserContainer.js" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserContainer/UserContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserContainer/UserContainer.js.map" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserContainer/UserContainer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserContainer/UserContainer.ts" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserContainer/UserContainer.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.js" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.js.map" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.ts" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/Users.js" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/Users.js.map" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/Users.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/Users.ts" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/Users.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/mruser.html" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/mruser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/main.js" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/main.js.map" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/main.ts" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/main.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/App.js" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/App.js.map" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/App.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/App.ts" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/App.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/BaseDemo.js" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/BaseDemo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/BaseDemo.js.map" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/BaseDemo.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/BaseDemo.ts" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/BaseDemo.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/DefaultDemo.js" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/DefaultDemo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/DefaultDemo.js.map" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/DefaultDemo.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/DefaultDemo.ts" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/DefaultDemo.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/PushDemo.js" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/PushDemo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/PushDemo.js.map" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/PushDemo.js.map" />
@@ -103,33 +25,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/main.js" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/main.js.map" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/main.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/main.ts" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/App.js" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/App.js.map" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/App.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/router-config.json" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/router-config.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/DynamicLoad.js" afterPath="$PROJECT_DIR$/ngEx/DynamicLoad.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/DynamicLoad.js.map" afterPath="$PROJECT_DIR$/ngEx/DynamicLoad.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/DynamicLoad.ts" afterPath="$PROJECT_DIR$/ngEx/DynamicLoad.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/DynamicRouteConfigurator.js" afterPath="$PROJECT_DIR$/ngEx/DynamicRouteConfigurator.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/DynamicRouteConfigurator.js.map" afterPath="$PROJECT_DIR$/ngEx/DynamicRouteConfigurator.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/DynamicRouteConfigurator.ts" afterPath="$PROJECT_DIR$/ngEx/DynamicRouteConfigurator.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/FormDebuger.js" afterPath="$PROJECT_DIR$/ngEx/Debug/FormDebuger.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/FormDebuger.js.map" afterPath="$PROJECT_DIR$/ngEx/Debug/FormDebuger.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/FormDebuger.ts" afterPath="$PROJECT_DIR$/ngEx/Debug/FormDebuger.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/Global.js" afterPath="$PROJECT_DIR$/ngEx/Global.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/Global.js.map" afterPath="$PROJECT_DIR$/ngEx/Global.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/Global.ts" afterPath="$PROJECT_DIR$/ngEx/Global.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/NgAnalyzer.js" afterPath="$PROJECT_DIR$/ngEx/Debug/NgAnalyzer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/NgAnalyzer.js.map" afterPath="$PROJECT_DIR$/ngEx/Debug/NgAnalyzer.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/NgAnalyzer.ts" afterPath="$PROJECT_DIR$/ngEx/Debug/NgAnalyzer.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/NgServices.js" afterPath="$PROJECT_DIR$/ngEx/NgServices.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/NgServices.js.map" afterPath="$PROJECT_DIR$/ngEx/NgServices.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/NgServices.ts" afterPath="$PROJECT_DIR$/ngEx/NgServices.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/metadataUtils.js" afterPath="$PROJECT_DIR$/ngEx/metadataUtils.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/metadataUtils.js.map" afterPath="$PROJECT_DIR$/ngEx/metadataUtils.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/ngEx/metadataUtils.ts" afterPath="$PROJECT_DIR$/ngEx/metadataUtils.ts" />
     </list>
     <ignored path="ng-course.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -148,14 +46,121 @@
     <favorites_list name="ng-course" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/01-Hello/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="e#241#271#0" expanded="false" />
+                <element signature="n#!!block;n#swapColors#0;n#!!block;n#changeColor#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SequenceDiagramsService.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ngEx/SequenceDiagramsService.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+              <folding>
+                <element signature="e#469#523#0" expanded="false" />
+                <element signature="n#!!block;n#clearLogs#0" expanded="false" />
+                <element signature="n#!!block;n#getLogs#0" expanded="false" />
+                <element signature="e#751#782#0" expanded="false" />
+                <element signature="n#!!block;n#title#0;n#SequenceDiagram#0" expanded="false" />
+                <element signature="e#1647#1659#0" expanded="false" />
+                <element signature="n#!!block;n#clear#0;n#SequenceDiagram#0" expanded="false" />
+                <element signature="n#!!block;n#clearDraw#0;n#SequenceDiagram#0" expanded="false" />
+                <element signature="e#1936#1992#0" expanded="false" />
+                <element signature="n#!!block;n#draw#0;n#SequenceDiagram#0" expanded="false" />
+                <element signature="e#2028#2101#0" expanded="false" />
+                <marker date="1465125970269" expanded="false" signature="1097:1135" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="do-check.cmp.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/06-InfinityLoop/do-check.cmp.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <folding>
+                <marker date="1464756160379" expanded="true" signature="235:293" ph="{...}" />
+                <marker date="1464756160379" expanded="true" signature="307:436" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/06-InfinityLoop/App.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+              <folding>
+                <element signature="n#User#0" expanded="false" />
+                <element signature="n#!!block;n#name#0;n#User#0" expanded="false" />
+                <element signature="n#!!block;n#name#1;n#User#0" expanded="false" />
+                <element signature="e#574#1782#0" expanded="false" />
+                <element signature="e#2063#2182#0" expanded="false" />
+                <element signature="n#!!block;n#name#0;n#App#0" expanded="false" />
+                <element signature="e#2765#2924#0" expanded="false" />
+                <marker date="1465122956050" expanded="false" signature="746:759" ph="..." />
+                <marker date="1465122956050" expanded="true" signature="760:1773" ph="..." />
+                <marker date="1465122956050" expanded="true" signature="834:950" ph="..." />
+                <marker date="1465122956050" expanded="true" signature="1363:1462" ph="..." />
+                <marker date="1465122956050" expanded="true" signature="1364:1462" ph="..." />
+                <marker date="1465122956050" expanded="true" signature="1374:1461" ph="..." />
+                <marker date="1465122956050" expanded="true" signature="1484:1570" ph="..." />
+                <marker date="1465122956050" expanded="true" signature="1694:1762" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -165,20 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ngExSrc/DynamicRouteConfigurator.ts" />
-        <option value="$PROJECT_DIR$/ngExSrc/FormDebuger.ts" />
-        <option value="$PROJECT_DIR$/app/03-Injector/App.ts" />
-        <option value="$PROJECT_DIR$/app/04-Resolvers/App.ts" />
-        <option value="$PROJECT_DIR$/app/04-Resolvers/Users/User/User.ts" />
-        <option value="$PROJECT_DIR$/app/04-Resolvers/Users/Users.ts" />
-        <option value="$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.ts" />
-        <option value="$PROJECT_DIR$/app/06-InfinityLoop/main.ts" />
-        <option value="$PROJECT_DIR$/app/06-InfinityLoop/App.ts" />
-        <option value="$PROJECT_DIR$/app/06-InfinityLoop/PushDemo.ts" />
-        <option value="$PROJECT_DIR$/app/06-InfinityLoop/DefaultDemo.ts" />
-        <option value="$PROJECT_DIR$/app/06-InfinityLoop/BaseDemo.ts" />
-        <option value="$PROJECT_DIR$/app/05-DynamicComponent/main.ts" />
-        <option value="$PROJECT_DIR$/app/05-DynamicComponent/App.ts" />
         <option value="$PROJECT_DIR$/app/05-DynamicComponent/Users/Users.ts" />
         <option value="$PROJECT_DIR$/ngEx/DynamicLoad.ts" />
         <option value="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserContainer/UserContainer.ts" />
@@ -203,19 +194,33 @@
         <option value="$PROJECT_DIR$/app/05-DynamicComponent/Users/User.ts" />
         <option value="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.ts" />
         <option value="$PROJECT_DIR$/app/08-Routing/main.ts" />
-        <option value="$PROJECT_DIR$/app/08-Routing/+Home/Home.ts" />
         <option value="$PROJECT_DIR$/app/08-Routing/AppNav.ts" />
-        <option value="$PROJECT_DIR$/app/08-Routing/App.ts" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/01-Hello/Users/UserProxy.ts" />
-        <option value="$PROJECT_DIR$/app/02-Global/Users/User/User.ts" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/app/main.js" />
-        <option value="$PROJECT_DIR$/app/01-Hello/main.ts" />
-        <option value="$PROJECT_DIR$/app/02-Global/Users/Users.ts" />
         <option value="$PROJECT_DIR$/node_modules/ngEx/index.js" />
         <option value="$PROJECT_DIR$/node_modules/ngEx/index.ts" />
         <option value="$PROJECT_DIR$/systemjs.config.js" />
+        <option value="$PROJECT_DIR$/app/06-InfinityLoop/main.ts" />
+        <option value="$PROJECT_DIR$/app/06-InfinityLoop/timer.cmp.ts" />
+        <option value="$PROJECT_DIR$/dist/temp.ts" />
+        <option value="$PROJECT_DIR$/app/07-DynamicRouting/Home/Home.ts" />
+        <option value="$PROJECT_DIR$/app/08-Routing/App.ts" />
+        <option value="$PROJECT_DIR$/app/08-Routing/+Home/Home.ts" />
+        <option value="$PROJECT_DIR$/app/06-InfinityLoop/DefaultDemo.ts" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/06-InfinityLoop/do-check.cmp.ts" />
+        <option value="$PROJECT_DIR$/app/06-InfinityLoop/PushDemo.ts" />
+        <option value="$PROJECT_DIR$/app/06-InfinityLoop/BaseDemo.ts" />
+        <option value="$PROJECT_DIR$/app/02-Global/Users/User/User.ts" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/app/06-InfinityLoop/App.ts" />
+        <option value="$PROJECT_DIR$/ngEx/SequenceDiagramsService.ts" />
+        <option value="$PROJECT_DIR$/app/01-Hello/Test.js" />
+        <option value="$PROJECT_DIR$/app/01-Hello/Test.ts" />
+        <option value="$PROJECT_DIR$/app/02-Global/Users/Users.ts" />
+        <option value="$PROJECT_DIR$/app/01-Hello/main.ts" />
+        <option value="$PROJECT_DIR$/demo1.html" />
+        <option value="$PROJECT_DIR$/1.js" />
       </list>
     </option>
   </component>
@@ -258,6 +263,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,9 +282,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngEx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -286,18 +319,21 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/cream" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="xslt.associations" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\E4D\eVardi\HTML 5\03 - AngularJS\02 - Angular 2\ng-course\app\06-InfinityLoop" />
+      <recent name="E:\E4D\eVardi\HTML 5\03 - AngularJS\02 - Angular 2\ng-course\app\04-Resolvers\Users" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\E4D\eVardi\HTML 5\03 - AngularJS\02 - Angular 2\ng-course\ngEx\Debug" />
       <recent name="E:\E4D\eVardi\HTML 5\03 - AngularJS\02 - Angular 2\ng-course" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\E4D\eVardi\HTML 5\03 - AngularJS\02 - Angular 2\ng-course\app\04-Resolvers\Users" />
     </key>
   </component>
   <component name="RunManager">
@@ -387,27 +423,48 @@
       <workItem from="1463672205582" duration="1265000" />
       <workItem from="1463811773632" duration="4333000" />
       <workItem from="1463849100562" duration="614000" />
-      <workItem from="1464026609291" duration="35000" />
+      <workItem from="1464026609291" duration="2354000" />
+      <workItem from="1464327314245" duration="14702000" />
+      <workItem from="1464517791510" duration="10786000" />
+      <workItem from="1464595555640" duration="117000" />
+      <workItem from="1464614386556" duration="787000" />
+      <workItem from="1464628871220" duration="3741000" />
+      <workItem from="1464744743214" duration="98000" />
+      <workItem from="1464744871580" duration="15014000" />
+      <workItem from="1464866127253" duration="8407000" />
+      <workItem from="1465131447630" duration="5283000" />
+      <workItem from="1465304446850" duration="1473000" />
+      <workItem from="1465399746763" duration="139000" />
     </task>
+    <task id="LOCAL-00001" summary="rc1">
+      <created>1464026706344</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1464026706344</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63344000" />
+    <option name="totallyTimeSpent" value="126210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="884" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20702875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32724506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20830671" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32115677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30151516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6590563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -420,16 +477,16 @@
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32283464" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31861958" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6590563" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26325879" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -449,111 +506,30 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rc1" />
+    <MESSAGE value="rc1 v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="rc1 v2" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="ng-course" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="ng-course" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ngEx/DynamicLoad.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/07-DynamicRouting/Users/Users.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/07-DynamicRouting/Users/users.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/99-temp/ServiceA.ts" />
-    <entry file="file://$PROJECT_DIR$/app/01-Hello/App.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/04-Resolvers/Users/User/User.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/04-Resolvers/Users/User/User.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/04-Resolvers/Users/User/m.User.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/99-temp/ngZone.ts" />
-    <entry file="file://$PROJECT_DIR$/app/02-Global/App.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/02-Global/Users/User/user.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/02-Global/Users/User/validations.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ngEx/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ngEx/NgServices.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/02-Global/Users/User/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.bin/tsc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -561,24 +537,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/07-DynamicRouting/App.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/angular2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="352" column="53" selection-start-line="352" selection-start-column="53" selection-end-line="352" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ngEx/Global.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -666,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/08-Routing/+Home/Home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/08-Routing/AppNav.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -687,34 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/08-Routing/App.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/08-Routing/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/02-Global/Users/User/User.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/01-Hello/Users/UserProxy.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-605">
@@ -723,20 +650,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main.js" />
-    <entry file="file://$PROJECT_DIR$/app/01-Hello/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/01-Hello/Users/Users.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="944">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/01-Hello/Users/User/User.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -746,27 +659,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/ngEx/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/ngEx/index.ts" />
-    <entry file="file://$PROJECT_DIR$/systemjs.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/02-Global/Users/Users.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -779,13 +671,262 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/01-Hello/App.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-539">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/06-InfinityLoop/timer.cmp.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/temp.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/08-Routing/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/07-DynamicRouting/App.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/07-DynamicRouting/Home/Home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/08-Routing/+Home/Home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/08-Routing/App.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/06-InfinityLoop/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemjs.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/06-InfinityLoop/BaseDemo.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!block;n#ngOnInit#0;n#LifeCycleHooksDump#0" expanded="false" />
+            <element signature="n#!!block;n#ngOnDestroy#0;n#LifeCycleHooksDump#0" expanded="false" />
+            <element signature="n#!!block;n#ngOnChanges#0;n#LifeCycleHooksDump#0" expanded="false" />
+            <element signature="e#1113#1223#0" expanded="false" />
+            <element signature="e#1235#1304#0" expanded="false" />
+            <element signature="n#!!block;n#ngAfterContentInit#0;n#LifeCycleHooksDump#0" expanded="false" />
+            <element signature="n#!!block;n#ngAfterContentChecked#0;n#LifeCycleHooksDump#0" expanded="false" />
+            <element signature="n#!!block;n#ngAfterViewInit#0;n#LifeCycleHooksDump#0" expanded="false" />
+            <element signature="n#!!block;n#ngAfterViewChecked#0;n#LifeCycleHooksDump#0" expanded="false" />
+            <element signature="n#!!block;n#setSetter#0;n#LifeCycleHooksDump#0" expanded="false" />
+            <element signature="n#!!block;n#name#1;n#BaseDemo#0" expanded="false" />
+            <element signature="n#!!block;n#test#0;n#BaseDemo#0" expanded="false" />
+            <element signature="n#!!block;n#getName#0;n#BaseDemo#0" expanded="false" />
+            <element signature="n#!!block;n#getTest#0;n#BaseDemo#0" expanded="false" />
+            <element signature="n#!!block;n#constructor#0;n#BaseDemo#0" expanded="false" />
+            <element signature="e#3076#3227#0" expanded="false" />
+            <element signature="n#!!block;n#ngDoCheck#0;n#BaseDemo#0" expanded="false" />
+            <element signature="e#3357#3407#0" expanded="false" />
+            <element signature="e#3413#3468#0" expanded="false" />
+            <element signature="n#!!block;n#changeName#0;n#BaseDemo#0" expanded="false" />
+            <element signature="n#!!block;n#date#0;n#BaseDemo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ngEx/Global.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="60" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/02-Global/Users/User/User.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/06-InfinityLoop/DefaultDemo.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/06-InfinityLoop/PushDemo.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/01-Hello/Test.ts" />
+    <entry file="file://$PROJECT_DIR$/app/01-Hello/Test.js" />
+    <entry file="file://$PROJECT_DIR$/app/01-Hello/Users/Users.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/02-Global/Users/Users.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/01-Hello/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#241#271#0" expanded="false" />
+            <element signature="n#!!block;n#swapColors#0;n#!!block;n#changeColor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ngEx/SequenceDiagramsService.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="e#469#523#0" expanded="false" />
+            <element signature="n#!!block;n#clearLogs#0" expanded="false" />
+            <element signature="n#!!block;n#getLogs#0" expanded="false" />
+            <element signature="e#751#782#0" expanded="false" />
+            <element signature="n#!!block;n#title#0;n#SequenceDiagram#0" expanded="false" />
+            <element signature="e#1647#1659#0" expanded="false" />
+            <element signature="n#!!block;n#clear#0;n#SequenceDiagram#0" expanded="false" />
+            <element signature="n#!!block;n#clearDraw#0;n#SequenceDiagram#0" expanded="false" />
+            <element signature="e#1936#1992#0" expanded="false" />
+            <element signature="n#!!block;n#draw#0;n#SequenceDiagram#0" expanded="false" />
+            <element signature="e#2028#2101#0" expanded="false" />
+            <marker date="1465125970269" expanded="false" signature="1097:1135" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/06-InfinityLoop/do-check.cmp.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding>
+            <marker date="1464756160379" expanded="true" signature="235:293" ph="{...}" />
+            <marker date="1464756160379" expanded="true" signature="307:436" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/06-InfinityLoop/App.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+          <folding>
+            <element signature="n#User#0" expanded="false" />
+            <element signature="n#!!block;n#name#0;n#User#0" expanded="false" />
+            <element signature="n#!!block;n#name#1;n#User#0" expanded="false" />
+            <element signature="e#574#1782#0" expanded="false" />
+            <element signature="e#2063#2182#0" expanded="false" />
+            <element signature="n#!!block;n#name#0;n#App#0" expanded="false" />
+            <element signature="e#2765#2924#0" expanded="false" />
+            <marker date="1465122956050" expanded="false" signature="746:759" ph="..." />
+            <marker date="1465122956050" expanded="true" signature="760:1773" ph="..." />
+            <marker date="1465122956050" expanded="true" signature="834:950" ph="..." />
+            <marker date="1465122956050" expanded="true" signature="1363:1462" ph="..." />
+            <marker date="1465122956050" expanded="true" signature="1364:1462" ph="..." />
+            <marker date="1465122956050" expanded="true" signature="1374:1461" ph="..." />
+            <marker date="1465122956050" expanded="true" signature="1484:1570" ph="..." />
+            <marker date="1465122956050" expanded="true" signature="1694:1762" ph="..." />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

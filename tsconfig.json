@@ -16,3 +16,12 @@
     "node_modules"
   ]
 }
+/*"rootDirs": [
+    "./",
+    "./ngEx"
+  ],
+  "baseUrl": ".",
+  "paths": {
+    "ngEx": ["ngEx"]
+
+  }*/

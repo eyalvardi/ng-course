@@ -1,4 +1,4 @@
-System.register(["@angular/core", "./BaseDemo", "ngEx/Global"], function(exports_1, context_1) {
+System.register(["@angular/core", "./BaseDemo", "ngEx/Global", "./do-check.cmp", "./timer.cmp"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __extends = (this && this.__extends) || function (d, b) {
@@ -15,7 +15,7 @@ System.register(["@angular/core", "./BaseDemo", "ngEx/Global"], function(exports
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, BaseDemo_1, Global_1;
+    var core_1, BaseDemo_1, Global_1, do_check_cmp_1, timer_cmp_1;
     var DefaultDemo;
     return {
         setters:[
@@ -27,6 +27,12 @@ System.register(["@angular/core", "./BaseDemo", "ngEx/Global"], function(exports
             },
             function (Global_1_1) {
                 Global_1 = Global_1_1;
+            },
+            function (do_check_cmp_1_1) {
+                do_check_cmp_1 = do_check_cmp_1_1;
+            },
+            function (timer_cmp_1_1) {
+                timer_cmp_1 = timer_cmp_1_1;
             }],
         execute: function() {
             DefaultDemo = (function (_super) {
@@ -38,10 +44,11 @@ System.register(["@angular/core", "./BaseDemo", "ngEx/Global"], function(exports
                     Global_1.Global(),
                     core_1.Component({
                         selector: 'default-demo',
-                        styles: [":host{display: block;}"],
+                        directives: [do_check_cmp_1.DoCheckComp, timer_cmp_1.TimerComp],
+                        styles: ["\n:host{display: block; text-align: left;margin: 8px;} \n.border{border: 1px solid black;padding: 8px;}\n"],
                         //providers:[DebugElement],
                         //changeDetection: ChangeDetectionStrategy.Detached,
-                        template: "\n    <div>\n        <h3>Default Demo</h3>\n        <input type=\"text\" [(ngModel)]=\"test\">\n        <button (click)=\"changeName()\">Change</button>\n        <button (click)=\"detach()\">Detach</button>\n        <button (click)=\"reattach()\">Reattach</button>\n        <button (click)=\"detectChanges()\">detectChanges</button>\n        <button (click)=\"markForCheck()\">markForCheck</button>\n        <br>\n        Test: {{test}} <br>\n        Name: {{name}}<br>       \n        <pre>{{user | json }}</pre>\n    </div>\n"
+                        template: "    \n    <div class=\"border\">\n        <do-check [name]=\"'Default Demo'\" [updateName]=\"name\"></do-check>\n        <h3>Default Demo</h3>\n        Test: <input type=\"text\" [(ngModel)]=\"test\"> {{getTest()}} <br>\n        Name: {{getName()}} <br>\n        User Name : {{user.name}} <br>\n        <button (click)=\"changeName()\">Change</button>\n        <button (click)=\"detach()\">Detach</button>\n        <button (click)=\"reattach()\">Reattach</button>\n        <button (click)=\"detectChanges()\">detectChanges</button>\n        <button (click)=\"markForCheck()\">markForCheck</button>\n        <br>\n        <!--<timer></timer>-->        \n    </div>\n"
                     }), 
                     __metadata('design:paramtypes', [core_1.ChangeDetectorRef, core_1.ElementRef, core_1.Renderer, core_1.NgZone])
                 ], DefaultDemo);
