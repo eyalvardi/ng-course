@@ -3,9 +3,8 @@
  */
 import {Injectable} from "@angular/core";
 import {Http}       from "@angular/http";
-import {Global}     from "ngEx/Global";
-import {ngServices} from "ngEx";
-import 'rxjs/Rx';
+import {Global,ngServices} from "ngEx";
+import 'rxjs/add/operator/toPromise';
 
 // Private Static fields:
 var http:Http;
@@ -14,13 +13,14 @@ var http:Http;
 @Injectable()
 export class UserProxy{
 
-    //private http:Http;    
-
-    load(num=3){
+    //private http:Http;
+    ngExOnInit(){
         if(!http){
             http = ngServices.get(Http);
         }
-       
+    }
+
+    load(num=3){
         // Promise
         return http
             .get(`http://api.randomuser.me/?results=${num}`)

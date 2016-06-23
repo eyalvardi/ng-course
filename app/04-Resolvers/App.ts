@@ -5,11 +5,13 @@ import {Component} from "@angular/core";
 import "./Users/Users";
 import "./Users/User/User";
 
+
+
 @Component({
     selector: 'my-app',
     //directives:[Users],
     template: `
-    <h1>Hello World</h1>
+    <h1>Resolvers ${new Date().toDateString()}</h1>
     <users></users>
 `
 })

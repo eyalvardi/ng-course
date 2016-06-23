@@ -3,7 +3,7 @@
  */
 import {Injectable} from "@angular/core";
 import {Http} from "@angular/http";
-import 'rxjs/Rx';
+import 'rxjs/add/operator/toPromise';
 import {Global,ngServices} from "ngEx";
 
 // Private Static fields:
@@ -19,7 +19,7 @@ export class UserProxy{
 
     load(num=3){
         if(!http){
-            http = ngServices.getService(Http);
+            http = ngServices.get(Http);
         }
        
         // Promise

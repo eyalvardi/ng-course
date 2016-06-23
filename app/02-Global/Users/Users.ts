@@ -5,7 +5,8 @@ import {Component} from "@angular/core";
 import {getComponentMetadata, ngExComponent, Global} from 'ngEx';
 import {UserProxy} from "./UserProxy";
 import "./User/User";
-declare var __moduleName:string;
+
+//declare var __moduleName:string;
 
 /*@Component({
     selector:'users',

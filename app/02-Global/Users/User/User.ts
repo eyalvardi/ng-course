@@ -2,12 +2,12 @@ import {Component, Input} from "@angular/core";
 import {ControlGroup,Control} from '@angular/common';
 import {Global} from "ngEx";
 
-declare var __moduleName:string;
+//declare var __moduleName:string;
 
 @Global()
 @Component({
     selector:'user-profile',
-    moduleId: __moduleName,
+    moduleId: module.id,
     styleUrls:['user.css','validations.css'],
     templateUrl:'user.html',
     exportAs: 'user'

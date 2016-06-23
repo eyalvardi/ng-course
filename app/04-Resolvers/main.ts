@@ -11,5 +11,5 @@ import {MobileViewResolver} from "./services/MobileViewResolver";
 
 myBootstrap(App,[
     HTTP_PROVIDERS,
-    provide(ViewResolver,{useClass:MobileViewResolver})
+    {provide:ViewResolver,useClass:MobileViewResolver}
 ]);

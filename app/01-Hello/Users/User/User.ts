@@ -1,10 +1,10 @@
 import {Component, Input} from "@angular/core";
 
-declare var __moduleName:string;
+//declare var __moduleName:string;
 
 @Component({
     selector:'user-profile',
-    moduleId: __moduleName,
+    moduleId: module.id,
     styleUrls:['user.css'],
     templateUrl:'user.html'
 })

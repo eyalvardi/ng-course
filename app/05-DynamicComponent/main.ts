@@ -1,8 +1,7 @@
-/**
- * Created by Eyal Vardi on 5/03/2016.
- */
 import {HTTP_PROVIDERS} from '@angular/http';
-import {myBootstrap} from 'ngEx/Global';
+import {myBootstrap} from 'ngEx';
 import {App} from './App';
+import {enableProdMode} from "@angular/core";
 
+enableProdMode();
 myBootstrap(App,[HTTP_PROVIDERS]);

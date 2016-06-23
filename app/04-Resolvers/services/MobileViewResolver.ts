@@ -11,6 +11,9 @@ export class MobileViewResolver extends ViewResolver{
         super(_reflector);
     }
     resolve(component: Type): ViewMetadata{
+        component.prototype.ngDoCheck = function () {
+            console.log(`${component.name} doCheck :-)`);
+        };
         var vm;
         try{
             vm = super.resolve(component);

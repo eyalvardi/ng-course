@@ -4,7 +4,7 @@
 import {Injectable} from "@angular/core";
 import {Http}       from "@angular/http";
 import {Global,ngServices}     from "ngEx";
-import 'rxjs/Rx';
+import 'rxjs/add/operator/toPromise';
 
 // Private Static fields:
 var http:Http;
