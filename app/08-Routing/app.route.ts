@@ -2,7 +2,7 @@
  * Created by Eyal on 6/22/2016.
  */
 import { provideRouter, RouterConfig } from '@angular/router';
-import {Home} from "./+Home/Home";
+import {Home} from "./home/Home";
 import {Users, CanDeactivateGuard} from "./Users/Users";
 import {AuthGuard} from "./auth.guard";
 import {LoginComponent} from "./login.cmp";

@@ -1,223 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ebfa7d9-6d8f-47f0-b386-3cf5ab62bd21" name="Default" comment="rc1 v2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/App.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/App.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/BaseDemo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/BaseDemo.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/Clock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/Clock.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/Clock.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/DefaultDemo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/DefaultDemo.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/PipeDemo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/PipeDemo.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/PipeDemo.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/PushDemo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/PushDemo.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/do-check.cmp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/do-check.cmp.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/main.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/main.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/timer.cmp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/timer.cmp.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/myCounter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/myCounter.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/myCounter.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08-Routing/app.route.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08-Routing/auth.guard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08-Routing/auth.guard.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08-Routing/auth.guard.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08-Routing/auth.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08-Routing/login.cmp.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/09-Providers/App.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/09-Providers/Child.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/09-Providers/Parent.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/09-Providers/Service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/09-Providers/main.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/10-Tabs/App.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/10-Tabs/Tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/10-Tabs/Tab.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/10-Tabs/Tab.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/10-Tabs/Tabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/10-Tabs/Tabs.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/10-Tabs/Tabs.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/10-Tabs/main.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/11-Styles/App.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/11-Styles/Child.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/11-Styles/Parent.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/11-Styles/main.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngEx/BaseComponent.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/BaseComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/BaseComponent.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/BaseComponent.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/Debug/FormDebuger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/Debug/FormDebuger.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/Debug/FormDebuger.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/Debug/NgAnalyzer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/Debug/NgAnalyzer.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/Debug/NgAnalyzer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/DynamicLoad.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/DynamicLoad.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/DynamicLoad.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/DynamicRouteConfigurator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/DynamicRouteConfigurator.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/DynamicRouteConfigurator.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/Global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/Global.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/Global.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/NgServices.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/NgServices.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/NgServices.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/SequenceDiagramsService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/SequenceDiagramsService.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/SequenceDiagramsService.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/index.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/index.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/metadataUtils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/metadataUtils.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngEx/metadataUtils.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/BaseDemo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/BaseDemo.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/DefaultDemo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/DefaultDemo.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/PushDemo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/PushDemo.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/temp.ts" afterPath="" />
+    <list default="true" id="9ebfa7d9-6d8f-47f0-b386-3cf5ab62bd21" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08-Routing/home/Home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08-Routing/home/Home.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08-Routing/home/Home.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/08-Routing/home/home.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/App.js" afterPath="$PROJECT_DIR$/app/01-Hello/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/App.js.map" afterPath="$PROJECT_DIR$/app/01-Hello/App.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/User/User.js" afterPath="$PROJECT_DIR$/app/01-Hello/Users/User/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/User/User.js.map" afterPath="$PROJECT_DIR$/app/01-Hello/Users/User/User.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/User/User.ts" afterPath="$PROJECT_DIR$/app/01-Hello/Users/User/User.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/User/user.css" afterPath="$PROJECT_DIR$/app/01-Hello/Users/User/user.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/UserProxy.js" afterPath="$PROJECT_DIR$/app/01-Hello/Users/UserProxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/UserProxy.js.map" afterPath="$PROJECT_DIR$/app/01-Hello/Users/UserProxy.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/Users.js" afterPath="$PROJECT_DIR$/app/01-Hello/Users/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/Users.js.map" afterPath="$PROJECT_DIR$/app/01-Hello/Users/Users.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/Users/Users.ts" afterPath="$PROJECT_DIR$/app/01-Hello/Users/Users.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/main.js" afterPath="$PROJECT_DIR$/app/01-Hello/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/01-Hello/main.js.map" afterPath="$PROJECT_DIR$/app/01-Hello/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/App.js" afterPath="$PROJECT_DIR$/app/02-Global/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/App.js.map" afterPath="$PROJECT_DIR$/app/02-Global/App.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/User/User.js" afterPath="$PROJECT_DIR$/app/02-Global/Users/User/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/User/User.js.map" afterPath="$PROJECT_DIR$/app/02-Global/Users/User/User.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/User/User.ts" afterPath="$PROJECT_DIR$/app/02-Global/Users/User/User.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/UserProxy.js" afterPath="$PROJECT_DIR$/app/02-Global/Users/UserProxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/UserProxy.js.map" afterPath="$PROJECT_DIR$/app/02-Global/Users/UserProxy.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/UserProxy.ts" afterPath="$PROJECT_DIR$/app/02-Global/Users/UserProxy.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/Users.js" afterPath="$PROJECT_DIR$/app/02-Global/Users/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/Users.js.map" afterPath="$PROJECT_DIR$/app/02-Global/Users/Users.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/Users/Users.ts" afterPath="$PROJECT_DIR$/app/02-Global/Users/Users.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/main.js" afterPath="$PROJECT_DIR$/app/02-Global/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/main.js.map" afterPath="$PROJECT_DIR$/app/02-Global/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/App.js" afterPath="$PROJECT_DIR$/app/03-Injector/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/App.js.map" afterPath="$PROJECT_DIR$/app/03-Injector/App.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/User/User.js" afterPath="$PROJECT_DIR$/app/03-Injector/Users/User/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/User/User.js.map" afterPath="$PROJECT_DIR$/app/03-Injector/Users/User/User.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/User/User.ts" afterPath="$PROJECT_DIR$/app/03-Injector/Users/User/User.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/UserProxy.js" afterPath="$PROJECT_DIR$/app/03-Injector/Users/UserProxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/UserProxy.js.map" afterPath="$PROJECT_DIR$/app/03-Injector/Users/UserProxy.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/UserProxy.ts" afterPath="$PROJECT_DIR$/app/03-Injector/Users/UserProxy.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/Users.js" afterPath="$PROJECT_DIR$/app/03-Injector/Users/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/Users/Users.js.map" afterPath="$PROJECT_DIR$/app/03-Injector/Users/Users.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/main.js" afterPath="$PROJECT_DIR$/app/03-Injector/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/03-Injector/main.js.map" afterPath="$PROJECT_DIR$/app/03-Injector/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/App.js" afterPath="$PROJECT_DIR$/app/04-Resolvers/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/App.js.map" afterPath="$PROJECT_DIR$/app/04-Resolvers/App.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/App.ts" afterPath="$PROJECT_DIR$/app/04-Resolvers/App.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/User/User.js" afterPath="$PROJECT_DIR$/app/04-Resolvers/Users/User/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/User/User.js.map" afterPath="$PROJECT_DIR$/app/04-Resolvers/Users/User/User.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/User/User.ts" afterPath="$PROJECT_DIR$/app/04-Resolvers/Users/User/User.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/UserProxy.js" afterPath="$PROJECT_DIR$/app/04-Resolvers/Users/UserProxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/UserProxy.js.map" afterPath="$PROJECT_DIR$/app/04-Resolvers/Users/UserProxy.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/UserProxy.ts" afterPath="$PROJECT_DIR$/app/04-Resolvers/Users/UserProxy.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/Users.js" afterPath="$PROJECT_DIR$/app/04-Resolvers/Users/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/Users/Users.js.map" afterPath="$PROJECT_DIR$/app/04-Resolvers/Users/Users.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/main.js" afterPath="$PROJECT_DIR$/app/04-Resolvers/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/main.js.map" afterPath="$PROJECT_DIR$/app/04-Resolvers/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/main.ts" afterPath="$PROJECT_DIR$/app/04-Resolvers/main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.js" afterPath="$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.js.map" afterPath="$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.ts" afterPath="$PROJECT_DIR$/app/04-Resolvers/services/MobileViewResolver.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/App.js" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/App.js.map" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/App.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/App.ts" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/App.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/User.js" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/User.js.map" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/User.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/User.ts" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/User.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserContainer/UserContainer.js" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserContainer/UserContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserContainer/UserContainer.js.map" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserContainer/UserContainer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserContainer/UserContainer.ts" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserContainer/UserContainer.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.js" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.js.map" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.ts" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/Users.js" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/Users.js.map" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/Users.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/Users.ts" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/Users.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/missuser.html" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/missuser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/Users/mruser.html" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/Users/mruser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/main.js" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/main.js.map" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/05-DynamicComponent/main.ts" afterPath="$PROJECT_DIR$/app/05-DynamicComponent/main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/App.js" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/App.js.map" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/App.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/App.ts" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/App.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/main.js" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/main.js.map" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/main.ts" afterPath="$PROJECT_DIR$/app/06-InfinityLoop/main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/App.js" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/App.js.map" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/App.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/AppNav.js" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/AppNav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/AppNav.js.map" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/AppNav.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/Home/Home.js" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/Home/Home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/Home/Home.js.map" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/Home/Home.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/Users/User/User.js" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/Users/User/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/Users/User/User.js.map" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/Users/User/User.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/Users/UserProxy.js" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/Users/UserProxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/Users/UserProxy.js.map" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/Users/UserProxy.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/Users/Users.js" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/Users/Users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/Users/Users.js.map" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/Users/Users.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/main.js" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/main.js.map" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/pages/Page1.js" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/pages/Page1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/pages/Page1.js.map" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/pages/Page1.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/pages/Page2.js" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/pages/Page2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/07-DynamicRouting/pages/Page2.js.map" afterPath="$PROJECT_DIR$/app/07-DynamicRouting/pages/Page2.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/Debug/FormDebuger.js" afterPath="$PROJECT_DIR$/ngEx/Debug/FormDebuger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/Debug/FormDebuger.js.map" afterPath="$PROJECT_DIR$/ngEx/Debug/FormDebuger.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/Debug/NgAnalyzer.js" afterPath="$PROJECT_DIR$/ngEx/Debug/NgAnalyzer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/Debug/NgAnalyzer.js.map" afterPath="$PROJECT_DIR$/ngEx/Debug/NgAnalyzer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/DynamicLoad.js" afterPath="$PROJECT_DIR$/ngEx/DynamicLoad.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/DynamicLoad.js.map" afterPath="$PROJECT_DIR$/ngEx/DynamicLoad.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/DynamicLoad.ts" afterPath="$PROJECT_DIR$/ngEx/DynamicLoad.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/DynamicRouteConfigurator.js" afterPath="$PROJECT_DIR$/ngEx/DynamicRouteConfigurator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/DynamicRouteConfigurator.js.map" afterPath="$PROJECT_DIR$/ngEx/DynamicRouteConfigurator.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/Global.js" afterPath="$PROJECT_DIR$/ngEx/Global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/Global.js.map" afterPath="$PROJECT_DIR$/ngEx/Global.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/Global.ts" afterPath="$PROJECT_DIR$/ngEx/Global.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/NgServices.js" afterPath="$PROJECT_DIR$/ngEx/NgServices.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/NgServices.js.map" afterPath="$PROJECT_DIR$/ngEx/NgServices.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/SequenceDiagramsService.ts" afterPath="$PROJECT_DIR$/ngEx/SequenceDiagramsService.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/index.ts" afterPath="$PROJECT_DIR$/ngEx/index.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/metadataUtils.js" afterPath="$PROJECT_DIR$/ngEx/metadataUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngEx/metadataUtils.js.map" afterPath="$PROJECT_DIR$/ngEx/metadataUtils.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/02-Global/App.ts" afterPath="$PROJECT_DIR$/app/02-Global/App.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/08-Routing/app.route.ts" afterPath="$PROJECT_DIR$/app/08-Routing/app.route.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemjs.config.js" afterPath="$PROJECT_DIR$/systemjs.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings.json" afterPath="$PROJECT_DIR$/typings.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/BaseDemo.ts" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/BaseDemo.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/DefaultDemo.ts" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/DefaultDemo.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/PushDemo.ts" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/PushDemo.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/do-check.cmp.ts" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/do-check.cmp.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/06-InfinityLoop/timer.cmp.ts" afterPath="$PROJECT_DIR$/app/06-ChangeDetector/timer.cmp.ts" />
     </list>
     <ignored path="ng-course.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -257,8 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/06-InfinityLoop/PushDemo.ts" />
-        <option value="$PROJECT_DIR$/ngEx/BaseComponent.ts" />
         <option value="$PROJECT_DIR$/app/06-InfinityLoop/Clock.ts" />
         <option value="$PROJECT_DIR$/app/06-InfinityLoop/do-check.cmp.ts" />
         <option value="$PROJECT_DIR$/app/06-InfinityLoop/DefaultDemo.ts" />
@@ -278,13 +71,11 @@
         <option value="$PROJECT_DIR$/app/10-Tabs/App.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app/09-Providers/Parent.ts" />
-        <option value="$PROJECT_DIR$/systemjs.config.js" />
         <option value="$PROJECT_DIR$/app/08-Routing/Users/User/User.ts" />
         <option value="$PROJECT_DIR$/app/08-Routing/auth.service.ts" />
         <option value="$PROJECT_DIR$/app/08-Routing/app.guard.ts" />
         <option value="$PROJECT_DIR$/app/08-Routing/login.cmp.ts" />
         <option value="$PROJECT_DIR$/app/08-Routing/Users/Users.ts" />
-        <option value="$PROJECT_DIR$/app/08-Routing/app.route.ts" />
         <option value="$PROJECT_DIR$/app/08-Routing/main.ts" />
         <option value="$PROJECT_DIR$/app/08-Routing/+Home/Home.ts" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -304,10 +95,14 @@
         <option value="$PROJECT_DIR$/app/04-Resolvers/Users/UserProxy.ts" />
         <option value="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.ts" />
         <option value="$PROJECT_DIR$/app/08-Routing/Users/UserProxy.ts" />
-        <option value="$PROJECT_DIR$/app/08-Routing/App.ts" />
         <option value="$PROJECT_DIR$/app/04-Resolvers/App.ts" />
         <option value="$PROJECT_DIR$/app/10-Tabs/Tabs.ts" />
         <option value="$PROJECT_DIR$/app/01-Hello/Users/Users.ts" />
+        <option value="$PROJECT_DIR$/app/02-Global/App.ts" />
+        <option value="$PROJECT_DIR$/systemjs.config.js" />
+        <option value="$PROJECT_DIR$/app/08-Routing/app.route.ts" />
+        <option value="$PROJECT_DIR$/app/08-Routing/App.ts" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -369,13 +164,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../04 - Routing/Component Router v3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ng-course - Copy" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -514,7 +323,7 @@
       <workItem from="1466512216071" duration="4832000" />
       <workItem from="1466594696450" duration="66000" />
       <workItem from="1466623617772" duration="12802000" />
-      <workItem from="1466675960753" duration="15924000" />
+      <workItem from="1466675960753" duration="19003000" />
     </task>
     <task id="LOCAL-00001" summary="rc1">
       <created>1464026706344</created>
@@ -537,11 +346,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465400305120</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rc3">
+      <created>1466711064978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1466711064978</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242282000" />
+    <option name="totallyTimeSpent" value="245361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="884" extended-state="6" />
@@ -601,7 +417,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rc1" />
     <MESSAGE value="rc1 v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="rc1 v2" />
+    <MESSAGE value="rc3" />
+    <option name="LAST_COMMIT_MESSAGE" value="rc3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -622,25 +439,13 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/systemjs.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/08-Routing/Users/User/User.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/08-Routing/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#41#84#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -689,12 +494,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/08-Routing/+Home/Home.ts">
+    <entry file="file://$PROJECT_DIR$/app/08-Routing/home/Home.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="false" />
             <marker date="1466671099218" expanded="true" signature="164:211" ph="..." />
           </folding>
         </state>
@@ -704,6 +509,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
           <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -711,6 +517,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -923,14 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="88" column="42" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/01-Hello/App.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -970,16 +769,6 @@
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/02-Global/App.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#33#85#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1152,32 +941,8 @@
         <state relative-caret-position="354">
           <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding>
-            <element signature="e#41#111#0" expanded="true" />
-            <element signature="e#249#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/08-Routing/App.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#257#308#0" expanded="false" />
-            <marker date="1466681810178" expanded="true" signature="417:638" ph="..." />
-            <marker date="1466681810178" expanded="true" signature="564:628" ph="..." />
-            <marker date="1466681810178" expanded="true" signature="693:744" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/08-Routing/app.route.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="e#41#103#0" expanded="true" />
+            <element signature="e#41#111#0" expanded="false" />
+            <element signature="e#249#282#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1207,11 +972,69 @@
         <state relative-caret-position="175">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <marker date="1466488423404" expanded="true" signature="615:1416" ph="..." />
             <marker date="1466488423404" expanded="false" signature="902:915" ph="..." />
             <marker date="1466488423404" expanded="true" signature="916:1105" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="70">
+            <caret line="2" column="85" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/08-Routing/App.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <marker date="1466744312380" expanded="true" signature="416:637" ph="..." />
+            <marker date="1466744312380" expanded="true" signature="563:627" ph="..." />
+            <marker date="1466744312380" expanded="true" signature="692:743" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/08-Routing/app.route.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-398">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemjs.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="38" column="81" selection-start-line="38" selection-start-column="81" selection-end-line="38" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/02-Global/App.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="88" column="42" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

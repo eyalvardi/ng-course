@@ -8,7 +8,7 @@ import {Users} from "./Users/Users";
     selector: 'my-app',
     directives:[Users],
     template: `
-    <h1>Hello World</h1>
+    <h1>@Global Decorator</h1>
     <users></users>
 `
 })

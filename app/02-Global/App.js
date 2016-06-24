@@ -21,7 +21,7 @@ var App = (function () {
         core_1.Component({
             selector: 'my-app',
             directives: [Users_1.Users],
-            template: "\n    <h1>Hello World</h1>\n    <users></users>\n"
+            template: "\n    <h1>@Global Decorator</h1>\n    <users></users>\n"
         }), 
         __metadata('design:paramtypes', [core_1.ElementRef])
     ], App);
