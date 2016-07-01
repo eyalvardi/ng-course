@@ -20,8 +20,9 @@ var core_1 = require("@angular/core");
 var BaseDemo_1 = require("./BaseDemo");
 var Clock = (function (_super) {
     __extends(Clock, _super);
-    function Clock(render, zone, elmRef, cd) {
+    function Clock(render, zone, elmRef, cd, app) {
         _super.call(this, cd, elmRef, render, zone, "Clock");
+        this.app = app;
         this.time = '00:00:00:000';
         this.isDestroy = false;
     }
@@ -36,13 +37,14 @@ var Clock = (function (_super) {
         if (this.isDestroy)
             return;
         var t = new Date();
-        this.time = t.getHours() + ":" + this.formatNum(t.getMinutes()) + ":" + this.formatNum(t.getSeconds()) + ":" + t.getMilliseconds();
+        this.time = "\n            " + t.getHours() + "\n            :" + this.formatNum(t.getMinutes()) + "\n            :" + this.formatNum(t.getSeconds()) + "\n            :" + t.getMilliseconds();
         this.cd.detectChanges();
+        if (t.getSeconds() == 0) {
+            this.app.tick();
+        }
         setTimeout(this.setTime.bind(this), 50);
     };
-    Clock.prototype.formatNum = function (i) {
-        return i < 10 ? "0" + i : i;
-    };
+    Clock.prototype.formatNum = function (i) { return i < 10 ? "0" + i : i; };
     Clock.prototype.ngOnDestroy = function () {
         this.isDestroy = true;
     };
@@ -52,7 +54,7 @@ var Clock = (function (_super) {
             styles: ["\n        :host{\n            display: block;\n            position: absolute;\n            right: 150px;\n            top: 250px; \n            text-align: left;\n            margin: 8px;\n        } \n        .border{border: 1px solid black;padding: 8px;}\n    "],
             template: "\n<div>\n  <span>{{time}}</span>\n</div>\n"
         }), 
-        __metadata('design:paramtypes', [core_1.Renderer, core_1.NgZone, core_1.ElementRef, core_1.ChangeDetectorRef])
+        __metadata('design:paramtypes', [core_1.Renderer, core_1.NgZone, core_1.ElementRef, core_1.ChangeDetectorRef, core_1.ApplicationRef])
     ], Clock);
     return Clock;
 }(BaseDemo_1.BaseDemo));

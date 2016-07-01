@@ -15,6 +15,11 @@ export class Home{
 
     constructor(private router: Router,private route: ActivatedRoute) {}
 
+    canDeactivate(){
+        console.log(`Home canDeactivate`);
+        return true;
+    }
+
     ngOnInit() {
         // Observable
         this.sub = this
@@ -25,7 +30,7 @@ export class Home{
                 this.id = id;
             });
         // snapshot
-        //this.route.snapshot.params.id
+        //this.id = this.route.snapshot.params.id;
     }
 
     ngOnDestroy() {

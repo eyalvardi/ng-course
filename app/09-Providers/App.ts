@@ -1,13 +1,14 @@
 import {Component} from "@angular/core";
-import {Parent} from "./Parent";
-import {Child} from "./Child";
+import "./Parent";
+import "./Child";
 import {Service} from "./Service";
+import {NG_COURSE} from "./ng_course_directives";
 
 @Component({
     selector: 'my-app',
-    directives: [Parent,Child],
-    //providers: [{provide:Service,useValue:{id:'app-providers'}}],
-    //viewProviders:[{provide:Service,useValue:{id:'app-view-providers'}}],
+    directives: [NG_COURSE],
+    providers: [{provide:Service,useValue:{id:'app-providers'}}],
+    viewProviders:[{provide:Service,useValue:{id:'app-view-providers'}}],
     styles: [`:host{display: block;padding: 8px;border: 1px solid red}`],
     template: `
 <div>

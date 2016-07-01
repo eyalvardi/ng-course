@@ -15,7 +15,7 @@ import {ChangeDetectorState} from "@angular/compiler/core_private";
 <div>
     value: {{value}}<br>
     <div>cdMode : {{getCdMode()}}</div>&nbsp;&nbsp;
-    <div>cdState: {{getCdState()}}</div>
+    <!--<div>cdState: {{getCdState()}}</div>-->
 </div>
 `})
 export class myCounter{
@@ -24,11 +24,14 @@ export class myCounter{
     @Input('my-value')
     set value(value){
         this._value = value;
-        if(value % 2 == 0){
-            this.onValueChange.emit(value);
-        }else{
-            this.onOddValueChange.emit(value);
-        }
+        //setTimeout(()=>{
+            //if(value % 2 == 0){
+                this.onValueChange.emit(value);
+            //}else{
+            //    this.onOddValueChange.emit(value);
+            //}
+        //},100);
+
 
     }
     get value(){return this._value;}
@@ -49,6 +52,6 @@ export class myCounter{
         return ChangeDetectionStrategy[this.cd._view.cdMode];
     }
     getCdState(){
-        return ChangeDetectorState[this.cd._view.cdState];
+       // return ChangeDetectorState[this.cd._view.cdState];
     }
 }

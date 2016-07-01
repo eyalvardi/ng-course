@@ -16,8 +16,8 @@
         'rxjs':                       { defaultExtension: 'js' },
         'jquery':                     { main: 'jquery.js',  defaultExtension: 'js'},
         'angular2-in-memory-web-api': { defaultExtension: 'js' },
-        'ngEx':                       { main: 'index.js',defaultExtension: 'js' },
-        '@angular/router':            { main: 'index.js',defaultExtension: 'js' }
+        'ngEx':                       { main: 'index.js',defaultExtension: 'js' }
+
     };
 
     var ngPackageNames = [
@@ -28,6 +28,7 @@
         'http',
         'platform-browser',
         'platform-browser-dynamic',
+        'router',
         'upgrade',
     ];
     // Individual files (~300 requests):

@@ -26,10 +26,10 @@ import {ChangeDetectorState} from "@angular/compiler/core_private";
                 (on-value)="updateCounter($event)"
                 [my-value]="counter"            
             ></my-counter>
-            <my-counter
+           <!-- <my-counter
                 (on-value-odd)="updateCounter($event)"
                 [my-value]="counter"            
-            ></my-counter>
+            ></my-counter>-->
         </div>
     </div>    
 `

@@ -142,6 +142,6 @@ export class BaseDemo extends LifeCycleHooksDump{
         return ChangeDetectionStrategy[this.cd._view.cdMode];
     }
     getCdState(){
-        return ChangeDetectorState[this.cd._view.cdState];
+        //return ChangeDetectorState[this.cd._view.cdState];
     }
 }

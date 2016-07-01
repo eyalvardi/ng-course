@@ -3,7 +3,9 @@
  */
 import {Component, Input, SkipSelf} from "@angular/core";
 import {Service} from "./Service";
+import {NgCourse} from "./ng_course_directives";
 
+@NgCourse()
 @Component({
     selector: 'child',
     directives: [],

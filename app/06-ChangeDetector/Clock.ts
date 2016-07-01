@@ -1,7 +1,7 @@
 /**
  * Created by Eyal on 6/18/2016.
  */
-import {Component, ChangeDetectorRef, ElementRef, NgZone, Renderer, Injector} from "@angular/core";
+import {Component, ChangeDetectorRef, ElementRef, NgZone, Renderer, Injector, ApplicationRef} from "@angular/core";
 import {BaseDemo} from "./BaseDemo";
 
 @Component({
@@ -31,7 +31,8 @@ export class Clock extends BaseDemo{
     constructor(render:Renderer,
                 zone:NgZone,
                 elmRef:ElementRef,
-                cd:ChangeDetectorRef
+                cd:ChangeDetectorRef,
+                private app: ApplicationRef
     ) {
         super(cd, elmRef, render, zone, "Clock");
     }
@@ -41,16 +42,22 @@ export class Clock extends BaseDemo{
             this.setTime();
         });
     }
+
     setTime(){
         if(this.isDestroy) return;
         let t = new Date();
-        this.time = `${t.getHours()}:${this.formatNum(t.getMinutes())}:${this.formatNum(t.getSeconds())}:${t.getMilliseconds()}`;
+        this.time = `
+            ${t.getHours()}
+            :${this.formatNum(t.getMinutes())}
+            :${this.formatNum(t.getSeconds())}
+            :${t.getMilliseconds()}`;
         this.cd.detectChanges();
+        if(t.getSeconds() == 0){
+            this.app.tick();
+        }
         setTimeout(this.setTime.bind(this),50);
     }
-    formatNum(i){
-        return i < 10 ? `0${i}` : i;
-    }
+    formatNum(i){ return i < 10 ? `0${i}` : i; }
     ngOnDestroy(){
         this.isDestroy = true;
     }

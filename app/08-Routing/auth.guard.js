@@ -19,6 +19,7 @@ var AuthGuard = (function () {
     AuthGuard.prototype.canActivate = function (
         // Not using but worth knowing about
         next, state) {
+        console.log(next.component.name + " canActivate");
         if (this.authService.isLoggedIn) {
             return true;
         }

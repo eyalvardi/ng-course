@@ -16,6 +16,10 @@ var Home = (function () {
         this.router = router;
         this.route = route;
     }
+    Home.prototype.canDeactivate = function () {
+        console.log("Home canDeactivate");
+        return true;
+    };
     Home.prototype.ngOnInit = function () {
         var _this = this;
         // Observable
@@ -27,7 +31,7 @@ var Home = (function () {
             _this.id = id;
         });
         // snapshot
-        //this.route.snapshot.params.id
+        //this.id = this.route.snapshot.params.id;
     };
     Home.prototype.ngOnDestroy = function () {
         this.sub.unsubscribe();

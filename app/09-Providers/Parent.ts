@@ -4,7 +4,9 @@
 import {Component, SkipSelf, Host} from "@angular/core";
 import {Child} from "./Child";
 import {Service} from "./Service";
+import {NgCourse} from "./ng_course_directives";
 
+@NgCourse()
 @Component({
     selector: 'parent',
     directives: [Child],

@@ -15,7 +15,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require("@angular/core");
 var SequenceDiagramsService_1 = require('ngEx/SequenceDiagramsService');
-var core_private_1 = require("@angular/compiler/core_private");
 var console = { log: function () { } };
 var LifeCycleHooksDump = (function () {
     function LifeCycleHooksDump(compName) {
@@ -124,7 +123,7 @@ var BaseDemo = (function (_super) {
         return core_1.ChangeDetectionStrategy[this.cd._view.cdMode];
     };
     BaseDemo.prototype.getCdState = function () {
-        return core_private_1.ChangeDetectorState[this.cd._view.cdState];
+        //return ChangeDetectorState[this.cd._view.cdState];
     };
     __decorate([
         core_1.Input(), 

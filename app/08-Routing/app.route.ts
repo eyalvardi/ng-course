@@ -7,16 +7,28 @@ import {Users, CanDeactivateGuard} from "./Users/Users";
 import {AuthGuard} from "./auth.guard";
 import {LoginComponent} from "./login.cmp";
 import {AuthService} from "./auth.service";
+import {User} from "./Users/User/User";
+import {Color} from "./Color";
 
 export const routes: RouterConfig = [
     { path:'08-Routing', component: Home},
-    { path:'home/:id'  , component: Home },
+    {
+        path:'home/:id'  ,
+        component: Home ,
+        //canActivate: [AuthGuard],
+        //canDeactivate:[CanDeactivateGuard]
+    },
+    { path: 'colors/:color', component: Color, outlet: 'nav'},
     { path:'login'     , component: LoginComponent },
     {
         path:'users',
         component: Users,
         canActivate: [AuthGuard],
-        canDeactivate:[CanDeactivateGuard]
+        canDeactivate:[CanDeactivateGuard],
+        children:[
+            { path: ''       , component: User },
+            { path: ':first/' , component: User }
+        ]
     }
 ];
 

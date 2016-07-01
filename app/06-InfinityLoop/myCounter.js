@@ -9,7 +9,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var core_private_1 = require("@angular/compiler/core_private");
 var myCounter = (function () {
     function myCounter(cd, elmRef, render, zone) {
         this.cd = cd;
@@ -24,12 +23,13 @@ var myCounter = (function () {
         get: function () { return this._value; },
         set: function (value) {
             this._value = value;
-            if (value % 2 == 0) {
-                this.onValueChange.emit(value);
-            }
-            else {
-                this.onOddValueChange.emit(value);
-            }
+            //setTimeout(()=>{
+            //if(value % 2 == 0){
+            this.onValueChange.emit(value);
+            //}else{
+            //    this.onOddValueChange.emit(value);
+            //}
+            //},100);
         },
         enumerable: true,
         configurable: true
@@ -38,7 +38,7 @@ var myCounter = (function () {
         return core_1.ChangeDetectionStrategy[this.cd._view.cdMode];
     };
     myCounter.prototype.getCdState = function () {
-        return core_private_1.ChangeDetectorState[this.cd._view.cdState];
+        // return ChangeDetectorState[this.cd._view.cdState];
     };
     __decorate([
         core_1.Input('my-value'), 
@@ -57,7 +57,7 @@ var myCounter = (function () {
         core_1.Component({
             selector: 'my-counter',
             styles: [":host{display: block;border: 1px solid red; text-align: left;margin: 16px;padding: 8px;}"],
-            template: "\n<div>\n    value: {{value}}<br>\n    <div>cdMode : {{getCdMode()}}</div>&nbsp;&nbsp;\n    <div>cdState: {{getCdState()}}</div>\n</div>\n" }), 
+            template: "\n<div>\n    value: {{value}}<br>\n    <div>cdMode : {{getCdMode()}}</div>&nbsp;&nbsp;\n    <!--<div>cdState: {{getCdState()}}</div>-->\n</div>\n" }), 
         __metadata('design:paramtypes', [core_1.ChangeDetectorRef, core_1.ElementRef, core_1.Renderer, core_1.NgZone])
     ], myCounter);
     return myCounter;
