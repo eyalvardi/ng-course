@@ -24,6 +24,7 @@ import { FormGroup, FormControl,REACTIVE_FORM_DIRECTIVES } from '@angular/forms'
     </select>
   </div>
   <button type="submit" class="btn btn-default" (click)="addQuestion()">Add Question</button>
+  <!--<button (click)="test()">Change</button>-->
 </form>
 `
 })
@@ -36,7 +37,9 @@ export class AddQuestionForm {
 
     @Output()
     addedQuestion = new EventEmitter();
-
+    /*test(){
+        this.form.controls['key'].updateValue('eyal vardi');
+    }*/
     addQuestion(value){
         console.log(`new question: ${JSON.stringify(this.form.value)}`);
         this.addedQuestion.emit(this.form.value);
