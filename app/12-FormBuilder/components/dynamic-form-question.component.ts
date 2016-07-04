@@ -1,5 +1,5 @@
 import {Component, Input, forwardRef} from '@angular/core';
-import { FormGroup, REACTIVE_FORM_DIRECTIVES } from '@angular/forms';
+import {FormGroup, REACTIVE_FORM_DIRECTIVES, FormControl} from '@angular/forms';
 import {QuestionBase} from "../models/question-base";
 
 /*function Component(obj){
@@ -26,21 +26,20 @@ import {QuestionBase} from "../models/question-base";
         }
     `],
     template: `
-    <div [formGroup]="form">
+    <div [formGroup]="form" style="margin: 2px;padding: 2px">
       <!-- Label -->
-      <label    *ngIf="question.controlType != 'checkbox'" 
-                [attr.for]="question.key">
-                    {{question.label}}
+      <label *ngIf="getIsLabel(question.controlType)" 
+             [attr.for]="question.key">
+             {{question.label}}
       </label>
       
       <!-- Input type -->
       <div [ngSwitch]="question.controlType" >
         
-        <div *ngSwitchCase="'group'">
-            <form #f="ngForm"
-                [class.ng-invalid]="!f.valid"
+        <div *ngSwitchCase="'group'" style="padding: 2px">
+            <form #f="ngForm"                
                 [formGroup]="form.controls[question.key]">
-            <fieldset>
+            <fieldset [class.ng-invalid]="!getIsValid(f.valid,form.controls[question.key])">
                 <legend> {{question.label}} </legend>                
                 <div *ngFor="let q of  question.questions" class="row-margin">
                   <df-question [question]="q" 
@@ -65,7 +64,7 @@ import {QuestionBase} from "../models/question-base";
         </div>
         
         <fieldset *ngSwitchCase="'radio'">
-            <legend>Bla Bla</legend>
+            <legend>{{question.label}}</legend>
             <template ngFor let-v [ngForOf]="question.options" >
                 <input
                     [formControlName]="question.key"
@@ -120,6 +119,24 @@ export class DynamicFormQuestionComponent {
         }
         return result;
     }
+    getIsLabel(type){
+        let r =  type == 'checkbox' || type == 'group'
+        return !r;
+    }
+
+    getIsValid(valid,form){
+        if(valid) return true;
+
+        let result = true;
+        for(let c in form.controls){
+            if(form.controls[c] instanceof FormControl){
+                result = result && form.controls[c].valid;
+                if(!result) return false;
+            }
+        }
+        return true;
+    }
+
 
 
 }

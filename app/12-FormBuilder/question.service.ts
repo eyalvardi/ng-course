@@ -141,7 +141,7 @@ export class QuestionService {
             new TextboxQuestion({
                 key: 'emailAddress',
                 label: 'Email',
-                type: 'email',
+                type : 'email',
                 order: 2
             })
         ];

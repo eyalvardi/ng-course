@@ -49,6 +49,23 @@ var DynamicFormQuestionComponent = (function () {
         enumerable: true,
         configurable: true
     });
+    DynamicFormQuestionComponent.prototype.getIsLabel = function (type) {
+        var r = type == 'checkbox' || type == 'group';
+        return !r;
+    };
+    DynamicFormQuestionComponent.prototype.getIsValid = function (valid, form) {
+        if (valid)
+            return true;
+        var result = true;
+        for (var c in form.controls) {
+            if (form.controls[c] instanceof forms_1.FormControl) {
+                result = result && form.controls[c].valid;
+                if (!result)
+                    return false;
+            }
+        }
+        return true;
+    };
     __decorate([
         core_1.Input(), 
         __metadata('design:type', question_base_1.QuestionBase)
@@ -65,7 +82,7 @@ var DynamicFormQuestionComponent = (function () {
                 core_1.forwardRef(function () { return DynamicFormQuestionComponent; })
             ],
             styles: ["\n        .ng-valid {\n          border-left: 5px solid #42A948; /* green */\n        }\n        .ng-invalid {\n          border-left: 5px solid #a94442; /* red */\n        }\n    "],
-            template: "\n    <div [formGroup]=\"form\">\n      <!-- Label -->\n      <label    *ngIf=\"question.controlType != 'checkbox'\" \n                [attr.for]=\"question.key\">\n                    {{question.label}}\n      </label>\n      \n      <!-- Input type -->\n      <div [ngSwitch]=\"question.controlType\" >\n        \n        <div *ngSwitchCase=\"'group'\">\n            <form #f=\"ngForm\"\n                [class.ng-invalid]=\"!f.valid\"\n                [formGroup]=\"form.controls[question.key]\">\n            <fieldset>\n                <legend> {{question.label}} </legend>                \n                <div *ngFor=\"let q of  question.questions\" class=\"row-margin\">\n                  <df-question [question]=\"q\" \n                      [form]=\"form.controls[question.key]\">                  \n                  </df-question>\n                </div>\n            </fieldset>\n            </form>\n        </div>\n        \n        <input \n            *ngSwitchCase=\"'textbox'\" \n            [formControlName]=\"question.key\"\n            [id]=\"question.key\" \n            [type]=\"question.type\">\n            \n        <div *ngSwitchCase=\"'checkbox'\">\n             <input             \n                [formControlName]=\"question.key\"\n                [id]=\"question.key\" \n                type=\"checkbox\"> {{question.label}}\n        </div>\n        \n        <fieldset *ngSwitchCase=\"'radio'\">\n            <legend>Bla Bla</legend>\n            <template ngFor let-v [ngForOf]=\"question.options\" >\n                <input\n                    [formControlName]=\"question.key\"\n                    [name]=\"question.name\" \n                    type=\"radio\" \n                    [value]=\"v.value\"> {{v.value}}<br>\n            </template>\n            \n        </fieldset>            \n        \n        <select \n            [id]=\"question.key\" \n            *ngSwitchCase=\"'dropdown'\" \n            [formControlName]=\"question.key\">\n          <option \n                *ngFor=\"let opt of question.options\" \n                [value]=\"opt.key\">\n                {{opt.value}}\n          </option>\n        </select>\n        \n      </div> \n      \n      <!-- Errors Messages -->\n      <!--<div class=\"errorMessage\" *ngIf=\"!isValid\">\n        {{question.label}} is required\n      </div>-->\n      <div *ngFor=\"let e of errors\">{{e}}</div>\n    </div>\n" }), 
+            template: "\n    <div [formGroup]=\"form\" style=\"margin: 2px;padding: 2px\">\n      <!-- Label -->\n      <label *ngIf=\"getIsLabel(question.controlType)\" \n             [attr.for]=\"question.key\">\n             {{question.label}}\n      </label>\n      \n      <!-- Input type -->\n      <div [ngSwitch]=\"question.controlType\" >\n        \n        <div *ngSwitchCase=\"'group'\" style=\"padding: 2px\">\n            <form #f=\"ngForm\"                \n                [formGroup]=\"form.controls[question.key]\">\n            <fieldset [class.ng-invalid]=\"!getIsValid(f.valid,form.controls[question.key])\">\n                <legend> {{question.label}} </legend>                \n                <div *ngFor=\"let q of  question.questions\" class=\"row-margin\">\n                  <df-question [question]=\"q\" \n                      [form]=\"form.controls[question.key]\">                  \n                  </df-question>\n                </div>\n            </fieldset>\n            </form>\n        </div>\n        \n        <input \n            *ngSwitchCase=\"'textbox'\" \n            [formControlName]=\"question.key\"\n            [id]=\"question.key\" \n            [type]=\"question.type\">\n            \n        <div *ngSwitchCase=\"'checkbox'\">\n             <input             \n                [formControlName]=\"question.key\"\n                [id]=\"question.key\" \n                type=\"checkbox\"> {{question.label}}\n        </div>\n        \n        <fieldset *ngSwitchCase=\"'radio'\">\n            <legend>{{question.label}}</legend>\n            <template ngFor let-v [ngForOf]=\"question.options\" >\n                <input\n                    [formControlName]=\"question.key\"\n                    [name]=\"question.name\" \n                    type=\"radio\" \n                    [value]=\"v.value\"> {{v.value}}<br>\n            </template>\n            \n        </fieldset>            \n        \n        <select \n            [id]=\"question.key\" \n            *ngSwitchCase=\"'dropdown'\" \n            [formControlName]=\"question.key\">\n          <option \n                *ngFor=\"let opt of question.options\" \n                [value]=\"opt.key\">\n                {{opt.value}}\n          </option>\n        </select>\n        \n      </div> \n      \n      <!-- Errors Messages -->\n      <!--<div class=\"errorMessage\" *ngIf=\"!isValid\">\n        {{question.label}} is required\n      </div>-->\n      <div *ngFor=\"let e of errors\">{{e}}</div>\n    </div>\n" }), 
         __metadata('design:paramtypes', [])
     ], DynamicFormQuestionComponent);
     return DynamicFormQuestionComponent;

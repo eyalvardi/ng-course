@@ -3,6 +3,7 @@ import { DynamicFormComponent }     from './components/dynamic-form.component';
 import { QuestionService } from './question.service';
 import {AddQuestionForm} from "./components/add-question.component";
 import {TextboxQuestion} from "./models/question-textbox";
+import {QUESTION_MODELS} from "./models/index";
 @Component({
     selector: 'my-app',
     styles:[`
@@ -44,6 +45,9 @@ export class AppComponent {
     }
 
     addQuestion(qs){
-        this.questions = [...this.questions,new TextboxQuestion(qs) ];
+        this.questions = [
+            ...this.questions,
+            new QUESTION_MODELS[qs.controlType](qs)
+        ];
     }
 }

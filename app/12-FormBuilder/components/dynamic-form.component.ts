@@ -7,22 +7,25 @@ import {DynamicFormQuestionComponent} from "./dynamic-form-question.component";
 @Component({
     moduleId: module.id,
     selector: 'dynamic-form',
+    directives: [DynamicFormQuestionComponent, REACTIVE_FORM_DIRECTIVES],
+    providers:  [QuestionControlService],
     styles:[`
         .row-margin{
             margin: 8px;
-        }
-    `,
-        `
+        }    
         .ng-valid {
           border-left: 5px solid #42A948; /* green */
         }
+        form.ng-invalid {
+          border: 2px solid #a94442; /* red */          
+        }
         .ng-invalid {
-          border-left: 5px solid #a94442; /* red */
+          border-left: 5px solid #a94442; /* red */          
         }
     `],
     template: `
 <div>
-  <form (ngSubmit)="onSubmit()" #f="ngForm" 
+  <form (ngSubmit)="onSubmit()" #f="ngForm"  style="margin: 2px;padding: 2px"
     [formGroup]="myform" 
     [class.ng-invalid]="!getIsValid(f.valid)">
     <div *ngFor="let question of questions" class="row-margin">
@@ -41,10 +44,7 @@ import {DynamicFormQuestionComponent} from "./dynamic-form-question.component";
   </div>
 </div>
 
-`,
-    directives: [DynamicFormQuestionComponent, REACTIVE_FORM_DIRECTIVES],
-    providers:  [QuestionControlService]
-})
+`})
 export class DynamicFormComponent{
     _questions: QuestionBase<any>[] = [];
 
@@ -72,8 +72,7 @@ export class DynamicFormComponent{
                 if(!result) return false;
             }
         }
-        return result;
-
+        return true;
     }
 
     onSubmit() {

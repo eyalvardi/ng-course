@@ -40,7 +40,7 @@ var DynamicFormComponent = (function () {
                     return false;
             }
         }
-        return result;
+        return true;
     };
     DynamicFormComponent.prototype.onSubmit = function () {
         this.payLoad = this.myform.value;
@@ -54,12 +54,10 @@ var DynamicFormComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'dynamic-form',
-            styles: ["\n        .row-margin{\n            margin: 8px;\n        }\n    ",
-                "\n        .ng-valid {\n          border-left: 5px solid #42A948; /* green */\n        }\n        .ng-invalid {\n          border-left: 5px solid #a94442; /* red */\n        }\n    "],
-            template: "\n<div>\n  <form (ngSubmit)=\"onSubmit()\" #f=\"ngForm\" \n    [formGroup]=\"myform\" \n    [class.ng-invalid]=\"!getIsValid(f.valid)\">\n    <div *ngFor=\"let question of questions\" class=\"row-margin\">\n      <df-question [question]=\"question\" [form]=\"myform\"></df-question>\n    </div>\n    \n    <div class=\"form-row\">\n      <button type=\"submit\" [disabled]=\"!myform.valid\">Save</button>\n    </div>\n    \n  </form>\n  \n  <div *ngIf=\"payLoad\" class=\"form-row\">\n    <strong>Saved the following values</strong><br>\n    <pre>{{payLoad | json}}</pre>\n  </div>\n</div>\n\n",
             directives: [dynamic_form_question_component_1.DynamicFormQuestionComponent, forms_1.REACTIVE_FORM_DIRECTIVES],
-            providers: [question_control_service_1.QuestionControlService]
-        }), 
+            providers: [question_control_service_1.QuestionControlService],
+            styles: ["\n        .row-margin{\n            margin: 8px;\n        }    \n        .ng-valid {\n          border-left: 5px solid #42A948; /* green */\n        }\n        form.ng-invalid {\n          border: 2px solid #a94442; /* red */          \n        }\n        .ng-invalid {\n          border-left: 5px solid #a94442; /* red */          \n        }\n    "],
+            template: "\n<div>\n  <form (ngSubmit)=\"onSubmit()\" #f=\"ngForm\"  style=\"margin: 2px;padding: 2px\"\n    [formGroup]=\"myform\" \n    [class.ng-invalid]=\"!getIsValid(f.valid)\">\n    <div *ngFor=\"let question of questions\" class=\"row-margin\">\n      <df-question [question]=\"question\" [form]=\"myform\"></df-question>\n    </div>\n    \n    <div class=\"form-row\">\n      <button type=\"submit\" [disabled]=\"!myform.valid\">Save</button>\n    </div>\n    \n  </form>\n  \n  <div *ngIf=\"payLoad\" class=\"form-row\">\n    <strong>Saved the following values</strong><br>\n    <pre>{{payLoad | json}}</pre>\n  </div>\n</div>\n\n" }), 
         __metadata('design:paramtypes', [question_control_service_1.QuestionControlService])
     ], DynamicFormComponent);
     return DynamicFormComponent;

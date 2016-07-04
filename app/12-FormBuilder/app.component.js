@@ -12,13 +12,15 @@ var core_1 = require('@angular/core');
 var dynamic_form_component_1 = require('./components/dynamic-form.component');
 var question_service_1 = require('./question.service');
 var add_question_component_1 = require("./components/add-question.component");
-var question_textbox_1 = require("./models/question-textbox");
+var index_1 = require("./models/index");
 var AppComponent = (function () {
     function AppComponent(service) {
         this.questions = service.getQuestions();
     }
     AppComponent.prototype.addQuestion = function (qs) {
-        this.questions = this.questions.concat([new question_textbox_1.TextboxQuestion(qs)]);
+        this.questions = this.questions.concat([
+            new index_1.QUESTION_MODELS[qs.controlType](qs)
+        ]);
     };
     AppComponent = __decorate([
         core_1.Component({

@@ -2,42 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ebfa7d9-6d8f-47f0-b386-3cf5ab62bd21" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/app.component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/app.component.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/app.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/question-control.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/question-control.service.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/question-control.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/main.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/main.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-base.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-base.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-checkbox.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-checkbox.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-dropdown.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-dropdown.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-radio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-radio.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-radio.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-textbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-textbox.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-textbox.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/question.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/question.service.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/question.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/index.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/app.component.js" afterPath="$PROJECT_DIR$/app/12-FormBuilder/app.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/app.component.js.map" afterPath="$PROJECT_DIR$/app/12-FormBuilder/app.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/app.component.ts" afterPath="$PROJECT_DIR$/app/12-FormBuilder/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.js" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.js.map" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.ts" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.js" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.js.map" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.ts" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.js" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.js.map" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.ts" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/question.service.js.map" afterPath="$PROJECT_DIR$/app/12-FormBuilder/question.service.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/12-FormBuilder/question.service.ts" afterPath="$PROJECT_DIR$/app/12-FormBuilder/question.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="ng-course.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,65 +35,81 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="ng-course" />
+    <favorites_list name="ng-course">
+      <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models" module="ng-course" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-base.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-base.ts" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-radio.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-radio.ts" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-textbox.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-textbox.ts" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-base.js.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-checkbox.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-checkbox.ts" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-dropdown.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-dropdown.ts" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-radio.js.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-textbox.js.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-checkbox.js.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-dropdown.js.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dynamic-form-question.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.ts">
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1107">
-              <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
+            <state relative-caret-position="552">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
               <folding>
-                <element signature="e#0#59#0" expanded="true" />
-                <element signature="n#!!block;n#errors#0;n#DynamicFormQuestionComponent#0" expanded="false" />
-                <element signature="e#3289#3681#0" expanded="false" />
-                <element signature="e#3451#3669#0" expanded="false" />
-                <element signature="e#3497#3650#0" expanded="false" />
-                <element signature="e#3523#3562#0" expanded="false" />
-                <marker date="1467648667415" expanded="false" signature="493:558" ph="{...}" />
-                <marker date="1467648667415" expanded="false" signature="579:642" ph="{...}" />
-                <marker date="1467648667415" expanded="true" signature="694:2946" ph="..." />
-                <marker date="1467648667415" expanded="false" signature="775:872" ph="..." />
-                <marker date="1467648667415" expanded="true" signature="951:2739" ph="..." />
-                <marker date="1467648667415" expanded="true" signature="952:2739" ph="..." />
-                <marker date="1467648667415" expanded="true" signature="999:1546" ph="..." />
-                <marker date="1467648667415" expanded="true" signature="1030:1531" ph="..." />
-                <marker date="1467648667415" expanded="true" signature="1157:1511" ph="..." />
-                <marker date="1467648667415" expanded="true" signature="1306:1487" ph="..." />
-                <marker date="1467648667415" expanded="true" signature="1353:1464" ph="..." />
-                <marker date="1467648667415" expanded="false" signature="1571:1724" ph="..." />
-                <marker date="1467648667415" expanded="false" signature="1778:1964" ph="..." />
-                <marker date="1467648667415" expanded="true" signature="1799:1930" ph="..." />
-                <marker date="1467648667415" expanded="true" signature="2016:2384" ph="..." />
-                <marker date="1467648667415" expanded="true" signature="2117:2351" ph="..." />
-                <marker date="1467648667415" expanded="true" signature="2142:2311" ph="..." />
-                <marker date="1467648667415" expanded="false" signature="2422:2717" ph="..." />
-                <marker date="1467648667415" expanded="false" signature="2560:2699" ph="..." />
-                <marker date="1467648667415" expanded="false" signature="2790:2885" ph="..." />
+                <marker date="1467662442803" expanded="true" signature="422:525" ph="{...}" />
+                <marker date="1467662442803" expanded="true" signature="608:1104" ph="..." />
+                <marker date="1467662442803" expanded="true" signature="621:776" ph="..." />
+                <marker date="1467662442803" expanded="true" signature="650:762" ph="..." />
+                <marker date="1467662442803" expanded="true" signature="789:1091" ph="..." />
+                <marker date="1467662442803" expanded="true" signature="806:894" ph="..." />
+                <marker date="1467662442803" expanded="true" signature="919:1063" ph="..." />
+                <marker date="1467662442803" expanded="true" signature="981:1045" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OfflineData.service.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/14-OfflineRestAPI/OfflineData.service.ts">
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/models/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="392" column="2" selection-start-line="392" selection-start-column="2" selection-end-line="392" selection-end-column="2" />
+            <state relative-caret-position="525">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
-                <element signature="e#0#175#0" expanded="true" />
-                <element signature="e#325#1934#0" expanded="false" />
-                <element signature="e#1952#3549#0" expanded="false" />
-                <element signature="e#3567#5136#0" expanded="false" />
-                <element signature="e#5154#6749#0" expanded="false" />
-                <element signature="e#6767#8367#0" expanded="false" />
-                <element signature="e#8385#9955#0" expanded="false" />
-                <element signature="e#9973#11534#0" expanded="false" />
-                <element signature="e#11552#13157#0" expanded="false" />
-                <element signature="e#13175#14771#0" expanded="false" />
-                <element signature="e#14789#16358#0" expanded="false" />
+                <element signature="e#40#91#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add-question.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+              <folding>
+                <marker date="1467662226646" expanded="true" signature="331:1167" ph="..." />
+                <marker date="1467662226646" expanded="true" signature="358:503" ph="..." />
+                <marker date="1467662226646" expanded="true" signature="530:676" ph="..." />
+                <marker date="1467662226646" expanded="true" signature="703:1015" ph="..." />
+                <marker date="1467662226646" expanded="true" signature="796:1006" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question-textbox.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-textbox.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/05-DynamicComponent/Users/UserProxy.ts" />
-        <option value="$PROJECT_DIR$/app/08-Routing/Users/UserProxy.ts" />
         <option value="$PROJECT_DIR$/app/04-Resolvers/App.ts" />
         <option value="$PROJECT_DIR$/app/10-Tabs/Tabs.ts" />
         <option value="$PROJECT_DIR$/app/02-Global/App.ts" />
@@ -162,13 +158,10 @@
         <option value="$PROJECT_DIR$/app/09-Providers/Parent.ts" />
         <option value="$PROJECT_DIR$/app/06-InfinityLoop/myCounter.ts" />
         <option value="$PROJECT_DIR$/app/06-ChangeDetector/BaseDemo.ts" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/13-CustomInput/app.component.ts" />
         <option value="$PROJECT_DIR$/app/13-CustomInput/checkBoxList.component.ts" />
         <option value="$PROJECT_DIR$/app/08-Routing/Users/User/User.ts" />
         <option value="$PROJECT_DIR$/app/08-Routing/Color.ts" />
-        <option value="$PROJECT_DIR$/app/12-FormBuilder/app.component.ts" />
-        <option value="$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.ts" />
         <option value="$PROJECT_DIR$/app/08-Routing/App.ts" />
         <option value="$USER_HOME$/Desktop/index.html" />
         <option value="$PROJECT_DIR$/app/08-Routing/app.route.ts" />
@@ -184,10 +177,15 @@
         <option value="$PROJECT_DIR$/app/12-FormBuilder/models/question-checkbox.ts" />
         <option value="$PROJECT_DIR$/app/12-FormBuilder/components/question-control.service.ts" />
         <option value="$PROJECT_DIR$/app/12-FormBuilder/models/question-base.ts" />
-        <option value="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.ts" />
-        <option value="$PROJECT_DIR$/app/12-FormBuilder/question.service.ts" />
-        <option value="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.ts" />
         <option value="$PROJECT_DIR$/app/14-OfflineRestAPI/OfflineData.service.ts" />
+        <option value="$PROJECT_DIR$/app/12-FormBuilder/metadata.json" />
+        <option value="$PROJECT_DIR$/app/12-FormBuilder/question.service.ts" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.ts" />
+        <option value="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.ts" />
+        <option value="$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.ts" />
+        <option value="$PROJECT_DIR$/app/12-FormBuilder/models/index.ts" />
+        <option value="$PROJECT_DIR$/app/12-FormBuilder/app.component.ts" />
       </list>
     </option>
   </component>
@@ -202,8 +200,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1618" />
-    <option name="height" value="884" />
+    <option name="width" value="1938" />
+    <option name="height" value="1064" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -277,6 +275,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="12-FormBuilder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12-FormBuilder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,7 +479,7 @@
       <workItem from="1467457498299" duration="2997000" />
       <workItem from="1467547040309" duration="612000" />
       <workItem from="1467550753024" duration="672000" />
-      <workItem from="1467572845631" duration="21210000" />
+      <workItem from="1467572845631" duration="28016000" />
     </task>
     <task id="LOCAL-00001" summary="rc1">
       <created>1464026706344</created>
@@ -531,18 +551,25 @@
       <option name="project" value="LOCAL" />
       <updated>1467648682802</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="rc4 update 3">
+      <created>1467648779267</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1467648779267</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324707000" />
+    <option name="totallyTimeSpent" value="331513000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1618" height="884" extended-state="6" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31345567" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22236422" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21962865" sideWeight="0.49520382" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -550,8 +577,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65422887" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6529052" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21962865" sideWeight="0.50479615" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21904762" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -620,28 +647,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/03-Injector/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/06-InfinityLoop/App.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" column="29" selection-start-line="28" selection-start-column="11" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/06-InfinityLoop/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/גקצם.ts" />
     <entry file="file://$PROJECT_DIR$/app/06-ChangeDetector/Clock.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -738,13 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1052,14 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-checkbox.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -1106,102 +1096,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/question.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="121" column="30" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
-          <folding>
-            <element signature="e#476#848#0" expanded="false" />
-            <element signature="e#574#808#0" expanded="false" />
-            <element signature="e#881#1214#0" expanded="false" />
-            <element signature="e#1389#2227#0" expanded="false" />
-            <element signature="e#2270#3103#0" expanded="false" />
-            <element signature="e#2434#3047#0" expanded="false" />
-            <element signature="e#4527#5244#0" expanded="false" />
-            <element signature="e#5434#5841#0" expanded="false" />
-            <element signature="e#5564#5801#0" expanded="false" />
-            <element signature="e#5586#5783#0" expanded="false" />
-            <element signature="e#5660#5761#0" expanded="false" />
-            <marker date="1467647127533" expanded="false" signature="5876:6016" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="69" column="61" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="61" />
-          <folding>
-            <marker date="1467646705429" expanded="true" signature="443:479" ph="{...}" />
-            <marker date="1467646705429" expanded="true" signature="515:580" ph="{...}" />
-            <marker date="1467646705429" expanded="true" signature="601:664" ph="{...}" />
-            <marker date="1467646705429" expanded="true" signature="693:1231" ph="..." />
-            <marker date="1467646705429" expanded="true" signature="738:1085" ph="..." />
-            <marker date="1467646705429" expanded="true" signature="875:958" ph="..." />
-            <marker date="1467646705429" expanded="false" signature="990:1070" ph="..." />
-            <marker date="1467646705429" expanded="true" signature="1129:1224" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <marker date="1467364084272" expanded="true" signature="374:477" ph="{...}" />
-            <marker date="1467364084272" expanded="true" signature="560:1056" ph="..." />
-            <marker date="1467364084272" expanded="true" signature="573:728" ph="..." />
-            <marker date="1467364084272" expanded="true" signature="602:714" ph="..." />
-            <marker date="1467364084272" expanded="true" signature="741:1043" ph="..." />
-            <marker date="1467364084272" expanded="true" signature="758:846" ph="..." />
-            <marker date="1467364084272" expanded="true" signature="871:1015" ph="..." />
-            <marker date="1467364084272" expanded="true" signature="933:997" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-            <element signature="n#!!block;n#errors#0;n#DynamicFormQuestionComponent#0" expanded="false" />
-            <element signature="e#3289#3681#0" expanded="false" />
-            <element signature="e#3451#3669#0" expanded="false" />
-            <element signature="e#3497#3650#0" expanded="false" />
-            <element signature="e#3523#3562#0" expanded="false" />
-            <marker date="1467648667415" expanded="false" signature="493:558" ph="{...}" />
-            <marker date="1467648667415" expanded="false" signature="579:642" ph="{...}" />
-            <marker date="1467648667415" expanded="true" signature="694:2946" ph="..." />
-            <marker date="1467648667415" expanded="false" signature="775:872" ph="..." />
-            <marker date="1467648667415" expanded="true" signature="951:2739" ph="..." />
-            <marker date="1467648667415" expanded="true" signature="952:2739" ph="..." />
-            <marker date="1467648667415" expanded="true" signature="999:1546" ph="..." />
-            <marker date="1467648667415" expanded="true" signature="1030:1531" ph="..." />
-            <marker date="1467648667415" expanded="true" signature="1157:1511" ph="..." />
-            <marker date="1467648667415" expanded="true" signature="1306:1487" ph="..." />
-            <marker date="1467648667415" expanded="true" signature="1353:1464" ph="..." />
-            <marker date="1467648667415" expanded="false" signature="1571:1724" ph="..." />
-            <marker date="1467648667415" expanded="false" signature="1778:1964" ph="..." />
-            <marker date="1467648667415" expanded="true" signature="1799:1930" ph="..." />
-            <marker date="1467648667415" expanded="true" signature="2016:2384" ph="..." />
-            <marker date="1467648667415" expanded="true" signature="2117:2351" ph="..." />
-            <marker date="1467648667415" expanded="true" signature="2142:2311" ph="..." />
-            <marker date="1467648667415" expanded="false" signature="2422:2717" ph="..." />
-            <marker date="1467648667415" expanded="false" signature="2560:2699" ph="..." />
-            <marker date="1467648667415" expanded="false" signature="2790:2885" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/14-OfflineRestAPI/OfflineData.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="392" column="2" selection-start-line="392" selection-start-column="2" selection-end-line="392" selection-end-column="2" />
           <folding>
-            <element signature="e#0#175#0" expanded="true" />
+            <element signature="e#0#175#0" expanded="false" />
             <element signature="e#325#1934#0" expanded="false" />
             <element signature="e#1952#3549#0" expanded="false" />
             <element signature="e#3567#5136#0" expanded="false" />
@@ -1212,6 +1112,232 @@
             <element signature="e#11552#13157#0" expanded="false" />
             <element signature="e#13175#14771#0" expanded="false" />
             <element signature="e#14789#16358#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="235" column="2" selection-start-line="235" selection-start-column="2" selection-end-line="235" selection-end-column="2" />
+          <folding>
+            <element signature="e#4#436#0" expanded="false" />
+            <element signature="e#158#432#0" expanded="false" />
+            <element signature="e#166#224#0" expanded="false" />
+            <element signature="e#232#290#0" expanded="false" />
+            <element signature="e#298#354#0" expanded="false" />
+            <element signature="e#362#426#0" expanded="false" />
+            <element signature="e#440#764#0" expanded="false" />
+            <element signature="e#584#760#0" expanded="false" />
+            <element signature="e#592#626#0" expanded="false" />
+            <element signature="e#634#668#0" expanded="false" />
+            <element signature="e#676#709#0" expanded="false" />
+            <element signature="e#717#754#0" expanded="false" />
+            <element signature="e#864#5070#0" expanded="false" />
+            <element signature="e#985#1721#0" expanded="false" />
+            <element signature="e#997#1195#0" expanded="false" />
+            <element signature="e#1053#1183#0" expanded="false" />
+            <element signature="e#1069#1169#0" expanded="false" />
+            <element signature="e#1207#1453#0" expanded="false" />
+            <element signature="e#1262#1293#0" expanded="false" />
+            <element signature="e#1317#1441#0" expanded="false" />
+            <element signature="e#1333#1427#0" expanded="false" />
+            <element signature="e#1465#1711#0" expanded="false" />
+            <element signature="e#1520#1551#0" expanded="false" />
+            <element signature="e#1575#1699#0" expanded="false" />
+            <element signature="e#1591#1685#0" expanded="false" />
+            <element signature="e#1811#2737#0" expanded="false" />
+            <element signature="e#1919#2655#0" expanded="false" />
+            <element signature="e#1931#2129#0" expanded="false" />
+            <element signature="e#1987#2117#0" expanded="false" />
+            <element signature="e#2003#2103#0" expanded="false" />
+            <element signature="e#2141#2387#0" expanded="false" />
+            <element signature="e#2196#2227#0" expanded="false" />
+            <element signature="e#2251#2375#0" expanded="false" />
+            <element signature="e#2267#2361#0" expanded="false" />
+            <element signature="e#2399#2645#0" expanded="false" />
+            <element signature="e#2454#2485#0" expanded="false" />
+            <element signature="e#2509#2633#0" expanded="false" />
+            <element signature="e#2525#2619#0" expanded="false" />
+            <element signature="e#2745#5064#0" expanded="false" />
+            <element signature="e#2854#5056#0" expanded="false" />
+            <element signature="e#2866#3950#0" expanded="false" />
+            <element signature="e#2980#3852#0" expanded="false" />
+            <element signature="e#2996#3226#0" expanded="false" />
+            <element signature="e#3060#3210#0" expanded="false" />
+            <element signature="e#3080#3192#0" expanded="false" />
+            <element signature="e#3242#3532#0" expanded="false" />
+            <element signature="e#3305#3344#0" expanded="false" />
+            <element signature="e#3372#3516#0" expanded="false" />
+            <element signature="e#3392#3498#0" expanded="false" />
+            <element signature="e#3548#3838#0" expanded="false" />
+            <element signature="e#3611#3650#0" expanded="false" />
+            <element signature="e#3678#3822#0" expanded="false" />
+            <element signature="e#3698#3804#0" expanded="false" />
+            <element signature="e#3962#5046#0" expanded="false" />
+            <element signature="e#4076#4948#0" expanded="false" />
+            <element signature="e#4092#4322#0" expanded="false" />
+            <element signature="e#4156#4306#0" expanded="false" />
+            <element signature="e#4176#4288#0" expanded="false" />
+            <element signature="e#4338#4628#0" expanded="false" />
+            <element signature="e#4401#4440#0" expanded="false" />
+            <element signature="e#4468#4612#0" expanded="false" />
+            <element signature="e#4488#4594#0" expanded="false" />
+            <element signature="e#4644#4934#0" expanded="false" />
+            <element signature="e#4707#4746#0" expanded="false" />
+            <element signature="e#4774#4918#0" expanded="false" />
+            <element signature="e#4794#4900#0" expanded="false" />
+            <element signature="e#5078#5399#0" expanded="false" />
+            <element signature="e#5168#5348#0" expanded="false" />
+            <element signature="e#5176#5342#0" expanded="false" />
+            <element signature="e#5224#5334#0" expanded="false" />
+            <element signature="e#5236#5324#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/question.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2114">
+          <caret line="143" column="21" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
+          <folding>
+            <element signature="e#476#848#0" expanded="false" />
+            <element signature="e#574#808#0" expanded="false" />
+            <element signature="e#1389#2227#0" expanded="false" />
+            <element signature="e#2270#3103#0" expanded="false" />
+            <element signature="e#2434#3047#0" expanded="false" />
+            <element signature="e#4527#5244#0" expanded="false" />
+            <element signature="e#5434#5841#0" expanded="false" />
+            <element signature="e#5564#5801#0" expanded="false" />
+            <element signature="e#5586#5783#0" expanded="false" />
+            <element signature="e#5660#5761#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="75" column="5" selection-start-line="64" selection-start-column="3" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#questions#0;n#DynamicFormComponent#0" expanded="false" />
+            <element signature="n#!!block;n#getIsValid#0;n#DynamicFormComponent#0" expanded="false" />
+            <element signature="n#!!block;n#onSubmit#0;n#DynamicFormComponent#0" expanded="false" />
+            <marker date="1467661315652" expanded="true" signature="559:595" ph="{...}" />
+            <marker date="1467661315652" expanded="true" signature="618:683" ph="{...}" />
+            <marker date="1467661315652" expanded="true" signature="708:776" ph="{...}" />
+            <marker date="1467661315652" expanded="true" signature="797:870" ph="{...}" />
+            <marker date="1467661315652" expanded="true" signature="899:1470" ph="..." />
+            <marker date="1467661315652" expanded="true" signature="944:1324" ph="..." />
+            <marker date="1467661315652" expanded="true" signature="953:977" ph="..." />
+            <marker date="1467661315652" expanded="true" signature="978:1324" ph="..." />
+            <marker date="1467661315652" expanded="true" signature="1114:1197" ph="..." />
+            <marker date="1467661315652" expanded="false" signature="1229:1309" ph="..." />
+            <marker date="1467661315652" expanded="true" signature="1368:1463" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="131" column="15" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="n#!!block;n#errors#0;n#DynamicFormQuestionComponent#0" expanded="false" />
+            <element signature="e#3390#3782#0" expanded="false" />
+            <element signature="e#3552#3770#0" expanded="false" />
+            <element signature="e#3598#3751#0" expanded="false" />
+            <element signature="e#3624#3663#0" expanded="false" />
+            <marker date="1467661709870" expanded="false" signature="504:569" ph="{...}" />
+            <marker date="1467661709870" expanded="false" signature="590:653" ph="{...}" />
+            <marker date="1467661709870" expanded="true" signature="713:737" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="738:3047" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="814:901" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="980:2840" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="981:2840" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="1036:1048" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="1049:1636" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="1080:1621" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="1247:1601" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="1396:1577" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="1443:1554" ph="..." />
+            <marker date="1467661709870" expanded="false" signature="1661:1814" ph="..." />
+            <marker date="1467661709870" expanded="false" signature="1868:2054" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="1889:2020" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="2106:2485" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="2218:2452" ph="..." />
+            <marker date="1467661709870" expanded="true" signature="2243:2412" ph="..." />
+            <marker date="1467661709870" expanded="false" signature="2523:2818" ph="..." />
+            <marker date="1467661709870" expanded="false" signature="2661:2800" ph="..." />
+            <marker date="1467661709870" expanded="false" signature="2891:2986" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/models/question-textbox.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/models/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#40#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <marker date="1467662226646" expanded="true" signature="331:1167" ph="..." />
+            <marker date="1467662226646" expanded="true" signature="358:503" ph="..." />
+            <marker date="1467662226646" expanded="true" signature="530:676" ph="..." />
+            <marker date="1467662226646" expanded="true" signature="703:1015" ph="..." />
+            <marker date="1467662226646" expanded="true" signature="796:1006" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/12-FormBuilder/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding>
+            <marker date="1467662442803" expanded="true" signature="422:525" ph="{...}" />
+            <marker date="1467662442803" expanded="true" signature="608:1104" ph="..." />
+            <marker date="1467662442803" expanded="true" signature="621:776" ph="..." />
+            <marker date="1467662442803" expanded="true" signature="650:762" ph="..." />
+            <marker date="1467662442803" expanded="true" signature="789:1091" ph="..." />
+            <marker date="1467662442803" expanded="true" signature="806:894" ph="..." />
+            <marker date="1467662442803" expanded="true" signature="919:1063" ph="..." />
+            <marker date="1467662442803" expanded="true" signature="981:1045" ph="..." />
           </folding>
         </state>
       </provider>

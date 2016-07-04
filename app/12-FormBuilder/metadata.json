@@ -1,0 +1,262 @@
+[
+  {
+    "key": "brave",
+    "label": "Bravery Rating",
+    "validations": [],
+    "order": 3,
+    "controlType": "dropdown",
+    "type": "",
+    "options": [
+      {
+        "key": "solid",
+        "value": "Solid"
+      },
+      {
+        "key": "great",
+        "value": "Great"
+      },
+      {
+        "key": "good",
+        "value": "Good"
+      },
+      {
+        "key": "unproven",
+        "value": "Unproven"
+      }
+    ]
+  },
+  {
+    "key": "myradio",
+    "label": "Radio",
+    "validations": [],
+    "order": 3,
+    "controlType": "radio",
+    "type": "",
+    "options": [
+      {
+        "value": "Solid"
+      },
+      {
+        "value": "Great"
+      },
+      {
+        "value": "Good"
+      },
+      {
+        "value": "Unproven"
+      }
+    ]
+  },
+  {
+    "key": "fullName",
+    "controlType": "group",
+    "label": "Full Name",
+    "questions": [
+      {
+        "value": "Bombasto",
+        "key": "firstName",
+        "label": "First name",
+        "validations": [
+          {
+            "type": "required",
+            "errors": [
+              {
+                "key": "required",
+                "msg": "First name is required"
+              }
+            ]
+          },
+          {
+            "type": "maxLength",
+            "args": [
+              5
+            ],
+            "errors": [
+              {
+                "key": "maxLength",
+                "msg": "Max length is 5"
+              }
+            ]
+          },
+          {
+            "type": "minLength",
+            "args": [
+              2
+            ],
+            "errors": [
+              {
+                "key": "minLength",
+                "msg": "Min length is 2"
+              }
+            ]
+          }
+        ],
+        "order": 1,
+        "controlType": "textbox",
+        "type": ""
+      },
+      {
+        "value": "Vardi",
+        "key": "lastName",
+        "label": "Last name",
+        "validations": [
+          {
+            "type": "required",
+            "errors": [
+              {
+                "key": "required",
+                "msg": "First name is required"
+              }
+            ]
+          },
+          {
+            "type": "maxLength",
+            "args": [
+              5
+            ],
+            "errors": [
+              {
+                "key": "maxLength",
+                "msg": "Max length is 5"
+              }
+            ]
+          },
+          {
+            "type": "minLength",
+            "args": [
+              2
+            ],
+            "errors": [
+              {
+                "key": "minLength",
+                "msg": "Min length is 2"
+              }
+            ]
+          }
+        ],
+        "order": 1,
+        "controlType": "textbox",
+        "type": ""
+      },
+      {
+        "controlType": "group",
+        "key": "address",
+        "label": "Address",
+        "questions": [
+          {
+            "value": "",
+            "key": "street",
+            "label": "Street",
+            "validations": [
+              {
+                "type": "required",
+                "errors": [
+                  {
+                    "key": "required",
+                    "msg": "First name is required"
+                  }
+                ]
+              },
+              {
+                "type": "maxLength",
+                "args": [
+                  5
+                ],
+                "errors": [
+                  {
+                    "key": "maxLength",
+                    "msg": "Max length is 5"
+                  }
+                ]
+              },
+              {
+                "type": "minLength",
+                "args": [
+                  2
+                ],
+                "errors": [
+                  {
+                    "key": "minLength",
+                    "msg": "Min length is 2"
+                  }
+                ]
+              }
+            ],
+            "order": 1,
+            "controlType": "textbox",
+            "type": ""
+          },
+          {
+            "value": "",
+            "key": "number",
+            "label": "Number",
+            "validations": [
+              {
+                "type": "required",
+                "errors": [
+                  {
+                    "key": "required",
+                    "msg": "First name is required"
+                  }
+                ]
+              },
+              {
+                "type": "maxLength",
+                "args": [
+                  5
+                ],
+                "errors": [
+                  {
+                    "key": "maxLength",
+                    "msg": "Max length is 5"
+                  }
+                ]
+              },
+              {
+                "type": "minLength",
+                "args": [
+                  2
+                ],
+                "errors": [
+                  {
+                    "key": "minLength",
+                    "msg": "Min length is 2"
+                  }
+                ]
+              }
+            ],
+            "order": 1,
+            "controlType": "textbox",
+            "type": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "lastName",
+    "value": false,
+    "label": "Last name",
+    "validations": [
+      {
+        "type": "required",
+        "errors": [
+          {
+            "key": "required",
+            "msg": "First name is required"
+          }
+        ]
+      }
+    ],
+    "order": 1,
+    "controlType": "checkbox"
+  },
+  {
+    "key": "emailAddress",
+    "label": "Email",
+    "validations": [],
+    "order": 2,
+    "controlType": "textbox",
+    "type": "email"
+  }
+]

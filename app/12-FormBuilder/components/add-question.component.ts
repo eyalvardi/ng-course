@@ -19,8 +19,10 @@ import { FormGroup, FormControl,REACTIVE_FORM_DIRECTIVES } from '@angular/forms'
   <div class="form-group">
     <label for="controlType">Control type</label>
     <select formControlName="controlType">
-        <option>TextBox</option>
-        <option>Dropdown</option>
+        <option value="textbox">TextBox</option>
+        <option value="checkbox">CheckBox</option>
+        <option value="radio">Radio</option>
+        <option value="dropdown">DropDown</option>
     </select>
   </div>
   <button type="submit" class="btn btn-default" (click)="addQuestion()">Add Question</button>
