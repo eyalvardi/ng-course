@@ -388,19 +388,4 @@ exports.HTTP_IN_MEMORY = [
     { provide: index_1.SEED_DATA, useClass: InMemoryDataService },
     { provide: index_1.InMemoryBackendConfig, useValue: { delay: 600 } }
 ];
-var InMemoryDataService = (function () {
-    function InMemoryDataService() {
-    }
-    InMemoryDataService.prototype.createDb = function () {
-        return { users: [
-                // users resource
-                {}
-            ].concat() },
-            {},
-        ; // user object
-    };
-    ;
-    return InMemoryDataService;
-}());
-exports.InMemoryDataService = InMemoryDataService;
 //# sourceMappingURL=OfflineData.service.js.map

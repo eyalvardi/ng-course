@@ -391,13 +391,3 @@ export const HTTP_IN_MEMORY = [
     { provide: SEED_DATA, useClass: InMemoryDataService },
     { provide: InMemoryBackendConfig, useValue: { delay: 600 } }
 ];
-
-export class InMemoryDataService {
-    createDb() {
-        return { users:[ // users resource
-            {...}, // user object
-            {...}, // user object
-            ...    // users objects
-        ]};
-    }
-}
