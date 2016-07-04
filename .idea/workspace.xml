@@ -2,10 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ebfa7d9-6d8f-47f0-b386-3cf5ab62bd21" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/app.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/app.component.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/app.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/add-question.component.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form-question.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/dynamic-form.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/question-control.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/question-control.service.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/components/question-control.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/main.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/main.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-base.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-base.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-checkbox.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-checkbox.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-dropdown.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-dropdown.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-radio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-radio.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-radio.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-textbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-textbox.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/models/question-textbox.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/question.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/question.service.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/12-FormBuilder/question.service.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/14-OfflineRestAPI/OfflineData.service.js" afterPath="$PROJECT_DIR$/app/14-OfflineRestAPI/OfflineData.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/14-OfflineRestAPI/OfflineData.service.js.map" afterPath="$PROJECT_DIR$/app/14-OfflineRestAPI/OfflineData.service.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/14-OfflineRestAPI/OfflineData.service.ts" afterPath="$PROJECT_DIR$/app/14-OfflineRestAPI/OfflineData.service.ts" />
     </list>
     <ignored path="ng-course.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -229,8 +261,22 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="14-OfflineRestAPI" />
+              <option name="myItemId" value="ng-course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12-FormBuilder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,6 +291,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12-FormBuilder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,7 +459,7 @@
       <workItem from="1467457498299" duration="2997000" />
       <workItem from="1467547040309" duration="612000" />
       <workItem from="1467550753024" duration="672000" />
-      <workItem from="1467572845631" duration="21119000" />
+      <workItem from="1467572845631" duration="21210000" />
     </task>
     <task id="LOCAL-00001" summary="rc1">
       <created>1464026706344</created>
@@ -470,18 +524,25 @@
       <option name="project" value="LOCAL" />
       <updated>1467648486969</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="rc4 update 3">
+      <created>1467648682802</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1467648682802</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324616000" />
+    <option name="totallyTimeSpent" value="324707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="884" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31345567" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22236422" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22236422" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -537,7 +598,8 @@
     <MESSAGE value="rc3" />
     <MESSAGE value="rc4" />
     <MESSAGE value="rc4 update 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="rc4 update 2" />
+    <MESSAGE value="rc4 update 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="rc4 update 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
