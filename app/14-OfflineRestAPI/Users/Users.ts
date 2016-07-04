@@ -58,21 +58,12 @@ li {
     Number : <input type="number" #i value="5">
     <button (click)="load(i.value)">Load</button>
     <hr>
-     <!--@flyInOut="'in'"-->
-    <user-profile 
-       
+
+    <user-profile        
         *ngFor="let user of users" [source]="user">
             {{user.name | json}}
     </user-profile>
-    
-    <!--<ul>
-      <li *ngFor="let hero of users"
-          @flyInOut="'in'">
-        {{hero.name.first}}
-      </li>
-    </ul>-->
-`
-})
+`})
 export class Users{
     
     users:any[] = [];

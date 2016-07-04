@@ -14,16 +14,20 @@ require('rxjs/add/operator/toPromise');
 var UserProxy = (function () {
     function UserProxy(http) {
         this.http = http;
+        this.url = 'app/users'; //'http://api.randomuser.me/?results=${num}';
     }
     UserProxy.prototype.load = function (num) {
         if (num === void 0) { num = 3; }
         // Promise
         return this.http
-            .get("http://api.randomuser.me/?results=" + num)
+            .get(this.url)
             .toPromise()
             .then(function (res) { return res.json(); })
-            .then(function (data) { return data.results; })
+            .then(function (res) { return res.data; })
             .catch(this.handleError);
+        /*.then((data)=>{
+            return data.results;
+        });*/
         // Obsr...
         /*
          return this.http

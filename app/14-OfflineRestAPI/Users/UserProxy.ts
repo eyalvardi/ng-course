@@ -4,18 +4,22 @@ import 'rxjs/add/operator/toPromise';
 
 @Injectable()
 export class UserProxy{
+    private url = 'app/users';//'http://api.randomuser.me/?results=${num}';
 
     constructor(private http:Http){
     }
     load(num=3){
         // Promise
         return this.http
-            .get(`http://api.randomuser.me/?results=${num}`)
+            .get(this.url)
             .toPromise()
-            .then(  res => res.json()   )
-            .then( data => data.results )
+            .then( res => res.json() )
+            .then( res => res.data )
             .catch(this.handleError);
 
+            /*.then((data)=>{
+                return data.results;
+            });*/
         // Obsr...
         /*
          return this.http

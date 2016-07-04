@@ -51,8 +51,7 @@ var Users = (function () {
                     ])
                 ])
             ],
-            template: "\n    Number : <input type=\"number\" #i value=\"5\">\n    <button (click)=\"load(i.value)\">Load</button>\n    <hr>\n     <!--@flyInOut=\"'in'\"-->\n    <user-profile \n       \n        *ngFor=\"let user of users\" [source]=\"user\">\n            {{user.name | json}}\n    </user-profile>\n    \n    <!--<ul>\n      <li *ngFor=\"let hero of users\"\n          @flyInOut=\"'in'\">\n        {{hero.name.first}}\n      </li>\n    </ul>-->\n"
-        }), 
+            template: "\n    Number : <input type=\"number\" #i value=\"5\">\n    <button (click)=\"load(i.value)\">Load</button>\n    <hr>\n\n    <user-profile        \n        *ngFor=\"let user of users\" [source]=\"user\">\n            {{user.name | json}}\n    </user-profile>\n" }), 
         __metadata('design:paramtypes', [UserProxy_1.UserProxy])
     ], Users);
     return Users;

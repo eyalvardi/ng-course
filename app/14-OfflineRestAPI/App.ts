@@ -1,12 +1,11 @@
-import {Component, PLATFORM_DIRECTIVES} from "@angular/core";
+import {Component} from "@angular/core";
 import {Users} from "./Users/Users";
-import {User} from "./Users/User/User";
 
 @Component({
     selector: 'my-app',
     directives:[Users],
     template: `
-    <h1>Hello World</h1>
+    <h1>Offline REST API</h1>
     <users></users>
 `
 })
