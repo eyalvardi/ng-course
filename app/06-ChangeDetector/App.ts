@@ -8,6 +8,7 @@ import './PushDemo'
 import {BaseDemo} from "./BaseDemo";
 import {SequenceDiagram} from 'ngEx/SequenceDiagramsService';
 import {Clock} from "./Clock";
+import {LinkToCodeComponent} from "../share/link-to-code.component";
 
 class User{
     _name:string;
@@ -25,10 +26,10 @@ class User{
 @Component({
     selector: 'my-app',
     styles:[`:host{display: block;border: 1px solid black; text-align: left}`],
-    directives:[SequenceDiagram,Clock],
+    directives:[SequenceDiagram,Clock,LinkToCodeComponent],
     template: `
     <div style="padding: 8px;">
-        <h3>Change Detector Demos <clock *ngIf="isClock.value"></clock></h3>        
+        <h3>Change Detector Demos <link-to-code></link-to-code><clock *ngIf="isClock.value"></clock></h3>        
         <br>
         <form>
             <input type="checkbox" ngControl="isDefault" #isDefault="ngForm"> Default Component

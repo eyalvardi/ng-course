@@ -4,12 +4,13 @@
 import {Component} from "@angular/core";
 import "./Users/Users";
 import "./Users/User/User";
+import {LinkToCodeComponent} from "../share/link-to-code.component";
 
 @Component({
     selector: 'my-app',
-    //directives:[Users],
+    directives:[LinkToCodeComponent],
     template: `
-    <h1>Hello World</h1>
+    <h1>Injector Demo <link-to-code></link-to-code></h1>
     <users></users>
 `
 })

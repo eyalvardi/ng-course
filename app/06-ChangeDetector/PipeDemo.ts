@@ -12,7 +12,7 @@ export class MyPipe implements PipeTransform{
 
     constructor(){ this.instance = counter++ }
 
-    transform(value:string,name:string) {
+    transform(value,name) : any {
         return `instance :${this.instance} input: ${value} arg name value: ${name} number of call: ${this.calls++}`;
     }
 }
@@ -33,7 +33,7 @@ export class MyImpurePipe extends MyPipe{
 export class SumRandomPipe extends MyPipe{
     sum:number = 0;
 
-    transform(min:number, max:number) {
+    transform(min, max) {
         this.sum +=  Math.floor(Math.random() * (max - min + 1)) + min;
         return this.sum;
     }

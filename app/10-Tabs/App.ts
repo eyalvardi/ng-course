@@ -1,14 +1,15 @@
 import {Component} from "@angular/core";
 import {Tabs} from "./Tabs";
 import {Tab} from "./Tab";
+import {LinkToCodeComponent} from "../share/link-to-code.component";
 
 @Component({
     selector: 'my-app',
-    directives: [Tabs,Tab],
+    directives: [Tabs,Tab,LinkToCodeComponent],
     //styles: [`:host{display: block;padding: 8px;border: 1px solid red}`],
     template: `
 <div>
-   <h1>Tabs demo</h1>
+   <h1>Tabs demo <link-to-code></link-to-code></h1>
     <tabs>
         <!--h1>Tabs Header</h1>-->
         <tab title=" Progressive Web Apps ">Use modern web platform capabilities to deliver app-like experiences. High performance, offline and zero-step installation.</tab>

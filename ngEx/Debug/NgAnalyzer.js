@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var Global_1 = require("./Global");
+var Global_1 = require("../Global");
 var NgAnalyzer = (function () {
     function NgAnalyzer() {
         this.metadata = [];

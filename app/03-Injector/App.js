@@ -14,14 +14,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require("@angular/core");
 require("./Users/Users");
 require("./Users/User/User");
+var link_to_code_component_1 = require("../share/link-to-code.component");
 var App = (function () {
     function App() {
     }
     App = __decorate([
         core_1.Component({
             selector: 'my-app',
-            //directives:[Users],
-            template: "\n    <h1>Hello World</h1>\n    <users></users>\n"
+            directives: [link_to_code_component_1.LinkToCodeComponent],
+            template: "\n    <h1>Injector Demo <link-to-code></link-to-code></h1>\n    <users></users>\n"
         }), 
         __metadata('design:paramtypes', [])
     ], App);

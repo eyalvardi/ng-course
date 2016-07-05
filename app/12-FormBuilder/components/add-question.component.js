@@ -20,8 +20,8 @@ var AddQuestionForm = (function () {
         this.addedQuestion = new core_1.EventEmitter();
     }
     /*test(){
-        this.form.controls['key'].updateValue('eyal vardi');
-    }*/
+     this.form.controls['key'].updateValue('eyal vardi');
+     }*/
     AddQuestionForm.prototype.addQuestion = function (value) {
         console.log("new question: " + JSON.stringify(this.form.value));
         this.addedQuestion.emit(this.form.value);
@@ -36,7 +36,7 @@ var AddQuestionForm = (function () {
             directives: [forms_1.REACTIVE_FORM_DIRECTIVES],
             providers: [],
             styles: [],
-            template: "\n<form [formGroup]=\"form\" class=\"form-inline\">\n  <div class=\"form-group\">\n    <label for=\"key\">Key</label>\n    <input formControlName=\"key\" type=\"text\" class=\"form-control\" id=\"key\" placeholder=\"question key\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"label\">label</label>\n    <input formControlName=\"label\" type=\"text\" class=\"form-control\" id=\"label\" placeholder=\"label\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"controlType\">Control type</label>\n    <select formControlName=\"controlType\">\n        <option value=\"textbox\">TextBox</option>\n        <option value=\"checkbox\">CheckBox</option>\n        <option value=\"radio\">Radio</option>\n        <option value=\"dropdown\">DropDown</option>\n    </select>\n  </div>\n  <button type=\"submit\" class=\"btn btn-default\" (click)=\"addQuestion()\">Add Question</button>\n  <!--<button (click)=\"test()\">Change</button>-->\n</form>\n"
+            template: "\n\n<form [formGroup]=\"form\" class=\"form-inline\">\n    <fieldset>\n      <legend>Metadata to add question</legend>\n      <div class=\"form-group\">\n        <label for=\"key\">Key</label>\n        <input formControlName=\"key\" type=\"text\" class=\"form-control\" id=\"key\" placeholder=\"question key\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"label\">label</label>\n        <input formControlName=\"label\" type=\"text\" class=\"form-control\" id=\"label\" placeholder=\"label\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"controlType\">Control type</label>\n        <select formControlName=\"controlType\">\n            <option value=\"textbox\">TextBox</option>\n            <option value=\"checkbox\">CheckBox</option>\n            <option value=\"radio\">Radio</option>\n            <option value=\"dropdown\">DropDown</option>\n        </select>\n      </div>\n      <button type=\"submit\" class=\"btn btn-default\" (click)=\"addQuestion()\">Add Question</button>\n      <!--<button (click)=\"test()\">Change</button>-->\n    </fieldset>\n</form>\n"
         }), 
         __metadata('design:paramtypes', [])
     ], AddQuestionForm);

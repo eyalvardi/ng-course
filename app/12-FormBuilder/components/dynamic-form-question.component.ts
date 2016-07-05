@@ -24,6 +24,12 @@ import {QuestionBase} from "../models/question-base";
         .ng-invalid {
           border-left: 5px solid #a94442; /* red */
         }
+        .ng-touched{
+            border-bottom: 1px solid dodgerblue;
+        }
+        .ng-dirty{
+                border-bottom: 2px solid #2aabd2;
+        }
     `],
     template: `
     <div [formGroup]="form" style="margin: 2px;padding: 2px">
@@ -92,7 +98,7 @@ import {QuestionBase} from "../models/question-base";
       <!--<div class="errorMessage" *ngIf="!isValid">
         {{question.label}} is required
       </div>-->
-      <div *ngFor="let e of errors">{{e}}</div>
+      <div class="text-warning" *ngFor="let e of errors">{{e}}</div>
     </div>
 `})
 export class DynamicFormQuestionComponent {
@@ -120,7 +126,7 @@ export class DynamicFormQuestionComponent {
         return result;
     }
     getIsLabel(type){
-        let r =  type == 'checkbox' || type == 'group'
+        let r =  type == 'checkbox' || type == 'group' || type == 'radio'
         return !r;
     }
 

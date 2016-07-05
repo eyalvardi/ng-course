@@ -1,5 +1,5 @@
 import {Component, Input} from "@angular/core";
-import {Global} from "./Global";
+import {Global} from "../Global";
 
 @Global()
 @Component({

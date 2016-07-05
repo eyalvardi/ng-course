@@ -4,15 +4,16 @@
 import {Component, ChangeDetectorRef, ElementRef, Renderer, NgZone, ChangeDetectionStrategy} from "@angular/core";
 import {myCounter} from "./myCounter";
 import {ChangeDetectorState} from "@angular/compiler/core_private";
+import {LinkToCodeComponent} from "../share/link-to-code.component";
 
 
 @Component({
     selector: 'my-app',
     styles:[`:host{display: block;border: 1px solid black; text-align: left}`],
-    directives:[myCounter],
+    directives:[myCounter,LinkToCodeComponent],
     template: `
     <div style="padding: 8px;">
-        <h3>Infinity Loop counter: {{counter}}</h3>
+        <h3>Infinity Loop counter: {{counter}} <link-to-code></link-to-code></h3>
         <!--
         <input type="number" [(ngModel)]="counter">
         -->

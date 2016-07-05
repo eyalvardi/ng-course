@@ -10,14 +10,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require("@angular/core");
 var Users_1 = require("./Users/Users");
+var link_to_code_component_1 = require("../share/link-to-code.component");
 var App = (function () {
     function App() {
     }
     App = __decorate([
         core_1.Component({
             selector: 'my-app',
-            directives: [Users_1.Users],
-            template: "\n    <h1>Hello World</h1>\n    <users></users>\n"
+            directives: [Users_1.Users, link_to_code_component_1.LinkToCodeComponent],
+            template: "\n    <h1>Hello World <link-to-code></link-to-code></h1>\n    <users></users>\n"
         }), 
         __metadata('design:paramtypes', [])
     ], App);

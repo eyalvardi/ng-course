@@ -2,35 +2,37 @@
 <head>
     <title>ng-course.org</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This course will teach you the AngularJS fundamentals and the internal. The course will cover directives, binding, filters, ngRepeat, testing, isolate scopes and much much more, with real-world examples. ng-course, the best course in israel.">
+    <meta name="keywords" content="Course, AngularJS, Directive, ng-repeat, ng-model, ng-click, $http, $routingProvider, $resource, $log, Module, Factory, filter, controller,  scope, $inject, bootstrap" />
+    <meta name="author" content="Eyal Vardi">
+
+    <!-- FB -->
+    <meta property="og:title" content="AngularJS Course (ng-course), Code samples" />
+    <meta property="og:url" content="http://ng-course.org" />
+    <meta property="og:image" content="http://ng-course.org/Content/ng-course 900w.png" />
+    <meta property="og:site_name" content="ng-course" />
+    <meta property="og:description" content="דוגמאות קוד מקורס אנגולר. הוקרס מלמד איך עובדים עם אנגולר וגם איך עובד אנגולר. ניתן למצוא את הסיליבוס באתר הקורס." />
+    <meta property="og:type" content="website" />
+
+
+    <title>AngularJS Course (ng-course), Learn form the expert</title>
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/site.css" >
     <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <style>
-        body {
-            padding-top: 50px;
-        }
-        .starter-template {
-            padding: 40px 15px;
-            text-align: center;
-        }
-        fieldset {
-            border: 1px solid #999999;
-            padding: 4px;
-            margin: 5px;
-        }
-        legend {
-            font-size: 90%;
-            color: #888888;
-            background-color: transparent;
-            font-weight: bold;
-            width: auto;
-            padding: 8px;
-            margin: 8px;
-            border: 0px;
-        }
-    </style>
+
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/raphael/raphael-min.js"></script>
     <script src="bower_components/underscore/underscore-min.js"></script>
@@ -80,19 +82,51 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="#01-Hello"             onclick="location.reload();">Hello</a></li>
-                    <li><a href="#09-Providers"         onclick="location.reload();">Providers</a></li>
-                    <li><a href="#02-Global"            onclick="location.reload();">Global</a></li>
-                    <li><a href="#03-Injector"          onclick="location.reload();">Injector</a></li>
-                    <li><a href="#10-Tabs"              onclick="location.reload();">Tabs</a></li>
-                    <li><a href="#04-Resolvers"         onclick="location.reload();">Resolvers</a></li>
-                    <li><a href="#05-DynamicComponent"  onclick="location.reload();">Dynamic Component</a></li>
-                    <li><a href="#06-InfinityLoop"      onclick="location.reload();">Infinity Loop</a></li>
-                    <li><a href="#06-ChangeDetector"    onclick="location.reload();">Change Detector</a></li>
-                    <!--<li><a href="#07-DynamicRouting"    onclick="location.reload();">Dynamic Routing</a></li>-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true"
+                           aria-expanded="false">Injector<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#09-Providers"    onclick="location.reload();">Providers</a></li>
+                            <li><a href="#02-Global"    onclick="location.reload();">Global Decorator</a></li>
+                            <li><a href="#03-Injector"          onclick="location.reload();">Injector</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true"
+                           aria-expanded="false">Components<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#10-Tabs"              onclick="location.reload();">Tabs</a></li>
+                            <li><a href="#04-Resolvers"         onclick="location.reload();">Resolvers</a></li>
+                            <li><a href="#05-DynamicComponent"  onclick="location.reload();">Dynamic Component</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Change Detector<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#06-InfinityLoop"      onclick="location.reload();">Infinity Loop</a></li>
+                            <li><a href="#06-ChangeDetector"    onclick="location.reload();">Change Detector</a></li>
+                        </ul>
+                    </li>
+                            <!--<li><a href="#07-DynamicRouting"    onclick="location.reload();">Dynamic Routing</a></li>-->
                     <li><a href="#08-Routing"           onclick="location.reload();">Routing</a></li>
                     <li><a href="#11-Styles"            onclick="location.reload();">Styles</a></li>
-                    <li><a href="#12-FormBuilder"       onclick="location.reload();">Form Builder</a></li>
-                    <li><a href="#13-CustomInput"       onclick="location.reload();">Custom Input</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true"
+                           aria-expanded="false">Forms<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#12-FormBuilder"       onclick="location.reload();">Form Builder</a></li>
+                            <li><a href="#13-CustomInput"       onclick="location.reload();">Custom Input</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right table-bordered">
+                    <li><a href="http://ng-course.org/ng-course/courses/angular2.html" target="_blank">View Syllabus</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -108,6 +142,9 @@
     </div>
 
 </div>
+<!--<footer id="footer">
+    &copy 2016 Eyal Vardi LTD , Part of <a href="ng-course.org" target="_blank">ng-course.org</a>.
+</footer>-->
 <script>
     //alert(window.location.hash);
     loadDemo('app/'+window.location.hash.substring(1)+'/main');

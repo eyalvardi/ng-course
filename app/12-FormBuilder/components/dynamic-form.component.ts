@@ -33,7 +33,7 @@ import {DynamicFormQuestionComponent} from "./dynamic-form-question.component";
     </div>
     
     <div class="form-row">
-      <button type="submit" [disabled]="!myform.valid">Save</button>
+      <button type="submit" [disabled]="!myform.valid" class="btn btn-primary">Save</button>
     </div>
     
   </form>

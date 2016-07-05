@@ -4,6 +4,7 @@ import { QuestionService } from './question.service';
 import {AddQuestionForm} from "./components/add-question.component";
 import {TextboxQuestion} from "./models/question-textbox";
 import {QUESTION_MODELS} from "./models/index";
+import {LinkToCodeComponent} from "../share/link-to-code.component";
 @Component({
     selector: 'my-app',
     styles:[`
@@ -14,13 +15,12 @@ import {QUESTION_MODELS} from "./models/index";
         }
     `],
     template: `    
-      <h2>Form Builder</h2>
-      <table class="table">
-        <tr>
-            <td colspan="2">
-                <add-question-form (addedQuestion)="addQuestion($event)"></add-question-form>
-            </td>
-        </tr>
+      <div style="text-align: left">
+      <h2>Form Builder <link-to-code></link-to-code></h2>
+      <add-question-form (addedQuestion)="addQuestion($event)"></add-question-form>
+      </div>
+      
+      <table class="table">        
         <tr>
             <td>
                 <dynamic-form [questions]="questions"></dynamic-form>
@@ -34,7 +34,7 @@ import {QUESTION_MODELS} from "./models/index";
           </tr>
     </table>
   `,
-    directives: [DynamicFormComponent,AddQuestionForm],
+    directives: [DynamicFormComponent,AddQuestionForm, LinkToCodeComponent],
     providers:  [QuestionService]
 })
 export class AppComponent {

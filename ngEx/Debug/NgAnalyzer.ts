@@ -1,5 +1,5 @@
 import {Component} from "@angular/core";
-import {Global} from "./Global";
+import {Global} from "../Global";
 
 declare var windows:{__Metadata__:any};
 

@@ -5,6 +5,7 @@ import {Component, Renderer, ElementRef, NgZone} from "@angular/core";
 import "./Users/Users";
 import "./Users/User";
 import "./Users/UserContainer/UserContainer";
+import {LinkToCodeComponent} from "../share/link-to-code.component";
 
 @Component({
     selector: 'my-app',
@@ -13,9 +14,9 @@ import "./Users/UserContainer/UserContainer";
             display: block;
         }
     `],
-    //directives:[Users],
+    directives:[LinkToCodeComponent],
     template: `
-    <h1>Dynamic Component</h1>
+    <h1>Dynamic Component <link-to-code></link-to-code></h1>
     <users></users>
 `
 })

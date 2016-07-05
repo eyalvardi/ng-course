@@ -4,14 +4,15 @@
 import {Component} from "@angular/core";
 import "./Users/Users";
 import "./Users/User/User";
+import {LinkToCodeComponent} from "../share/link-to-code.component";
 
 
 
 @Component({
     selector: 'my-app',
-    //directives:[Users],
+    directives:[LinkToCodeComponent],
     template: `
-    <h1>Resolvers ${new Date().toDateString()}</h1>
+    <h1>Resolvers <link-to-code></link-to-code></h1>
     <users></users>
 `
 })

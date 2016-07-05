@@ -15,6 +15,7 @@ var core_1 = require("@angular/core");
 require("./Users/Users");
 require("./Users/User");
 require("./Users/UserContainer/UserContainer");
+var link_to_code_component_1 = require("../share/link-to-code.component");
 var App = (function () {
     function App(render, elmRef, zone) {
         this.render = render;
@@ -36,8 +37,8 @@ var App = (function () {
         core_1.Component({
             selector: 'my-app',
             styles: ["\n        :host{\n            display: block;\n        }\n    "],
-            //directives:[Users],
-            template: "\n    <h1>Dynamic Component</h1>\n    <users></users>\n"
+            directives: [link_to_code_component_1.LinkToCodeComponent],
+            template: "\n    <h1>Dynamic Component <link-to-code></link-to-code></h1>\n    <users></users>\n"
         }), 
         __metadata('design:paramtypes', [core_1.Renderer, core_1.ElementRef, core_1.NgZone])
     ], App);
