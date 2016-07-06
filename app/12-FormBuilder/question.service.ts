@@ -4,10 +4,44 @@ import {DropdownQuestion} from "./models/question-dropdown";
 import {TextboxQuestion} from "./models/question-textbox";
 import {CheckboxQuestion} from "./models/question-checkbox";
 import {RadioQuestion} from "./models/question-radio";
+import {Http} from "@angular/http";
+import {QUESTION_MODELS} from "./models/index";
 
+
+
+@Injectable()
 export class QuestionService {
+    url:string = './app/12-FormBuilder/metadata.json';
+    data:any;
+    questions : QuestionBase<any>[] = [];
+
+    constructor(private http:Http){}
+
+    load(){
+        return this.http.get( this.url )
+            .map( res => res.json() )
+            .map( data => {
+                this.data = data;
+                return this.buildQuestions(data);
+            });
+    }
+
+    buildQuestions(data){
+        let questions = [];
+        data.forEach( ( item : QuestionsGroup ) => {
+            if(item.controlType == 'group'){
+                let group = new QUESTION_MODELS[item.controlType](item);
+                group.questions = this.buildQuestions( item.questions );
+                questions.push(group);
+            } else {
+                questions.push(new QUESTION_MODELS[item.controlType](item));
+            }
+        });
+        return questions;
+    }
 
     getQuestions() {
+
         let questions: any[]  = [
             new DropdownQuestion({
                 key: 'brave',

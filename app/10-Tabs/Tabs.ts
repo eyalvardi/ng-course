@@ -1,4 +1,4 @@
-import {Component, ContentChildren, QueryList, ViewChildren, ElementRef} from "@angular/core";
+import {Component, ContentChildren, QueryList, ViewChildren, ElementRef, ViewEncapsulation} from "@angular/core";
 import {Tab} from "./Tab";
 
 declare var $:any;
@@ -6,6 +6,7 @@ declare var $:any;
 @Component({
     selector: 'tabs',
     directives: [Tab],
+    //encapsulation : ViewEncapsulation.Native,
     styles: [`/***
 Bootstrap Line Tabs by @keenthemes
 A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme

@@ -19,19 +19,6 @@ export interface IOption<T>{
     controlType? : string;
     type?        : string;
 }
-export class QuestionsGroup{
-    key     : string;
-    controlType : string;
-    label   : string;
-    questions: QuestionBase<any>[];
-    constructor( obj : {key?:string, label?:string, questions?:any[] } = {}){
-        this.controlType = 'group';
-        this.key       = obj.key        || '';
-        this.label     = obj.label      || '';
-        this.questions = obj.questions  || [];
-    }
-}
-
 export class QuestionBase<T>{
     value   : T;
     key     : string;
@@ -51,3 +38,4 @@ export class QuestionBase<T>{
         this.type = options.type || '';
     }
 }
+

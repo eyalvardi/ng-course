@@ -5,6 +5,8 @@ import {AddQuestionForm} from "./components/add-question.component";
 import {TextboxQuestion} from "./models/question-textbox";
 import {QUESTION_MODELS} from "./models/index";
 import {LinkToCodeComponent} from "../share/link-to-code.component";
+import 'rxjs/add/operator/map';
+
 @Component({
     selector: 'my-app',
     styles:[`
@@ -27,7 +29,7 @@ import {LinkToCodeComponent} from "../share/link-to-code.component";
             </td>        
             <td>
                 <h3> Form Metadata</h3>
-                <pre>
+                <pre style='overflow:scroll; width:400px;height:400px;'>
                     {{questions | json}}
                 </pre>
             </td>            
@@ -38,10 +40,13 @@ import {LinkToCodeComponent} from "../share/link-to-code.component";
     providers:  [QuestionService]
 })
 export class AppComponent {
-    questions: any[];
+    questions: any[] = [];
 
     constructor(service: QuestionService) {
-        this.questions = service.getQuestions();
+        //this.questions = service.getQuestions();
+        service.load().subscribe( q => {
+            this.questions = q;
+        });
     }
 
     addQuestion(qs){
