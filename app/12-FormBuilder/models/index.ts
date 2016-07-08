@@ -12,6 +12,7 @@ export * from './question-checkbox';
 export * from './question-dropdown';
 export * from './question-radio';
 export * from './question-textbox';
+export * from './question-group';
 
 export const QUESTION_MODELS = {
     textbox : TextboxQuestion,

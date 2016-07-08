@@ -9,6 +9,9 @@
     "removeComments": false,
     "noImplicitAny": false
     /*"outDir" : "./dist",
-    "rootDir" : "."*/
+    "rootDir" : "."
+    "paths": {
+      "ngEx": ["ngEx"]
+    }*/
   }
 }

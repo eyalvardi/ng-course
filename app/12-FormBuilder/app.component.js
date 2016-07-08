@@ -20,9 +20,10 @@ var AppComponent = (function () {
         var _this = this;
         this.questions = [];
         //this.questions = service.getQuestions();
-        service.load().subscribe(function (q) {
-            _this.questions = q;
-        });
+        service.load()
+            .subscribe(function (q) { _this.questions = q; }, 
+        // error
+        function () { _this.questions = service.getQuestions(); });
     }
     AppComponent.prototype.addQuestion = function (qs) {
         this.questions = this.questions.concat([

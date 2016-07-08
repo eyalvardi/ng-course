@@ -9,21 +9,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var question_base_1 = require("./models/question-base");
-var question_dropdown_1 = require("./models/question-dropdown");
-var question_textbox_1 = require("./models/question-textbox");
-var question_checkbox_1 = require("./models/question-checkbox");
-var question_radio_1 = require("./models/question-radio");
 var http_1 = require("@angular/http");
 var index_1 = require("./models/index");
+require('rxjs/add/operator/map');
+var path = module.id;
+var index = path.lastIndexOf('/');
+path = path.substring(0, index);
+console.log("path: " + path);
 var QuestionService = (function () {
     function QuestionService(http) {
         this.http = http;
-        this.url = './app/12-FormBuilder/metadata.json';
+        this.url = path + "/form-metadata.json";
         this.questions = [];
     }
     QuestionService.prototype.load = function () {
         var _this = this;
+        console.log("++++++++++++ url: " + this.url);
         return this.http.get(this.url)
             .map(function (res) { return res.json(); })
             .map(function (data) {
@@ -48,7 +49,7 @@ var QuestionService = (function () {
     };
     QuestionService.prototype.getQuestions = function () {
         var questions = [
-            new question_dropdown_1.DropdownQuestion({
+            new index_1.DropdownQuestion({
                 key: 'brave',
                 label: 'Bravery Rating',
                 options: [
@@ -59,7 +60,7 @@ var QuestionService = (function () {
                 ],
                 order: 3
             }),
-            new question_radio_1.RadioQuestion({
+            new index_1.RadioQuestion({
                 key: 'myradio',
                 label: 'Radio',
                 name: 'test',
@@ -71,11 +72,12 @@ var QuestionService = (function () {
                 ],
                 order: 3
             }),
-            new question_base_1.QuestionsGroup({
+            new index_1.QuestionsGroup({
                 key: 'fullName',
                 label: 'Full Name',
+                controlType: 'group',
                 questions: [
-                    new question_textbox_1.TextboxQuestion({
+                    new index_1.TextboxQuestion({
                         key: 'firstName',
                         label: 'First name',
                         value: 'Bombasto',
@@ -95,7 +97,7 @@ var QuestionService = (function () {
                         ],
                         order: 1
                     }),
-                    new question_textbox_1.TextboxQuestion({
+                    new index_1.TextboxQuestion({
                         key: 'lastName',
                         label: 'Last name',
                         value: 'Vardi',
@@ -115,11 +117,12 @@ var QuestionService = (function () {
                         ],
                         order: 1
                     }),
-                    new question_base_1.QuestionsGroup({
+                    new index_1.QuestionsGroup({
                         key: 'address',
                         label: 'Address',
+                        controlType: 'group',
                         questions: [
-                            new question_textbox_1.TextboxQuestion({
+                            new index_1.TextboxQuestion({
                                 key: 'street',
                                 label: 'Street',
                                 value: '',
@@ -139,7 +142,7 @@ var QuestionService = (function () {
                                 ],
                                 order: 1
                             }),
-                            new question_textbox_1.TextboxQuestion({
+                            new index_1.TextboxQuestion({
                                 key: 'number',
                                 label: 'Number',
                                 value: '',
@@ -163,7 +166,7 @@ var QuestionService = (function () {
                     })
                 ]
             }),
-            new question_checkbox_1.CheckboxQuestion({
+            new index_1.CheckboxQuestion({
                 key: 'lastName',
                 label: 'Last name',
                 value: false,
@@ -177,7 +180,7 @@ var QuestionService = (function () {
                 ],
                 order: 1
             }),
-            new question_textbox_1.TextboxQuestion({
+            new index_1.TextboxQuestion({
                 key: 'emailAddress',
                 label: 'Email',
                 type: 'email',

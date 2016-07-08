@@ -1,23 +1,24 @@
 import { Injectable }       from '@angular/core';
-import {QuestionBase, QuestionsGroup} from "./models/question-base";
-import {DropdownQuestion} from "./models/question-dropdown";
-import {TextboxQuestion} from "./models/question-textbox";
-import {CheckboxQuestion} from "./models/question-checkbox";
-import {RadioQuestion} from "./models/question-radio";
 import {Http} from "@angular/http";
-import {QUESTION_MODELS} from "./models/index";
+import {QUESTION_MODELS, QuestionsGroup, QuestionBase,DropdownQuestion,TextboxQuestion,CheckboxQuestion,RadioQuestion} from "./models/index";
+import 'rxjs/add/operator/map';
 
+const path:any = module.id;
+let index:number = path.lastIndexOf('/');
+path = path.substring( 0, index );
 
+console.log(`path: ${path}`);
 
 @Injectable()
 export class QuestionService {
-    url:string = './app/12-FormBuilder/metadata.json';
+    url:string = `${path}/form-metadata.json`;
     data:any;
     questions : QuestionBase<any>[] = [];
 
     constructor(private http:Http){}
 
     load(){
+        console.log(`++++++++++++ url: ${this.url}`);
         return this.http.get( this.url )
             .map( res => res.json() )
             .map( data => {
@@ -69,6 +70,7 @@ export class QuestionService {
             new QuestionsGroup({
                 key: 'fullName',
                 label: 'Full Name',
+                controlType: 'group',
                 questions : [
                     new TextboxQuestion({
                         key: 'firstName',
@@ -113,6 +115,7 @@ export class QuestionService {
                     new QuestionsGroup({
                         key: 'address',
                         label: 'Address',
+                        controlType: 'group',
                         questions : [
                             new TextboxQuestion({
                                 key: 'street',

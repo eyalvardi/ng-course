@@ -44,9 +44,12 @@ export class AppComponent {
 
     constructor(service: QuestionService) {
         //this.questions = service.getQuestions();
-        service.load().subscribe( q => {
-            this.questions = q;
-        });
+        service.load()
+            .subscribe(
+                q => { this.questions = q; },
+                // error
+                ()=>{ this.questions = service.getQuestions(); }
+            );
     }
 
     addQuestion(qs){
