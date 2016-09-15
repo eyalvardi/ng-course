@@ -1,28 +1,33 @@
 /**
  * Created by Eyal on 6/22/2016.
  */
-import { provideRouter, RouterConfig } from '@angular/router';
+import {Routes, RouterModule} from '@angular/router';
 import {Home} from "./home/Home";
-import {Users, CanDeactivateGuard} from "./Users/Users";
+import {CanDeactivateGuard} from "./Users/Users";
 import {AuthGuard} from "./auth.guard";
-//import {LoginComponent} from "./login.cmp";
 import {AuthService} from "./auth.service";
-import {User} from "./Users/User/User";
 import {Color} from "./Color";
-import {forwardRef} from "@angular/core";
 import {LoginComponent} from "./login.cmp";
 
-export const routes: RouterConfig = [
-    { path:'08-Routing', component: Home},
+export const appRoutes: Routes = [
+    { path:'08-Routing', children:[
+            { path: '' , component: Home },
+            { path: '' , component: Color, outlet: 'nav'}
+        ]
+    },
     {
         path:'home/:id'  ,
-        component: Home ,
-        //canActivate: [AuthGuard],
-        //canDeactivate:[CanDeactivateGuard]
+        component: Home,
+        canActivate: [AuthGuard],
+        canDeactivate:[CanDeactivateGuard]
     },
-    { path: 'colors/:color', component: Color, outlet: 'nav'},
-    { path:'login'     , component: LoginComponent  },
-    {
+    { path: 'colors/:color' , component: Color, outlet: 'nav'},
+    { path: 'login' , component: LoginComponent  },
+    { path: 'users' ,
+        canActivate: [AuthGuard],
+        canDeactivate:[CanDeactivateGuard],
+        loadChildren : 'app/08-Routing/Users/users.module.js' }
+    /*{
         path:'users',
         component: Users,
         canActivate: [AuthGuard],
@@ -31,11 +36,11 @@ export const routes: RouterConfig = [
             { path: ''        , component: User },
             { path: ':first/' , component: User }
         ]
-    }
+    }*/
 ];
+export const routing = RouterModule.forRoot(appRoutes);
 
 export const APP_ROUTER_PROVIDERS = [
-    provideRouter(routes,{ enableTracing: true }),
     AuthService,
     AuthGuard,
     CanDeactivateGuard

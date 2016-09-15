@@ -6,17 +6,21 @@ import {LinkToCodeComponent} from "../share/link-to-code.component";
 
 @Component({
     selector: 'my-app',
-    directives: [Parent,Child, LinkToCodeComponent],
     styles: [`
         :host{
             display: block;
             padding: 8px;
             border: 1px solid red;
         }
+        .box{ background-color: blue; }
+        .size{ width: 275px; height:75px; } 
     `],
     template: `
     <div>
         <h3>App Component <link-to-code></link-to-code></h3>
+        
+        <div class="box size"></div>
+        <br>
         <parent>
             <child name="child content"></child>
         </parent>

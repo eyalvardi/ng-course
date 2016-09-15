@@ -26,8 +26,7 @@ function compileToComponent(template, inputs, directives, selector) {
             core_1.Component({
                 selector: selector,
                 inputs: inputs,
-                template: template,
-                directives: directives
+                template: template
             }), 
             __metadata('design:paramtypes', [])
         ], ContainerComponent);

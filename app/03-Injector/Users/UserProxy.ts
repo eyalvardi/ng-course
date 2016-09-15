@@ -3,14 +3,14 @@
  */
 import {Injectable} from "@angular/core";
 import {Http}       from "@angular/http";
-import {Global,ngServices} from "ngEx";
+import {ngServices,services} from "../../share/NgServices";
 import 'rxjs/add/operator/toPromise';
 
 // Private Static fields:
 var http:Http;
 
-@Global()
-@Injectable()
+
+/*@Injectable()*/
 export class UserProxy{
 
     //private http:Http;
@@ -31,18 +31,8 @@ export class UserProxy{
             .then((data)=>{
                 return data.results;
             });
-        // Obsr...
-        /*
-         return this.http
-         .get(`http://api.randomuser.me/?results=${num}`)
-         .map((res)=>{
-         return res.json();
-         })
-         .map((data)=>{
-         return data.results;
-         });
-         */
     }
 }
 
 export var sUserProxy = new UserProxy();
+services.push(sUserProxy);

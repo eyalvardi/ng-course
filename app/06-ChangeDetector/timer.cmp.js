@@ -37,8 +37,6 @@ var TimerComp = (function () {
     TimerComp = __decorate([
         core_1.Component({
             selector: 'timer',
-            directives: [],
-            providers: [],
             styles: ["\n    .box{\n        margin: -8px -8px;    \n        border: 1px solid black;\n        width: 24px;\n        height: 24px;\n    }    \n    :host{\n        border: 1px solid black;\n        display: block;\n        padding: 8px;\n        width: 25px;\n        height: 25px;\n    }\n"],
             template: "\n    <span>{{counter}}</span>\n"
         }), 

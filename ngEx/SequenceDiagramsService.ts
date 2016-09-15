@@ -130,7 +130,7 @@ export class SequenceDiagram{
         if(results.length > 0){
             this.elements[className] = results[0];
         } else{
-            debugger;
+            //debugger;
         }
     }
     clearDivChildElements(div:HTMLDivElement){

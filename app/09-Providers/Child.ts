@@ -3,12 +3,10 @@
  */
 import {Component, Input, SkipSelf} from "@angular/core";
 import {Service} from "./Service";
-import {NgCourse} from "./ng_course_directives";
 
-@NgCourse()
+
 @Component({
     selector: 'child',
-    directives: [],
     providers: [],
     styles: [`:host{display: block;padding: 8px;border: 1px solid red;}`],
     template: `
@@ -19,5 +17,10 @@ import {NgCourse} from "./ng_course_directives";
 })
 export class Child {
     @Input()name:string;
-    constructor(/*@SkipSelf()*/ private service:Service){}
+    constructor(/*@SkipSelf()*/ private service:Service){
+        console.log(`Child constructor`);
+    }
+    ngOnInit(){
+        console.log(`Child ngOnInit`);
+    }
 }

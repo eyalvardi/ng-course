@@ -5,7 +5,7 @@ import {Component} from "@angular/core";
 import {ActivatedRoute} from '@angular/router';
 
 @Component({
-    styles: [`.box{ width: 200px;height: 200px;border: 2px solid black;}`],
+    styles: [`.box{ width: 400px;height: 25px;border: 2px solid black;}`],
     template: `
 <div class="box" [style.backgroundColor]="color">
   Color

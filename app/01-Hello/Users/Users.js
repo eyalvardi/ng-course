@@ -10,7 +10,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require("@angular/core");
 var UserProxy_1 = require("./UserProxy");
-var User_1 = require("./User/User");
 var Users = (function () {
     function Users(proxy) {
         this.proxy = proxy;
@@ -35,8 +34,6 @@ var Users = (function () {
     Users = __decorate([
         core_1.Component({
             selector: 'users',
-            providers: [UserProxy_1.UserProxy],
-            directives: [User_1.User],
             //encapsulation: ViewEncapsulation.Emulated
             styles: ["\n        ul {\n  list-style-type: none;\n  padding: 0;\n}\n\nli {\n  display: block;\n  width: 120px;\n  line-height: 50px;\n  padding: 0 10px;\n  box-sizing: border-box;\n  background-color: #eee;\n  border-radius: 4px;\n  margin: 10px;\n  cursor: pointer;\n  overflow: hidden;\n  white-space: nowrap;\n}\n\n.active {\n  background-color: #cfd8dc;\n  transform: scale(1.1);\n}\n.inactive {\n  background-color: #eee;\n  transform: scale(1);\n}\n    "],
             animations: [

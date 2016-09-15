@@ -13,21 +13,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  */
 var core_1 = require("@angular/core");
 var http_1 = require("@angular/http");
-var ngEx_1 = require("ngEx");
 require('rxjs/add/operator/toPromise');
-// Private Static fields:
-var http;
 var UserProxy = (function () {
-    function UserProxy() {
+    function UserProxy(http) {
+        this.http = http;
     }
-    //private http:Http;    
     UserProxy.prototype.load = function (num) {
         if (num === void 0) { num = 3; }
-        if (!http) {
-            http = ngEx_1.ngServices.get(http_1.Http);
-        }
         // Promise
-        return http
+        return this.http
             .get("http://api.randomuser.me/?results=" + num)
             .toPromise()
             .then(function (res) {
@@ -49,9 +43,8 @@ var UserProxy = (function () {
          */
     };
     UserProxy = __decorate([
-        ngEx_1.Global(),
         core_1.Injectable(), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [http_1.Http])
     ], UserProxy);
     return UserProxy;
 }());

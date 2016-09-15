@@ -1,5 +1,5 @@
 import {Component, Input, forwardRef} from '@angular/core';
-import {FormGroup, REACTIVE_FORM_DIRECTIVES, FormControl} from '@angular/forms';
+import {FormGroup, FormControl} from '@angular/forms';
 import {QuestionBase} from "../models/question-base";
 
 /*function Component(obj){
@@ -13,10 +13,9 @@ import {QuestionBase} from "../models/question-base";
 
 @Component({
     selector: 'df-question',
-    directives: [
-        REACTIVE_FORM_DIRECTIVES,
+    /*directives: [
         forwardRef(() => DynamicFormQuestionComponent)
-    ],
+    ],*/
     styles:[`
         .ng-valid {
           border-left: 5px solid #42A948; /* green */
@@ -32,6 +31,7 @@ import {QuestionBase} from "../models/question-base";
         }
     `],
     template: `
+
     <div [formGroup]="form" style="margin: 2px;padding: 2px">
       <!-- Label -->
       <label *ngIf="getIsLabel(question.controlType)" 
@@ -43,9 +43,10 @@ import {QuestionBase} from "../models/question-base";
       <div [ngSwitch]="question.controlType" >
         
         <div *ngSwitchCase="'group'" style="padding: 2px">
-            <form #f="ngForm"                
-                [formGroup]="form.controls[question.key]">
-            <fieldset [class.ng-invalid]="!getIsValid(f.valid,form.controls[question.key])">
+            <!--<form #f="ngForm"                
+               >-->
+             <!-- [class.ng-invalid]="!getIsValid(f.valid,form.controls[question.key])" -->                   
+            <fieldset  [formGroup]="form.controls[question.key]">
                 <legend> {{question.label}} </legend>                
                 <div *ngFor="let q of  question.questions" class="row-margin">
                   <df-question [question]="q" 
@@ -53,7 +54,7 @@ import {QuestionBase} from "../models/question-base";
                   </df-question>
                 </div>
             </fieldset>
-            </form>
+            <!--</form>-->
         </div>
         
         <input 
@@ -142,7 +143,4 @@ export class DynamicFormQuestionComponent {
         }
         return true;
     }
-
-
-
 }

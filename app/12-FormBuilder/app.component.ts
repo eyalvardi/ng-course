@@ -35,10 +35,7 @@ import 'rxjs/add/operator/map';
             </td>            
           </tr>
     </table>
-  `,
-    directives: [DynamicFormComponent,AddQuestionForm, LinkToCodeComponent],
-    providers:  [QuestionService]
-})
+  `})
 export class AppComponent {
     questions: any[] = [];
 

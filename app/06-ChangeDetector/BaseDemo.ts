@@ -14,9 +14,9 @@ import {
     AfterViewInit, SimpleChange, ChangeDetectionStrategy
 } from "@angular/core";
 import {logEvent} from 'ngEx/SequenceDiagramsService';
-import {ChangeDetectorState} from "@angular/compiler/core_private";
+/*import {ChangeDetectorState} from "@angular/compiler/core_private";*/
 
-var console:{log:Function} = {log:()=>{}};
+//var console:{log:Function} = {log:()=>{}};
 
 export class LifeCycleHooksDump implements OnInit,
     OnDestroy,
@@ -27,6 +27,7 @@ export class LifeCycleHooksDump implements OnInit,
     AfterViewInit,
     AfterViewChecked {
     constructor(public compName:string){
+        console.log(`${this.compName} constructor`);
         logEvent(this.compName,'constructor');
     }
 

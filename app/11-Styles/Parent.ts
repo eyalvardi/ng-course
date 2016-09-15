@@ -1,14 +1,12 @@
 /**
  * Created by Eyal on 6/17/2016.
  */
-import {Component, SkipSelf, Host, ViewEncapsulation} from "@angular/core";
-import {Child} from "./Child";
-import {Service} from "./Service";
+import {Component, ViewEncapsulation} from "@angular/core";
+
 
 @Component({
     selector: 'parent',
-    directives: [Child],
-    encapsulation : ViewEncapsulation.None,
+    encapsulation : ViewEncapsulation.Emulated,
     styles: [`
         :host{
             display: block;
@@ -18,9 +16,13 @@ import {Service} from "./Service";
         .box{            
             background-color: blue;
         }
-        .size{
+        :host/deep/.size{
             width: 75px;
             height:75px;
+        }
+        :host-context(.size) div {
+            width: 500px;
+            height:300px;
         }
     `],
     template: `
@@ -34,6 +36,5 @@ import {Service} from "./Service";
         <child name="template"></child>
       
     </div>
-`
-})
+`})
 export class Parent {}

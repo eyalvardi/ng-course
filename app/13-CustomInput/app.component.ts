@@ -1,21 +1,25 @@
 import {Component} from "@angular/core";
-import {CheckBoxListComponent} from "./checkBoxList.component";
-import {REACTIVE_FORM_DIRECTIVES, FormGroup, FormControl} from "@angular/forms";
-import {LinkToCodeComponent} from "../share/link-to-code.component";
+import {FormGroup, FormControl} from "@angular/forms";
 
 @Component({
   selector: 'my-app',
-  providers:[],
-  viewProviders:[],
-  directives:[CheckBoxListComponent,REACTIVE_FORM_DIRECTIVES,LinkToCodeComponent],
   template: `
 <div>
     <h1> Custom Input <link-to-code></link-to-code></h1>
     <form [formGroup]="form">
+        <!--<checkBoxList
+             size="5"        
+             name="test2"            
+             formControlName="test2"
+             >
+        </checkBoxList>-->
+        
         <checkBoxList
              size="5"        
              name="test2"            
-             [(ngModel)]="test">
+             [(ngModel)]="test"
+             [ngModelOptions]="{standalone: true}"
+             >
         </checkBoxList>
     </form>
     <div>test: {{test}}</div>

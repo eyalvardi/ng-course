@@ -1,3 +1,0 @@
-[
-  { "path":"/user/:id" , "name":"User" , "component": "User", "file": "app/07-DynamicRouting/Users/User/User"}
-]

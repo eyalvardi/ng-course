@@ -9,9 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var checkBoxList_component_1 = require("./checkBoxList.component");
 var forms_1 = require("@angular/forms");
-var link_to_code_component_1 = require("../share/link-to-code.component");
 var AppComponent = (function () {
     function AppComponent() {
         this.form = new forms_1.FormGroup({
@@ -25,10 +23,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            providers: [],
-            viewProviders: [],
-            directives: [checkBoxList_component_1.CheckBoxListComponent, forms_1.REACTIVE_FORM_DIRECTIVES, link_to_code_component_1.LinkToCodeComponent],
-            template: "\n<div>\n    <h1> Custom Input <link-to-code></link-to-code></h1>\n    <form [formGroup]=\"form\">\n        <checkBoxList\n             size=\"5\"        \n             name=\"test2\"            \n             [(ngModel)]=\"test\">\n        </checkBoxList>\n    </form>\n    <div>test: {{test}}</div>\n     test2: <input type=\"text\" name=\"iTest2\" [(ngModel)]=\"test\"><br>\n     \n</div>\n"
+            template: "\n<div>\n    <h1> Custom Input <link-to-code></link-to-code></h1>\n    <form [formGroup]=\"form\">\n        <!--<checkBoxList\n             size=\"5\"        \n             name=\"test2\"            \n             formControlName=\"test2\"\n             >\n        </checkBoxList>-->\n        \n        <checkBoxList\n             size=\"5\"        \n             name=\"test2\"            \n             [(ngModel)]=\"test\"\n             [ngModelOptions]=\"{standalone: true}\"\n             >\n        </checkBoxList>\n    </form>\n    <div>test: {{test}}</div>\n     test2: <input type=\"text\" name=\"iTest2\" [(ngModel)]=\"test\"><br>\n     \n</div>\n"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

@@ -28,10 +28,10 @@ export class Clock extends BaseDemo{
     time:string = '00:00:00:000';
     isDestroy:boolean = false;
 
-    constructor(render:Renderer,
-                zone:NgZone,
-                elmRef:ElementRef,
-                cd:ChangeDetectorRef,
+    constructor(render: Renderer,
+                zone:   NgZone,
+                elmRef: ElementRef,
+                cd:     ChangeDetectorRef,
                 private app: ApplicationRef
     ) {
         super(cd, elmRef, render, zone, "Clock");
@@ -42,7 +42,7 @@ export class Clock extends BaseDemo{
             this.setTime();
         });
     }
-
+    // @runOutsideAngular()
     setTime(){
         if(this.isDestroy) return;
         let t = new Date();

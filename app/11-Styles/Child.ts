@@ -1,8 +1,7 @@
 /**
  * Created by Eyal on 6/17/2016.
  */
-import {Component, Input, SkipSelf, ViewEncapsulation} from "@angular/core";
-import {Service} from "./Service";
+import {Component, Input, ViewEncapsulation} from "@angular/core";
 
 @Component({
     selector: 'child',

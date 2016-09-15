@@ -12,7 +12,7 @@ var DropdownQuestion = (function (_super) {
         _super.call(this, options);
         this.controlType = 'dropdown';
         this.options = [];
-        this.options = options['options'] || [];
+        this['options'] = options['options'] || [];
     }
     return DropdownQuestion;
 }(question_base_1.QuestionBase));

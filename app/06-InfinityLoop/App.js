@@ -12,9 +12,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Created by Eyal Vardi on 5/03/2016.
  */
 var core_1 = require("@angular/core");
-var myCounter_1 = require("./myCounter");
-var core_private_1 = require("@angular/compiler/core_private");
-var link_to_code_component_1 = require("../share/link-to-code.component");
 var App = (function () {
     function App(cd, elmRef, render, zone) {
         this.cd = cd;
@@ -35,19 +32,20 @@ var App = (function () {
         configurable: true
     });
     App.prototype.updateCounter = function (value) {
+        //setTimeout(()=>{
         this.counter++;
+        //},25);
     };
     App.prototype.getCdMode = function () {
         return core_1.ChangeDetectionStrategy[this.cd._view.cdMode];
     };
     App.prototype.getCdState = function () {
-        return core_private_1.ChangeDetectorState[this.cd._view.cdState];
+        return 'error'; //ChangeDetectorState[this.cd._view.cdState];
     };
     App = __decorate([
         core_1.Component({
             selector: 'my-app',
             styles: [":host{display: block;border: 1px solid black; text-align: left}"],
-            directives: [myCounter_1.myCounter, link_to_code_component_1.LinkToCodeComponent],
             template: "\n    <div style=\"padding: 8px;\">\n        <h3>Infinity Loop counter: {{counter}} <link-to-code></link-to-code></h3>\n        <!--\n        <input type=\"number\" [(ngModel)]=\"counter\">\n        -->\n        <button (click)=\"counter = counter +  0\">Tick</button><br>\n        <!--<div style=\"display: flex\">\n            <span>cdMode : {{getCdMode()}}</span>&nbsp;&nbsp;\n            <span>cdState: {{getCdState()}}</span>\n        </div>-->\n        <div style=\"display: flex\">\n            <my-counter\n                (on-value)=\"updateCounter($event)\"\n                [my-value]=\"counter\"            \n            ></my-counter>\n           <!-- <my-counter\n                (on-value-odd)=\"updateCounter($event)\"\n                [my-value]=\"counter\"            \n            ></my-counter>-->\n        </div>\n    </div>    \n"
         }), 
         __metadata('design:paramtypes', [core_1.ChangeDetectorRef, core_1.ElementRef, core_1.Renderer, core_1.NgZone])

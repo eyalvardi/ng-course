@@ -13,7 +13,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  */
 var core_1 = require("@angular/core");
 var UserProxy_1 = require("./UserProxy");
-var Global_1 = require("ngEx/Global");
 var Users = (function () {
     function Users(proxy) {
         this.proxy = proxy;
@@ -27,11 +26,8 @@ var Users = (function () {
         });
     };
     Users = __decorate([
-        Global_1.Global(),
         core_1.Component({
             selector: 'users',
-            //providers:[UserProxy],
-            //directives: [User],
             template: "\n    Number : <input type=\"number\" #i value=\"5\">\n    <button (click)=\"load(i.value)\">Load</button>\n    <hr>\n\n    <user-profile *ngFor=\"let user of users\" [source]=\"user\">\n            {{user.name | json}}\n    </user-profile>\n"
         }), 
         __metadata('design:paramtypes', [UserProxy_1.UserProxy])

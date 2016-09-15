@@ -383,7 +383,6 @@ var InMemoryDataService = (function () {
 }());
 exports.InMemoryDataService = InMemoryDataService;
 exports.HTTP_IN_MEMORY = [
-    http_1.HTTP_PROVIDERS,
     { provide: http_1.XHRBackend, useClass: index_1.InMemoryBackendService },
     { provide: index_1.SEED_DATA, useClass: InMemoryDataService },
     { provide: index_1.InMemoryBackendConfig, useValue: { delay: 600 } }

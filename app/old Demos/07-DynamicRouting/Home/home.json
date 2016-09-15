@@ -1,0 +1,4 @@
+[
+  { "path":"/pages/1" , "name":"Page1" , "component": "Page1", "useAsDefault":true ,"file": "app/07-DynamicRouting/pages/Page1"},
+  { "path":"/pages/2" , "name":"Page2" , "component": "Page2", "useAsDefault":false,"file": "app/07-DynamicRouting/pages/Page2"}
+]

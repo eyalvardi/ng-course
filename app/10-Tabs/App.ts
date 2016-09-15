@@ -1,15 +1,14 @@
 import {Component} from "@angular/core";
-import {Tabs} from "./Tabs";
-import {Tab} from "./Tab";
-import {LinkToCodeComponent} from "../share/link-to-code.component";
-
 @Component({
     selector: 'my-app',
-    directives: [Tabs,Tab,LinkToCodeComponent],
     //styles: [`:host{display: block;padding: 8px;border: 1px solid red}`],
     template: `
 <div>
    <h1>Tabs demo <link-to-code></link-to-code></h1>
+   
+   <!--<tabs [source]="data"></tabs>-->
+   
+   
     <tabs>
         <!--h1>Tabs Header</h1>-->
         <tab title=" Progressive Web Apps ">Use modern web platform capabilities to deliver app-like experiences. High performance, offline and zero-step installation.</tab>
@@ -19,8 +18,8 @@ import {LinkToCodeComponent} from "../share/link-to-code.component";
         <tab title=" Universal ">Serve the first view of your application on node.js, .NET, PHP and other servers for near-instant rendering in just HTML and CSS. Also paves the way for sites that optimize for SEO.</tab>
         <tab title="Eyal Form ">
             <form>
-                name: <input type="text"   [(ngModel)]="ng_name"/><br>
-                email: <input type="email" [(ngModel)]="ng_email"/>
+                name: <input type="text"   name="name" [(ngModel)]="ng_name"/><br>
+                email: <input type="email" name="email" [(ngModel)]="ng_email"/>
                 {{ng | json}}
                 <button (click)="onTest(test)">onTest</button>
             </form>

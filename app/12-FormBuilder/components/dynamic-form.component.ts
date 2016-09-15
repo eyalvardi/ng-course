@@ -1,5 +1,5 @@
 import { Component, Input, OnInit }  from '@angular/core';
-import {FormGroup, REACTIVE_FORM_DIRECTIVES, FormControl} from '@angular/forms';
+import {FormGroup, FormControl} from '@angular/forms';
 import {QuestionBase} from "../models/question-base";
 import {QuestionControlService} from "./question-control.service";
 import {DynamicFormQuestionComponent} from "./dynamic-form-question.component";
@@ -7,8 +7,6 @@ import {DynamicFormQuestionComponent} from "./dynamic-form-question.component";
 @Component({
     moduleId: module.id,
     selector: 'dynamic-form',
-    directives: [DynamicFormQuestionComponent, REACTIVE_FORM_DIRECTIVES],
-    providers:  [QuestionControlService],
     styles:[`
         .row-margin{
             margin: 8px;
@@ -26,16 +24,14 @@ import {DynamicFormQuestionComponent} from "./dynamic-form-question.component";
     template: `
 <div>
   <form (ngSubmit)="onSubmit()" #f="ngForm"  style="margin: 2px;padding: 2px"
-    [formGroup]="myform" 
-    [class.ng-invalid]="!getIsValid(f.valid)">
+    [formGroup]="myform">
     <div *ngFor="let question of questions" class="row-margin">
       <df-question [question]="question" [form]="myform"></df-question>
     </div>
     
     <div class="form-row">
       <button type="submit" [disabled]="!myform.valid" class="btn btn-primary">Save</button>
-    </div>
-    
+    </div>    
   </form>
   
   <div *ngIf="payLoad" class="form-row">

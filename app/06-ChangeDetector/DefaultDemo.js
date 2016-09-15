@@ -15,19 +15,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require("@angular/core");
 var BaseDemo_1 = require("./BaseDemo");
-var ngEx_1 = require("ngEx");
-var do_check_cmp_1 = require("./do-check.cmp");
-var timer_cmp_1 = require("./timer.cmp");
 var DefaultDemo = (function (_super) {
     __extends(DefaultDemo, _super);
     function DefaultDemo(cd, elmRef, render, zone) {
         _super.call(this, cd, elmRef, render, zone, 'DefaultDemo');
     }
     DefaultDemo = __decorate([
-        ngEx_1.Global(),
         core_1.Component({
             selector: 'default-demo',
-            directives: [do_check_cmp_1.DoCheckComp, timer_cmp_1.TimerComp],
             styles: ["\n        :host{display: block; text-align: left;margin: 8px;} \n        .border{border: 1px solid black;padding: 8px;}\n    "],
             //providers:[DebugElement],
             //changeDetection: ChangeDetectionStrategy.Detached,

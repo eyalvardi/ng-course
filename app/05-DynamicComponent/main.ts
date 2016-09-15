@@ -1,7 +1,6 @@
-import {HTTP_PROVIDERS} from '@angular/http';
-import {myBootstrap} from 'ngEx';
-import {App} from './App';
-import {enableProdMode} from "@angular/core";
+import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
+import {AppModule} from "./app.module";
 
-enableProdMode();
-myBootstrap(App,[HTTP_PROVIDERS]);
+//enableProdMode();
+platformBrowserDynamic()
+    .bootstrapModule(AppModule);

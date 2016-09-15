@@ -1,16 +1,16 @@
-/**
- * Created by Eyal Vardi on 5/3/2016.
- */
-import {Injectable, ViewMetadata, Type,Reflector} from "@angular/core";
-import {ViewResolver} from "@angular/compiler";
+import { Injectable, DirectiveMetadata} from "@angular/core";
+import { DirectiveResolver , NgModuleResolver , PipeResolver , ElementSchemaRegistry } from "@angular/compiler";
+import {ReflectorReader} from '@angular/core/src/reflection/reflector_reader';
+import {CompileMetadataResolver} from "@angular/compiler/src/metadata_resolver";
+import {ReflectionInfo, Reflector} from '@angular/core/src/reflection/reflection'
 
 @Injectable()
-export class MobileViewResolver extends ViewResolver{
+export class MobileViewResolver extends DirectiveResolver{
 
-    constructor(_reflector?: Reflector){
-        super(_reflector);
+    constructor(/*_reflector?: ReflectorReader*/){
+        super(/*_reflector*/);
     }
-    resolve(component: Type): ViewMetadata{
+    resolve(component): DirectiveMetadata{
         component.prototype.ngDoCheck = function () {
             console.log(`${component.name} doCheck :-)`);
         };

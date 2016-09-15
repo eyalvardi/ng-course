@@ -1,11 +1,9 @@
 import {
     SEED_DATA,
     InMemoryBackendService,
-    InMemoryBackendConfig,
-    InMemoryBackendConfigArgs,
-    InMemoryDbService,
+    InMemoryBackendConfig
 } from "angular2-in-memory-web-api/index";
-import {XHRBackend, HTTP_PROVIDERS} from "@angular/http";
+import {XHRBackend} from "@angular/http";
 
 export class InMemoryDataService {
     createDb() {
@@ -386,7 +384,6 @@ export class InMemoryDataService {
 }
 
 export const HTTP_IN_MEMORY = [
-    HTTP_PROVIDERS,
     { provide: XHRBackend, useClass: InMemoryBackendService }, // in-mem server
     { provide: SEED_DATA, useClass: InMemoryDataService },
     { provide: InMemoryBackendConfig, useValue: { delay: 600 } }

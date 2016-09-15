@@ -6,9 +6,6 @@ import './BaseDemo';
 import './DefaultDemo';
 import './PushDemo'
 import {BaseDemo} from "./BaseDemo";
-import {SequenceDiagram} from 'ngEx/SequenceDiagramsService';
-import {Clock} from "./Clock";
-import {LinkToCodeComponent} from "../share/link-to-code.component";
 
 class User{
     _name:string;
@@ -26,28 +23,31 @@ class User{
 @Component({
     selector: 'my-app',
     styles:[`:host{display: block;border: 1px solid black; text-align: left}`],
-    directives:[SequenceDiagram,Clock,LinkToCodeComponent],
     template: `
     <div style="padding: 8px;">
-        <h3>Change Detector Demos <link-to-code></link-to-code><clock *ngIf="isClock.value"></clock></h3>        
+        <h3>
+            Change Detector Demos 
+            <link-to-code></link-to-code>
+            <clock *ngIf="isClock"></clock>
+        </h3>        
         <br>
-        <form>
-            <input type="checkbox" ngControl="isDefault" #isDefault="ngForm"> Default Component
-            <input type="checkbox" ngControl="isPush"    #isPush="ngForm"> Push Component            
-            <input type="checkbox" ngControl="isPipe"    #isPipe="ngForm"> Pipes 
+        <div>
+            <input type="checkbox" [(ngModel)]="isDefault"> Default Component
+            <input type="checkbox" [(ngModel)]="isPush" > Push Component            
+            <input type="checkbox" [(ngModel)]="isPipe" > Pipes 
             <!--<input type="checkbox" ngControl="isDiagram" #isDiagram="ngForm"> Lifecycle Hooks Diagram-->
-            <input type="checkbox" ngControl="isClock"   #isClock="ngForm"> Clock            
-        </form>       
+            <input type="checkbox" [(ngModel)]="isClock" > Clock            
+        </div>       
         
-        <pipes-demo *ngIf="isPipe.value"></pipes-demo>
+        <pipes-demo *ngIf="isPipe"></pipes-demo>
         <form class="form-inline">
             <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" id="name" [(ngModel)]="name" class="form-control">
+                <input type="text" name="name" [(ngModel)]="name" class="form-control">
             </div>
             <div class="form-group">
                 <label for="user">User.name</label>
-                <input type="text" id="user" [(ngModel)]="user.name" class="form-control">
+                <input type="text" name="user" [(ngModel)]="user.name" class="form-control">
             </div>
         </form>
         
@@ -58,12 +58,12 @@ class User{
         <button (click)="cd.markForCheck()">  markForCheck</button><br>
         
         <push-demo 
-            *ngIf="isPush.value"
+            *ngIf="isPush"
             [user]="user" 
             [name]="name">            
         </push-demo>
         <default-demo 
-            *ngIf="isDefault.value"
+            *ngIf="!isDefault"
             [user]="user" 
             [name]="name">        
         </default-demo>
@@ -71,8 +71,7 @@ class User{
         <br>
         <hr>
         <br>
-        <diagram></diagram>
-        
+        <diagram></diagram>        
     </div>    
 `
 })

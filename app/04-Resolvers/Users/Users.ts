@@ -3,13 +3,9 @@
  */
 import {Component} from "@angular/core";
 import {UserProxy} from "./UserProxy";
-import {Global} from "ngEx/Global";
 
-@Global()
 @Component({
     selector:'users',
-    //providers:[UserProxy],
-    //directives: [User],
     template: `
     Number : <input type="number" #i value="5">
     <button (click)="load(i.value)">Load</button>

@@ -3,7 +3,7 @@ import {Http} from "@angular/http";
 import {QUESTION_MODELS, QuestionsGroup, QuestionBase,DropdownQuestion,TextboxQuestion,CheckboxQuestion,RadioQuestion} from "./models/index";
 import 'rxjs/add/operator/map';
 
-const path:any = module.id;
+let path:any = module.id;
 let index:number = path.lastIndexOf('/');
 path = path.substring( 0, index );
 

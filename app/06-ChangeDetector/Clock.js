@@ -33,6 +33,7 @@ var Clock = (function (_super) {
             _this.setTime();
         });
     };
+    // @runOutsideAngular()
     Clock.prototype.setTime = function () {
         if (this.isDestroy)
             return;

@@ -1,5 +1,5 @@
 import {Component, Input, Provider, forwardRef} from "@angular/core";
-import {FormGroup, REACTIVE_FORM_DIRECTIVES, FormControl} from "@angular/forms";
+import {FormGroup, FormControl} from "@angular/forms";
 import {NG_VALUE_ACCESSOR, ControlValueAccessor} from "@angular/forms";
 
 
@@ -55,7 +55,6 @@ abstract class BaseControlValueAccessor implements ControlValueAccessor {
 @Component({
     selector: 'checkBoxList',
     providers: [CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR],
-    directives:[REACTIVE_FORM_DIRECTIVES],
     template: `
     <form [formGroup]="form">
         <div *ngFor="let item of _source ; let i = index">
@@ -108,6 +107,7 @@ export class CheckBoxListComponent extends BaseControlValueAccessor {
     }
     setParser(val){
         this._source.fill(false);
+        if(!val) return;
         val.split(',').forEach(i=>{
             i = parseInt(i);
             if(i){

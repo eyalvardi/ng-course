@@ -1,8 +1,28 @@
-/**
- * Created by Eyal Vardi on 5/03/2016.
- */
-import {HTTP_PROVIDERS} from '@angular/http';
-import {myBootstrap}    from 'ngEx';
-import {App}            from './App';
+import {NgModule} from "@angular/core";
+import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
 
-myBootstrap(App,[HTTP_PROVIDERS]);
+import {BrowserModule} from "@angular/platform-browser";
+import { HttpModule}   from '@angular/http';
+import {ShareModule}   from "../share/share.module";
+
+import {User}  from "./Users/User/User";
+import {Users} from "./Users/Users";
+import {AppComponent}  from './App';
+import {UserProxy} from "./Users/UserProxy";
+
+
+@NgModule({
+    declarations:[AppComponent,User,Users],
+    providers   :[UserProxy],
+    bootstrap   :[AppComponent],
+    imports     :[
+         HttpModule
+        ,BrowserModule
+        ,ShareModule
+    ],
+    exports     :[]
+})
+export class AppModule{}
+
+platformBrowserDynamic()
+    .bootstrapModule(AppModule);

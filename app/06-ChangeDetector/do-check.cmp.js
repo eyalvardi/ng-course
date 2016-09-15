@@ -94,8 +94,6 @@ var DoCheckComp = (function (_super) {
     DoCheckComp = __decorate([
         core_1.Component({
             selector: 'do-check',
-            directives: [],
-            providers: [],
             styles: ["       \n    :host{\n        border: 1px solid black;\n        display: block;        \n        margin-right: 12px;        \n       \n    }\n"],
             template: "\n    <div style=\"border: 1px solid black;padding-left: 3px\">\n        <input type=\"checkbox\" [(ngModel)]=\"isStart\" (change)=\"onClick()\">\n        {{counter}}<br>\n        <span>Mode : {{getCdMode()}}</span><br>\n        <span>State: {{getCdState()}}</span>\n    </div>\n"
         }), 

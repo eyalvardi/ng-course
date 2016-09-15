@@ -3,25 +3,19 @@
  */
 import {Injectable} from "@angular/core";
 import {Http}       from "@angular/http";
-import {Global,ngServices}     from "ngEx";
 import 'rxjs/add/operator/toPromise';
 
-// Private Static fields:
-var http:Http;
 
-@Global()
+
 @Injectable()
 export class UserProxy{
 
-    //private http:Http;    
+    constructor(private http:Http){}
 
     load(num=3){
-        if(!http){
-            http = ngServices.get(Http);
-        }
        
         // Promise
-        return http
+        return this.http
             .get(`http://api.randomuser.me/?results=${num}`)
             .toPromise()
             .then((res)=>{

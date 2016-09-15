@@ -13,15 +13,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-/**
- * Created by Eyal Vardi on 5/3/2016.
- */
 var core_1 = require("@angular/core");
 var compiler_1 = require("@angular/compiler");
 var MobileViewResolver = (function (_super) {
     __extends(MobileViewResolver, _super);
-    function MobileViewResolver(_reflector) {
-        _super.call(this, _reflector);
+    function MobileViewResolver() {
+        _super.call(this);
     }
     MobileViewResolver.prototype.resolve = function (component) {
         component.prototype.ngDoCheck = function () {
@@ -40,10 +37,9 @@ var MobileViewResolver = (function (_super) {
     };
     MobileViewResolver = __decorate([
         core_1.Injectable(), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof core_1.Reflector !== 'undefined' && core_1.Reflector) === 'function' && _a) || Object])
+        __metadata('design:paramtypes', [])
     ], MobileViewResolver);
     return MobileViewResolver;
-    var _a;
-}(compiler_1.ViewResolver));
+}(compiler_1.DirectiveResolver));
 exports.MobileViewResolver = MobileViewResolver;
 //# sourceMappingURL=MobileViewResolver.js.map
