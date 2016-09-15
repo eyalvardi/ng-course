@@ -1,28 +1,19 @@
 /**
- * Created by Eyal on 4/12/2016.
+ * Created by Eyal Vardi.
  */
-import {Injectable} from "angular2/core";
-import {Http} from "angular2/http";
-import 'rxjs/Rx';
-import {Global} from "../../ngEx/Global";
-import {ngServices} from "../../ngEx/NgServices";
-
-// Private Static fields:
-var http:Http;
+import {Injectable} from "@angular/core";
+import {Http} from "@angular/http";
+import 'rxjs/add/operator/toPromise';
+import {Global} from "ngEx";
 
 @Global()
 @Injectable()
 export class UserProxy{
-
-    //private http:Http;    
-
+    constructor(private http:Http){
+    }
     load(num=3){
-        if(!http){
-            http = ngServices.getService(Http);
-        }
-       
         // Promise
-        return http
+        return this.http
             .get(`http://api.randomuser.me/?results=${num}`)
             .toPromise()
             .then((res)=>{

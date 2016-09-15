@@ -2,8 +2,6 @@ import {Component, DoCheck, Renderer, NgZone, ElementRef} from "@angular/core";
 
 @Component({
     selector: 'timer',
-    directives: [],
-    providers: [],
     styles:[`
     .box{
         margin: -8px -8px;    

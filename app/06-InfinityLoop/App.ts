@@ -3,14 +3,12 @@
  */
 import {Component, ChangeDetectorRef, ElementRef, Renderer, NgZone, ChangeDetectionStrategy} from "@angular/core";
 import {myCounter} from "./myCounter";
-import {ChangeDetectorState} from "@angular/compiler/core_private";
 import {LinkToCodeComponent} from "../share/link-to-code.component";
 
 
 @Component({
     selector: 'my-app',
     styles:[`:host{display: block;border: 1px solid black; text-align: left}`],
-    directives:[myCounter,LinkToCodeComponent],
     template: `
     <div style="padding: 8px;">
         <h3>Infinity Loop counter: {{counter}} <link-to-code></link-to-code></h3>
@@ -54,12 +52,15 @@ export class App{
         //setInterval(()=>{},500);
     }
     updateCounter(value){
-        this.counter++;
+        //setTimeout(()=>{
+            this.counter++;
+        //},25);
+
     }
     getCdMode(){
         return ChangeDetectionStrategy[this.cd._view.cdMode];
     }
     getCdState(){
-        return ChangeDetectorState[this.cd._view.cdState];
+        return 'error';//ChangeDetectorState[this.cd._view.cdState];
     }
 }

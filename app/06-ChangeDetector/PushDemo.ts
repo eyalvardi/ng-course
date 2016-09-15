@@ -4,14 +4,12 @@
 import {ChangeDetectorRef, ChangeDetectionStrategy,
     Component, NgZone, Renderer, ElementRef} from "@angular/core";
 import {BaseDemo} from "./BaseDemo";
-import {Global} from "ngEx/Global";
 import {DoCheckComp} from "./do-check.cmp";
 import {TimerComp} from "./timer.cmp";
 
-@Global()
+
 @Component({
     selector:'push-demo',
-    directives:[DoCheckComp,TimerComp],
     changeDetection: ChangeDetectionStrategy.OnPush,
     styles:[`
 :host{display: block;text-align: left;margin: 8px;} 

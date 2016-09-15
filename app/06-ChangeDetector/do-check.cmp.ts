@@ -3,8 +3,6 @@ import {BaseDemo} from "./BaseDemo";
 
 @Component({
     selector: 'do-check',
-    directives: [],
-    providers: [],
     styles:[`       
     :host{
         border: 1px solid black;

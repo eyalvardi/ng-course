@@ -1,39 +1,29 @@
 /**
- * Created by Eyal Vardi.
+ * Created by Eyal Vardi on 5/03/2016.
  */
 import {Component} from "@angular/core";
-import {getComponentMetadata, ngExComponent, Global} from 'ngEx';
 import {UserProxy} from "./UserProxy";
-import "./User/User";
 
-//declare var __moduleName:string;
-
-/*@Component({
-    selector:'users',
-    providers:[UserProxy],
-    directives: [User],
-})
-class BaseUser{}*/
-
-//@ngExComponent
-@Global()
 @Component({
     selector:'users',
     template: `
     Number : <input type="number" #i value="5">
     <button (click)="load(i.value)">Load</button>
+    <button (click)="tick()">Tick</button>
     <hr>
-    <user-profile
+
+    <user-container 
         *ngFor="let user of users" [source]="user">
-    </user-profile>
-`
-})
+    </user-container>
+`})
 export class Users{
     
     users:any[];
     
     constructor(private proxy: UserProxy){}
-    
+
+    tick(){}
+
     load(num){
         this.proxy
             .load(num)

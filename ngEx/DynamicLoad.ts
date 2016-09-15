@@ -8,8 +8,7 @@ export function compileToComponent(template , inputs=[] , directives=[] , select
     @Component({
         selector    ,
         inputs      ,
-        template    ,
-        directives
+        template
     })
     class ContainerComponent {
         data:any;

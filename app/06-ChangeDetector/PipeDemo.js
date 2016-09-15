@@ -17,7 +17,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Created by Eyal on 6/15/2016.
  */
 var core_1 = require('@angular/core');
-var ngEx_1 = require('ngEx');
 var BaseDemo_1 = require("./BaseDemo");
 var counter = 0;
 var MyPipe = (function () {
@@ -37,7 +36,6 @@ var MyPurePipe = (function (_super) {
         _super.call(this);
     }
     MyPurePipe = __decorate([
-        ngEx_1.Global(),
         core_1.Pipe({ name: 'myPurePipe', pure: true }), 
         __metadata('design:paramtypes', [])
     ], MyPurePipe);
@@ -50,7 +48,6 @@ var MyImpurePipe = (function (_super) {
         _super.call(this);
     }
     MyImpurePipe = __decorate([
-        ngEx_1.Global(),
         core_1.Pipe({ name: 'myImpurePipe', pure: false }), 
         __metadata('design:paramtypes', [])
     ], MyImpurePipe);
@@ -69,7 +66,6 @@ var SumRandomPipe = (function (_super) {
         return this.sum;
     };
     SumRandomPipe = __decorate([
-        ngEx_1.Global(),
         core_1.Pipe({ name: 'sumRandomPipe', pure: false }), 
         __metadata('design:paramtypes', [])
     ], SumRandomPipe);
@@ -82,12 +78,10 @@ var PipesDemo = (function (_super) {
         _super.call(this, cd, elmRef, render, zone, 'Pipes demo');
     }
     PipesDemo = __decorate([
-        ngEx_1.Global(),
         core_1.Component({
             selector: 'pipes-demo',
-            pipes: [MyImpurePipe, MyPurePipe, SumRandomPipe],
             styles: ["\n        :host{display: block; text-align: left;margin: 8px;} \n        .border{border: 1px solid black;padding: 8px;}\n    "],
-            template: "\n<pre>\n   <b>{ 1 | myPurePipe  : 'a' }</b> : {{ 1  | myPurePipe  : 'a' }}<br>\n   <b>{ 1 | myPurePipe  : 'a' }</b> : {{ 1  | myPurePipe  : 'a' }}<br>\n   <b>{ 2 | myImpurePipe: 'b' }</b> : {{ 2  | myImpurePipe: 'b' }}<br>\n   <b>{ 1 | sumRandomPipe: 3 } </b> : {{ 1  | sumRandomPipe: 3 }}<br>\n</pre>\n"
+            template: "\n<pre>\n   <b> 1 | myPurePipe  : 'a' </b> : {{ 1  | myPurePipe  : 'a' }}<br>\n   <b> 1 | myPurePipe  : 'a' </b> : {{ 1  | myPurePipe  : 'a' }}<br>\n   <b> 2 | myImpurePipe: 'b' </b> : {{ 2  | myImpurePipe: 'b' }}<br>\n   <b> 1 | sumRandomPipe: 3  </b> : {{ 1  | sumRandomPipe: 3 }}<br>\n</pre>\n"
         }), 
         __metadata('design:paramtypes', [core_1.ChangeDetectorRef, core_1.ElementRef, core_1.Renderer, core_1.NgZone])
     ], PipesDemo);

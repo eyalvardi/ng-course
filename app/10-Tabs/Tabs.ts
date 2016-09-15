@@ -5,7 +5,7 @@ declare var $:any;
 
 @Component({
     selector: 'tabs',
-    directives: [Tab],
+    //exportAs: 'tabs',
     styles: [`/***
 Bootstrap Line Tabs by @keenthemes
 A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme

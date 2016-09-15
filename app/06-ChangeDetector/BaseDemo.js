@@ -15,10 +15,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require("@angular/core");
 var SequenceDiagramsService_1 = require('ngEx/SequenceDiagramsService');
-var console = { log: function () { } };
+/*import {ChangeDetectorState} from "@angular/compiler/core_private";*/
+//var console:{log:Function} = {log:()=>{}};
 var LifeCycleHooksDump = (function () {
     function LifeCycleHooksDump(compName) {
         this.compName = compName;
+        console.log(this.compName + " constructor");
         SequenceDiagramsService_1.logEvent(this.compName, 'constructor');
     }
     LifeCycleHooksDump.prototype.ngOnInit = function () {

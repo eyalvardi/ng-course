@@ -4,14 +4,12 @@ import {Component,
     style,
     animate,
     transition,
-    keyframes } from "@angular/core";
+    } from "@angular/core";
 import {UserProxy} from "./UserProxy";
-import {User} from "./User/User";
 
 @Component({
     selector:'users',
     providers:[UserProxy],
-    directives: [User],
     //encapsulation: ViewEncapsulation.Emulated
     styles:[`
         ul {

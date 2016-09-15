@@ -101,6 +101,8 @@ var CheckBoxListComponent = (function (_super) {
     CheckBoxListComponent.prototype.setParser = function (val) {
         var _this = this;
         this._source.fill(false);
+        if (!val)
+            return;
         val.split(',').forEach(function (i) {
             i = parseInt(i);
             if (i) {
@@ -131,7 +133,6 @@ var CheckBoxListComponent = (function (_super) {
         core_1.Component({
             selector: 'checkBoxList',
             providers: [CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR],
-            directives: [forms_1.REACTIVE_FORM_DIRECTIVES],
             template: "\n    <form [formGroup]=\"form\">\n        <div *ngFor=\"let item of _source ; let i = index\">\n            <input type=\"checkbox\"            \n                (blur)=\"onTouched()\"\n                 checked=\"_source[i]\"               \n                [formControlName]=\"getKey(i)\"> \n            {{formValues[getKey(i)]}}\n        </div>\n    </form>    \n" }), 
         __metadata('design:paramtypes', [])
     ], CheckBoxListComponent);

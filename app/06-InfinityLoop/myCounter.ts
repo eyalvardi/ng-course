@@ -6,7 +6,6 @@ import {
     NgZone,
     EventEmitter, Output, Component, ChangeDetectionStrategy
 } from "@angular/core";
-import {ChangeDetectorState} from "@angular/compiler/core_private";
 
 @Component({
     selector:'my-counter',

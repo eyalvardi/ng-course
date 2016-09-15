@@ -1,9 +1,8 @@
 import {Component, Output, EventEmitter} from "@angular/core";
-import {FormGroup, FormControl, REACTIVE_FORM_DIRECTIVES} from '@angular/forms';
+import {FormGroup, FormControl} from '@angular/forms';
 
 @Component({
     selector: 'add-question-form',
-    directives: [REACTIVE_FORM_DIRECTIVES],
     providers: [],
     styles: [],
     template: `

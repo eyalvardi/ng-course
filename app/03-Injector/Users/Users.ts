@@ -2,10 +2,8 @@
  * Created by Eyal Vardi on 5/03/2016.
  */
 import {Component}  from "@angular/core";
-import {UserProxy}  from "./UserProxy";
-import {Global}     from "ngEx";
+import {sUserProxy}  from "./UserProxy";
 
-@Global()
 @Component({
     selector:'users',
     //providers:[UserProxy],
@@ -24,10 +22,10 @@ export class Users{
     
     users:any[];
     
-    constructor(private proxy: UserProxy){}
+    constructor(/*private proxy: UserProxy*/){}
     
     load(num){
-        this.proxy
+        sUserProxy
             .load(num)
             .then((users)=>{
                 this.users = users

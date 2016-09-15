@@ -12,21 +12,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Created by Eyal Vardi on 5/03/2016.
  */
 var core_1 = require("@angular/core");
-require("./Users/Users");
-require("./Users/User/User");
-var link_to_code_component_1 = require("../share/link-to-code.component");
-var App = (function () {
-    function App() {
+var AppComponent = (function () {
+    function AppComponent() {
     }
-    App = __decorate([
+    AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            directives: [link_to_code_component_1.LinkToCodeComponent],
             template: "\n    <h1>Injector Demo <link-to-code></link-to-code></h1>\n    <users></users>\n"
         }), 
         __metadata('design:paramtypes', [])
-    ], App);
-    return App;
+    ], AppComponent);
+    return AppComponent;
 }());
-exports.App = App;
+exports.AppComponent = AppComponent;
 //# sourceMappingURL=App.js.map

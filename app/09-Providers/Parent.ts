@@ -4,14 +4,11 @@
 import {Component, SkipSelf, Host} from "@angular/core";
 import {Child} from "./Child";
 import {Service} from "./Service";
-import {NgCourse} from "./ng_course_directives";
 
-@NgCourse()
 @Component({
-    selector: 'parent',
-    directives: [Child],
-    providers: [{provide:Service,useValue:{id:'parent-providers'}}],
-    viewProviders:[{provide:Service,useValue:{id:'parent-view-providers'}}],
+    selector        : 'parent',
+    providers       : [{provide:Service,useValue:{id:'parent-providers'}}],
+    viewProviders   : [{provide:Service,useValue:{id:'parent-view-providers'}}],
     styles: [`:host{display: block;padding: 8px;border: 1px solid red}`],
     template: `
 <div>
@@ -21,11 +18,15 @@ import {NgCourse} from "./ng_course_directives";
     <ng-content></ng-content>
     
     Template Child:<br>
-    <child name="template"></child>
-  
+    <child name="template"></child>  
 </div>
 `
 })
 export class Parent {
-    constructor( /*@Host()*/ private service:Service){}
+    constructor( /*@Host()*/ private service:Service){
+        console.log(`Parent constructor`);
+    }
+    ngOnInit(){
+        console.log(`Parent ngOnInit`);
+    }
 }

@@ -1,16 +1,12 @@
 import {
-    ChangeDetectorRef, Component, ElementRef, Renderer, NgZone, DebugElement, animate, style,
-    state, trigger, transition
+    ChangeDetectorRef, Component, ElementRef, Renderer, NgZone
 } from "@angular/core";
 import {BaseDemo} from "./BaseDemo";
-import {Global} from "ngEx";
-import {DoCheckComp} from "./do-check.cmp";
-import {TimerComp} from "./timer.cmp";
 
-@Global()
+
+
 @Component({
     selector:'default-demo',
-    directives:[DoCheckComp,TimerComp],
     styles:[`
         :host{display: block; text-align: left;margin: 8px;} 
         .border{border: 1px solid black;padding: 8px;}

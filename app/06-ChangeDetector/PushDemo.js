@@ -18,19 +18,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  */
 var core_1 = require("@angular/core");
 var BaseDemo_1 = require("./BaseDemo");
-var Global_1 = require("ngEx/Global");
-var do_check_cmp_1 = require("./do-check.cmp");
-var timer_cmp_1 = require("./timer.cmp");
 var PushDemo = (function (_super) {
     __extends(PushDemo, _super);
     function PushDemo(cd, elmRef, render, zone) {
         _super.call(this, cd, elmRef, render, zone, 'PushDemo');
     }
     PushDemo = __decorate([
-        Global_1.Global(),
         core_1.Component({
             selector: 'push-demo',
-            directives: [do_check_cmp_1.DoCheckComp, timer_cmp_1.TimerComp],
             changeDetection: core_1.ChangeDetectionStrategy.OnPush,
             styles: ["\n:host{display: block;text-align: left;margin: 8px;} \n.border{border: 1px solid black; padding: 8px;}"],
             template: "\n    <div class=\"border\">\n        <h3>onPush Demo (CheckOnce)</h3>\n        Test: <input type=\"text\" [(ngModel)]=\"test\"> {{getTest()}} <br>\n        Name: {{getName()}} <br>\n        User Name : {{user.name}} <br>\n        <button (click)=\"changeName()\">Change</button>        \n        <br><br>\n        <div style=\"display: flex\">\n            <do-check [name]=\"'Default Demo'\" [updateName]=\"name\"></do-check>\n            <do-check [isDetach]=\"true\" [name]=\"'Default Demo'\" [updateName]=\"name\"></do-check>\n        </div>\n        <br>\n        <button (click)=\"detach()\">Detach</button>\n        <button (click)=\"reattach()\">Reattach</button>\n        <button (click)=\"detectChanges()\">detectChanges</button>\n        <button (click)=\"markForCheck()\">markForCheck</button>\n        <span>State: {{getCdState()}}</span>        \n    </div>\n"
